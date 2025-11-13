@@ -19,7 +19,7 @@ interface QuizVignobleProps {
 
 export function QuizVignoble({
   questions,
-  title = "Découvrez le Terroir de Gaillac - Testez vos connaissances et gagnez !",
+  title = "Quiz Terroir de Gaillac",
   footerText = "Participez au tirage au sort mensuel ! Pour être éligible, partagez votre résultat sur vos réseaux sociaux avec le hashtag #GaillacQuiz. Seuls les participants ayant partagé seront retenus.",
 }: QuizVignobleProps) {
   const [isOpen, setIsOpen] = useState(false);
