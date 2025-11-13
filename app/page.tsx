@@ -187,15 +187,14 @@ export default function HomePage() {
                 size="default"
                 variant="outline"
                 asChild
-                className="group bg-transparent text-white border-white hover:bg-white hover:text-black transition-all duration-300 px-4 sm:px-6 lg:px-8 py-3 sm:py-4 text-xs sm:text-sm lg:text-base font-light tracking-[0.05em] sm:tracking-[0.15em] lg:tracking-[0.2em] uppercase w-full sm:w-auto sm:min-w-[200px] lg:min-w-[280px]"
+                className="group bg-transparent text-white border-white hover:bg-white hover:text-black transition-all duration-300 px-4 sm:px-6 lg:px-8 py-3 sm:py-4 text-xs sm:text-sm lg:text-base font-light tracking-[0.05em] sm:tracking-[0.15em] lg:tracking-[0.2em] uppercase w-full sm:w-auto"
               >
                 <Link 
                   href="/savoir-faire" 
                   aria-label="Découvrez notre savoir-faire"
-                  className="flex items-center justify-center w-full h-full"
+                  className="flex items-center justify-center w-full h-full whitespace-nowrap"
                 >
-                  <span className="hidden sm:inline whitespace-nowrap">Découvrez notre savoir-faire</span>
-                  <span className="sm:hidden whitespace-nowrap">Découvrez</span>
+                  Découvrez notre savoir-faire
                 </Link>
               </Button>
             </div>
