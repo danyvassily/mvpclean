@@ -67,8 +67,8 @@ export default function TeamPage() {
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60" />
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-display mb-6 text-balance">Notre Équipe</h1>
-          <p className="text-xl md:text-2xl lg:text-3xl text-pretty opacity-90 font-light">Passion et expertise au service de l'excellence</p>
+          <h1 className="text-3xl md:text-4xl lg:text-7xl font-display mb-4 md:mb-6 text-balance">Notre Équipe</h1>
+          <p className="text-base md:text-lg lg:text-3xl text-pretty opacity-90 font-light">Passion et expertise au service de l'excellence</p>
         </div>
       </section>
 
