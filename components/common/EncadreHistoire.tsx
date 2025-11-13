@@ -45,17 +45,17 @@ export function EncadreHistoire({
   return (
     <section
       className={cn(
-        "py-12 md:py-16 lg:py-20 bg-white",
+        "py-6 md:py-10 lg:py-12 bg-white",
         className
       )}
       style={{
-        marginBlock: "clamp(16px, 4vw, 48px)",
+        marginBlock: "clamp(8px, 2vw, 24px)",
       }}
     >
       <div className="container mx-auto px-4 lg:px-8">
         <div
           className={cn(
-            "flex flex-col gap-8 lg:gap-12 items-stretch",
+            "flex flex-col gap-6 lg:gap-10 items-stretch",
             imagePosition === "right" ? "lg:flex-row-reverse" : "lg:flex-row"
           )}
         >

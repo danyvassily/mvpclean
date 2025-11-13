@@ -55,7 +55,7 @@ export default function TeamPage() {
         <div className="absolute inset-0 flex items-center justify-center">
           <TeamImage
             src="/images/team/photo-de-groupe.jpeg"
-            alt="Équipe du Château Lastours"
+            alt="Portrait de l'équipe du Château Lastours"
             fill
             priority
             objectFit="contain"
@@ -87,8 +87,8 @@ export default function TeamPage() {
                 <div className="order-2 md:order-1">
                   <div className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-xl">
                     <TeamImage
-                      src="/page/page-team/photos-page-team/louis.jpeg"
-                      alt="Louis de Faramond"
+                      src="/images/team/louis.jpeg"
+                      alt="Portrait de Louis de Faramond – équipe Château Lastours"
                       fill
                       objectFit="contain"
                       objectPosition="center 30%"
@@ -140,8 +140,8 @@ export default function TeamPage() {
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
-                  src="/page/page-team/photos-page-team/adrien.jpeg"
-                  alt="Adrien"
+                  src="/images/team/adrien.jpeg"
+                  alt="Portrait d'Adrien – équipe Château Lastours"
                   fill
                   objectFit="contain"
                   objectPosition="center 30%"
@@ -163,8 +163,8 @@ export default function TeamPage() {
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
-                  src="/page/page-team/photos-page-team/caroline.jpeg"
-                  alt="Caroline"
+                  src="/images/team/caroline.jpeg"
+                  alt="Portrait de Caroline – équipe Château Lastours"
                   fill
                   objectFit="contain"
                   objectPosition="center 30%"
@@ -186,8 +186,8 @@ export default function TeamPage() {
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
-                  src="/page/page-team/photos-page-team/eva.jpeg"
-                  alt="Eva"
+                  src="/images/team/eva.jpeg"
+                  alt="Portrait d'Eva – équipe Château Lastours"
                   fill
                   objectFit="contain"
                   objectPosition="center 30%"
@@ -210,7 +210,7 @@ export default function TeamPage() {
               <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/images/team/francois.jpeg"
-                  alt="François"
+                  alt="Portrait de François – équipe Château Lastours"
                   fill
                   objectFit="contain"
                   objectPosition="center 30%"
@@ -232,8 +232,8 @@ export default function TeamPage() {
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
-                  src="/page/page-team/photos-page-team/nicolas.jpeg"
-                  alt="Nicolas"
+                  src="/images/team/nicolas.jpeg"
+                  alt="Portrait de Nicolas – équipe Château Lastours"
                   fill
                   objectFit="contain"
                   objectPosition="center 30%"
@@ -255,8 +255,8 @@ export default function TeamPage() {
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
-                  src="/page/page-team/photos-page-team/pauline.jpeg"
-                  alt="Pauline"
+                  src="/images/team/pauline.jpeg"
+                  alt="Portrait de Pauline – équipe Château Lastours"
                   fill
                   objectFit="contain"
                   objectPosition="center 30%"
@@ -278,8 +278,8 @@ export default function TeamPage() {
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300 md:col-span-2 lg:col-span-1">
               <div className="relative aspect-[3/4]">
                 <TeamImage
-                  src="/page/page-team/photos-page-team/stephane.jpeg"
-                  alt="Stéphane"
+                  src="/images/team/stephane.jpeg"
+                  alt="Portrait de Stéphane – équipe Château Lastours"
                   fill
                   objectFit="contain"
                   objectPosition="center 30%"

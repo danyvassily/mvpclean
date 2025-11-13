@@ -1,0 +1,394 @@
+/* ============================================================================
+   CORRECTIONS BOUTONS CTA - Mobile & Tablette
+   ============================================================================
+   Assure la lisibilité et le centrage des boutons CTA sur tous les écrans
+   Compatible avec la configuration Vercel
+   ============================================================================ */
+
+/* ============================================================================
+   1. CORRECTIONS GLOBALES POUR TOUS LES BOUTONS
+   ============================================================================ */
+
+/* Forcer le retour à la ligne sur mobile et tablette */
+@media (max-width: 1024px) {
+  /* Tous les boutons et éléments avec data-slot="button" */
+  button[data-slot="button"],
+  [data-slot="button"],
+  a[data-slot="button"],
+  .group[data-slot="button"] {
+    white-space: normal !important;
+    text-align: center !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    hyphens: auto;
+  }
+
+  /* Forcer le centrage du contenu des boutons */
+  button[data-slot="button"] > *,
+  [data-slot="button"] > *,
+  a[data-slot="button"] > * {
+    text-align: center !important;
+    white-space: normal !important;
+  }
+
+  /* Assurer que les liens dans les boutons sont centrés */
+  button[data-slot="button"] a,
+  [data-slot="button"] a {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    width: 100% !important;
+    white-space: normal !important;
+    flex-wrap: wrap !important;
+  }
+
+  /* Centrer les spans dans les boutons */
+  button[data-slot="button"] span,
+  [data-slot="button"] span {
+    text-align: center !important;
+    white-space: normal !important;
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+/* ============================================================================
+   2. CORRECTIONS SPÉCIFIQUES MOBILE (< 640px)
+   ============================================================================ */
+
+@media (max-width: 640px) {
+  /* Tous les boutons CTA */
+  button[data-slot="button"],
+  [data-slot="button"],
+  a[data-slot="button"] {
+    /* Padding adapté pour mobile */
+    padding: 12px 16px !important;
+    min-height: 44px !important;
+    /* Taille de texte lisible */
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    /* Centrage parfait */
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    /* Permettre le retour à la ligne */
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    /* Largeur adaptative */
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Réduire le tracking des lettres sur mobile pour plus d'espace */
+  button[data-slot="button"],
+  [data-slot="button"] {
+    letter-spacing: 0.1em !important;
+  }
+
+  /* Assurer que les conteneurs de boutons sont centrés */
+  .hero-button,
+  .wine-button,
+  div:has(> button[data-slot="button"]),
+  div:has(> [data-slot="button"]) {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  /* Boutons dans les sections hero */
+  section button[data-slot="button"],
+  section [data-slot="button"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+/* ============================================================================
+   3. CORRECTIONS SPÉCIFIQUES TABLETTE (641px - 1024px)
+   ============================================================================ */
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  /* Boutons CTA sur tablette */
+  button[data-slot="button"],
+  [data-slot="button"],
+  a[data-slot="button"] {
+    /* Padding adapté pour tablette */
+    padding: 14px 20px !important;
+    min-height: 48px !important;
+    /* Taille de texte lisible */
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+    /* Centrage */
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    /* Permettre le retour à la ligne si nécessaire */
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    /* Largeur adaptative mais pas forcée à 100% */
+    min-width: 200px !important;
+    max-width: 100% !important;
+  }
+
+  /* Réduire légèrement le tracking sur tablette */
+  button[data-slot="button"],
+  [data-slot="button"] {
+    letter-spacing: 0.15em !important;
+  }
+
+  /* Centrer les conteneurs de boutons */
+  .hero-button,
+  .wine-button,
+  div:has(> button[data-slot="button"]),
+  div:has(> [data-slot="button"]) {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
+/* ============================================================================
+   4. AMÉLIORATION DE LA LISIBILITÉ - CONTRASTE ET FOND
+   ============================================================================ */
+
+/* Boutons avec texte blanc sur fond clair/image - améliorer le contraste */
+@media (max-width: 1024px) {
+  button[data-slot="button"].text-white,
+  [data-slot="button"].text-white,
+  button[data-slot="button"].border-white.text-white,
+  [data-slot="button"].border-white.text-white,
+  button[data-slot="button"].bg-white\/10.text-white,
+  [data-slot="button"].bg-white\/10.text-white {
+    /* Fond semi-transparent plus opaque pour meilleure lisibilité */
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    backdrop-filter: blur(12px) !important;
+    /* Bordure plus visible */
+    border-width: 2px !important;
+    border-color: rgba(255, 255, 255, 0.95) !important;
+    /* Texte bien contrasté - FORCER BLANC ET GRAS */
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.4) !important;
+  }
+
+  /* Forcer le texte blanc et gras dans les liens des boutons */
+  button[data-slot="button"].text-white a,
+  [data-slot="button"].text-white a,
+  button[data-slot="button"].border-white.text-white a,
+  [data-slot="button"].border-white.text-white a,
+  button[data-slot="button"].bg-white\/10.text-white a,
+  [data-slot="button"].bg-white\/10.text-white a {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.4) !important;
+  }
+
+  /* Forcer le texte blanc et gras dans les spans des boutons */
+  button[data-slot="button"].text-white span,
+  [data-slot="button"].text-white span,
+  button[data-slot="button"].border-white.text-white span,
+  [data-slot="button"].border-white.text-white span,
+  button[data-slot="button"].bg-white\/10.text-white span,
+  [data-slot="button"].bg-white\/10.text-white span {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.4) !important;
+  }
+
+  /* Au survol sur mobile/tablette */
+  button[data-slot="button"].text-white:hover,
+  [data-slot="button"].text-white:hover,
+  button[data-slot="button"].border-white.text-white:hover,
+  [data-slot="button"].border-white.text-white:hover,
+  button[data-slot="button"].bg-white\/10.text-white:hover,
+  [data-slot="button"].bg-white\/10.text-white:hover {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    color: #111827 !important;
+    font-weight: 700 !important;
+    text-shadow: none !important;
+  }
+
+  /* Au survol - texte dans les liens */
+  button[data-slot="button"].text-white:hover a,
+  [data-slot="button"].text-white:hover a,
+  button[data-slot="button"].border-white.text-white:hover a,
+  [data-slot="button"].border-white.text-white:hover a,
+  button[data-slot="button"].bg-white\/10.text-white:hover a,
+  [data-slot="button"].bg-white\/10.text-white:hover a {
+    color: #111827 !important;
+    font-weight: 700 !important;
+    text-shadow: none !important;
+  }
+}
+
+/* ============================================================================
+   5. CORRECTIONS SPÉCIFIQUES POUR LES BOUTONS DE LA PAGE HOME
+   ============================================================================ */
+
+/* Bouton hero principal */
+@media (max-width: 640px) {
+  .hero-button button[data-slot="button"],
+  .hero-button [data-slot="button"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 14px 20px !important;
+    font-size: 13px !important;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .hero-button button[data-slot="button"],
+  .hero-button [data-slot="button"] {
+    min-width: 220px !important;
+    max-width: 100% !important;
+    padding: 16px 24px !important;
+    font-size: 14px !important;
+  }
+}
+
+/* Boutons dans les sections avec texte superposé */
+@media (max-width: 1024px) {
+  /* Sections avec overlay sombre - FORCER BLANC ET GRAS */
+  section button[data-slot="button"].text-white,
+  section [data-slot="button"].text-white {
+    /* S'assurer que le texte est bien visible - BLANC ET GRAS */
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7), 0 1px 2px rgba(0, 0, 0, 0.5) !important;
+  }
+
+  /* Texte dans les liens des boutons des sections */
+  section button[data-slot="button"].text-white a,
+  section [data-slot="button"].text-white a {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7), 0 1px 2px rgba(0, 0, 0, 0.5) !important;
+  }
+
+  /* Texte dans les spans des boutons des sections */
+  section button[data-slot="button"].text-white span,
+  section [data-slot="button"].text-white span {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7), 0 1px 2px rgba(0, 0, 0, 0.5) !important;
+  }
+
+  /* CORRECTIONS SPÉCIFIQUES pour "Découvrir notre histoire" et "Organiser votre événement" */
+  /* Cibler les boutons contenant ces textes spécifiques */
+  section button[data-slot="button"].text-white:has(a[href*="histoire"]),
+  section [data-slot="button"].text-white:has(a[href*="histoire"]),
+  section button[data-slot="button"].text-white:has(a[href*="evenements"]),
+  section [data-slot="button"].text-white:has(a[href*="evenements"]),
+  section button[data-slot="button"].bg-white\/10.text-white:has(a[href*="histoire"]),
+  section [data-slot="button"].bg-white\/10.text-white:has(a[href*="histoire"]),
+  section button[data-slot="button"].bg-white\/10.text-white:has(a[href*="evenements"]),
+  section [data-slot="button"].bg-white\/10.text-white:has(a[href*="evenements"]) {
+    /* Fond encore plus opaque pour ces boutons spécifiques */
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    backdrop-filter: blur(15px) !important;
+    /* Texte BLANC ET GRAS */
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.6) !important;
+  }
+
+  /* Texte dans les liens de ces boutons spécifiques */
+  section button[data-slot="button"].text-white:has(a[href*="histoire"]) a,
+  section [data-slot="button"].text-white:has(a[href*="histoire"]) a,
+  section button[data-slot="button"].text-white:has(a[href*="evenements"]) a,
+  section [data-slot="button"].text-white:has(a[href*="evenements"]) a,
+  section button[data-slot="button"].bg-white\/10.text-white:has(a[href*="histoire"]) a,
+  section [data-slot="button"].bg-white\/10.text-white:has(a[href*="histoire"]) a,
+  section button[data-slot="button"].bg-white\/10.text-white:has(a[href*="evenements"]) a,
+  section [data-slot="button"].bg-white\/10.text-white:has(a[href*="evenements"]) a {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.6) !important;
+  }
+
+  /* Alternative si :has() n'est pas supporté - cibler directement les liens */
+  section a[href*="histoire"],
+  section a[href*="evenements"] {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.6) !important;
+  }
+
+  /* Forcer le texte blanc et gras pour tous les éléments texte dans ces boutons */
+  section button[data-slot="button"].text-white:has(a[href*="histoire"]) *,
+  section [data-slot="button"].text-white:has(a[href*="histoire"]) *,
+  section button[data-slot="button"].text-white:has(a[href*="evenements"]) *,
+  section [data-slot="button"].text-white:has(a[href*="evenements"]) *,
+  section button[data-slot="button"].bg-white\/10.text-white:has(a[href*="histoire"]) *,
+  section [data-slot="button"].bg-white\/10.text-white:has(a[href*="histoire"]) *,
+  section button[data-slot="button"].bg-white\/10.text-white:has(a[href*="evenements"]) *,
+  section [data-slot="button"].bg-white\/10.text-white:has(a[href*="evenements"]) * {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+  }
+}
+
+/* ============================================================================
+   6. CORRECTIONS POUR LES ICÔNES DANS LES BOUTONS
+   ============================================================================ */
+
+@media (max-width: 1024px) {
+  /* Centrer les icônes avec le texte */
+  button[data-slot="button"] svg,
+  [data-slot="button"] svg,
+  button[data-slot="button"] .lucide,
+  [data-slot="button"] .lucide {
+    flex-shrink: 0 !important;
+    margin-left: 8px !important;
+    margin-right: 0 !important;
+  }
+
+  /* Si le texte est sur plusieurs lignes, l'icône doit rester alignée */
+  button[data-slot="button"]:has(> a > span + svg),
+  [data-slot="button"]:has(> a > span + svg) {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+  }
+
+  button[data-slot="button"] a {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+}
+
+/* ============================================================================
+   7. GARANTIR L'ACCESSIBILITÉ
+   ============================================================================ */
+
+/* Zones tactiles minimales (Apple HIG, WCAG) */
+button[data-slot="button"],
+[data-slot="button"],
+a[data-slot="button"] {
+  min-height: 44px !important;
+  min-width: 44px !important;
+}
+
+@media (min-width: 641px) {
+  button[data-slot="button"],
+  [data-slot="button"],
+  a[data-slot="button"] {
+    min-height: 48px !important;
+  }
+}
+
+/* Focus visible pour l'accessibilité clavier */
+button[data-slot="button"]:focus-visible,
+[data-slot="button"]:focus-visible,
+a[data-slot="button"]:focus-visible {
+  outline: 3px solid rgba(198, 168, 105, 0.8) !important;
+  outline-offset: 2px !important;
+  border-radius: 4px !important;
+}
+

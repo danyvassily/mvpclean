@@ -13,6 +13,9 @@
 /* Import des corrections responsive (fonds, espaces, overflow) */
 @import '../styles/responsive-fixes.css';
 
+/* Import des corrections boutons CTA pour mobile/tablette */
+@import '../styles/cta-buttons-responsive.css';
+
 /* Thème simple clair + nouvelles fontes + Optimisations Mobile */
 :root {
   /* Couleurs basiques pour rester compatibles avec les utilitaires existants */

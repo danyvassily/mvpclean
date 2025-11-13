@@ -314,9 +314,9 @@ export default function HomePage() {
                 <Button
                   variant="outline"
                   asChild
-                  className="group bg-white/10 backdrop-blur-md border-white hover:bg-white hover:text-gray-900 transition-all duration-300 px-8 py-6 text-sm tracking-[0.25em] uppercase font-light text-white"
+                  className="group bg-black/70 backdrop-blur-md border-white hover:bg-white hover:text-gray-900 transition-all duration-300 px-8 py-6 text-sm tracking-[0.25em] uppercase font-bold text-white"
                 >
-                  <Link href="/reservation">
+                  <Link href="/reservation" className="font-bold text-white">
                     Réserver une visite
                     <MoveRight className="ml-3 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Link>
@@ -367,9 +367,9 @@ export default function HomePage() {
                 <Button
                   variant="outline"
                   asChild
-                  className="group bg-white/10 backdrop-blur-md border-white hover:bg-white hover:text-gray-900 transition-all duration-300 px-8 py-6 text-sm tracking-[0.25em] uppercase font-light text-white"
+                  className="group bg-black/70 backdrop-blur-md border-white hover:bg-white hover:text-gray-900 transition-all duration-300 px-8 py-6 text-sm tracking-[0.25em] uppercase font-bold text-white"
                 >
-                  <Link href="/domaine/histoire">
+                  <Link href="/domaine/histoire" className="font-bold text-white">
                     Découvrir notre histoire
                     <MoveRight className="ml-3 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Link>
@@ -422,9 +422,9 @@ export default function HomePage() {
                 <Button
                   variant="outline"
                   asChild
-                  className="group bg-white/10 backdrop-blur-md border-white hover:bg-white hover:text-gray-900 transition-all duration-300 px-8 py-6 text-sm tracking-[0.25em] uppercase font-light text-white"
+                  className="group bg-black/70 backdrop-blur-md border-white hover:bg-white hover:text-gray-900 transition-all duration-300 px-8 py-6 text-sm tracking-[0.25em] uppercase font-bold text-white"
                 >
-                  <Link href="/evenements/organiser">
+                  <Link href="/evenements/organiser" className="font-bold text-white">
                     Organiser votre événement
                     <MoveRight className="ml-3 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Link>
