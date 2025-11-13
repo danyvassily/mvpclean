@@ -4,8 +4,10 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, Mail, Phone, Users, Award, Heart } from "lucide-react"
-import { useState } from "react"
+import { useState, useEffect, useRef } from "react"
 import { cn } from "@/lib/utils"
+import { gsap } from "gsap"
+import { useGSAP } from "@gsap/react"
 
 // Remplacement de TeamImage par Next/Image
 function TeamImage({ 
@@ -48,8 +50,26 @@ function TeamImage({
 }
 
 export default function TeamPage() {
+  const heroRef = useRef(null)
+
+  useGSAP(() => {
+    const tl = gsap.timeline({ defaults: { ease: "power3.out" } })
+    
+    tl.from(".team-hero-title", {
+      y: 60,
+      opacity: 0,
+      duration: 1,
+      delay: 0.3
+    })
+    .from(".team-hero-subtitle", {
+      y: 40,
+      opacity: 0,
+      duration: 0.9
+    }, "-=0.6")
+  }, { scope: heroRef })
+
   return (
-    <div className="min-h-screen">
+    <div ref={heroRef} className="min-h-screen">
       {/* Hero Section - Photo de groupe pleine largeur */}
       <section className="relative w-full h-[70vh] md:h-[80vh] lg:h-[85vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
@@ -67,8 +87,8 @@ export default function TeamPage() {
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60" />
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-3xl md:text-4xl lg:text-7xl font-display mb-4 md:mb-6 text-balance">Notre Équipe</h1>
-          <p className="text-base md:text-lg lg:text-3xl text-pretty opacity-90 font-light">Passion et expertise au service de l'excellence</p>
+          <h1 className="team-hero-title text-3xl md:text-4xl lg:text-7xl font-display mb-4 md:mb-6 text-balance">Notre Équipe</h1>
+          <p className="team-hero-subtitle text-base md:text-lg lg:text-3xl text-pretty opacity-90 font-light">Passion et expertise au service de l'excellence</p>
         </div>
       </section>
 
