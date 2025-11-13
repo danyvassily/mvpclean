@@ -52,9 +52,9 @@ export function WineCard({
         className
       )}
     >
-      {/* Image bouteille */}
+      {/* Image bouteille - Hauteur augmentée pour afficher la bouteille entière */}
       <div className="relative w-full mb-6 flex items-center justify-center bg-white">
-        <div className="relative h-[280px] sm:h-[320px] lg:h-[360px] w-full flex items-center justify-center">
+        <div className="relative h-[400px] sm:h-[450px] lg:h-[500px] w-full flex items-center justify-center">
           <Image
             src={imageSrc}
             alt={imageAlt}
