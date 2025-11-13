@@ -57,7 +57,7 @@ export function WineGrid({
 }: WineGridProps) {
   const gridClasses = cn(
     "grid gap-8 md:gap-10 lg:gap-16",
-    "grid-cols-1 place-items-center",
+    "grid-cols-1 place-items-center place-content-center",
     columns.tablet === 2 && "md:grid-cols-2",
     columns.tablet === 3 && "md:grid-cols-3",
     columns.desktop === 3 && "lg:grid-cols-3",
