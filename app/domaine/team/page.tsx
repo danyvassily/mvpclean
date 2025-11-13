@@ -53,25 +53,19 @@ export default function TeamPage() {
   const heroRef = useRef(null)
 
   useGSAP(() => {
-    const tl = gsap.timeline({ defaults: { ease: "power3.out" } })
-    
-    tl.from(".team-hero-title", {
+    gsap.from(".team-hero-title", {
       y: 60,
       opacity: 0,
-      duration: 1,
-      delay: 0.3
+      duration: 1.2,
+      delay: 0.3,
+      ease: "power3.out"
     })
-    .from(".team-hero-subtitle", {
-      y: 40,
-      opacity: 0,
-      duration: 0.9
-    }, "-=0.6")
   }, { scope: heroRef })
 
   return (
     <div ref={heroRef} className="min-h-screen">
       {/* Hero Section - Photo de groupe pleine largeur */}
-      <section className="relative w-full h-[70vh] md:h-[80vh] lg:h-[85vh] flex items-end md:items-center justify-center overflow-hidden pb-16 md:pb-0">
+      <section className="relative w-full h-[70vh] md:h-[80vh] lg:h-[85vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
           <TeamImage
             src="/images/team/photo-de-groupe.jpeg"
@@ -86,9 +80,11 @@ export default function TeamPage() {
           />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60" />
-        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6 flex flex-col items-center justify-center">
-          <h1 className="team-hero-title text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-display mb-4 md:mb-6 leading-tight tracking-tight">Notre Équipe</h1>
-          <p className="team-hero-subtitle text-sm sm:text-base md:text-lg lg:text-2xl text-pretty opacity-90 font-light leading-relaxed">Passion et expertise au service de l'excellence</p>
+        <div className="relative z-10 text-center text-white max-w-3xl mx-auto px-8 flex flex-col items-center justify-center space-y-2">
+          <div className="team-hero-title">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-display mb-2 leading-tight tracking-tight">Notre Équipe</h1>
+            <p className="team-hero-subtitle text-sm sm:text-base md:text-lg lg:text-2xl opacity-90 font-light leading-relaxed">Passion et expertise au service de l'excellence</p>
+          </div>
         </div>
       </section>
 
