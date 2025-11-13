@@ -182,16 +182,20 @@ export default function HomePage() {
             <p className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-serif font-light italic mb-8 sm:mb-12 lg:mb-16 hero-title opacity-90 tracking-tight leading-[0.9]">
               depuis 1579
             </p>
-            <div className="hero-button">
+            <div className="hero-button flex">
               <Button
                 size="default"
                 variant="outline"
                 asChild
-                className="group bg-transparent text-white border-white hover:bg-white hover:text-black transition-all duration-300 px-4 sm:px-6 lg:px-8 py-3 sm:py-4 text-xs sm:text-sm lg:text-base font-light tracking-[0.2em] sm:tracking-[0.25em] uppercase w-full sm:w-auto sm:min-w-[200px] lg:min-w-[280px]"
+                className="group bg-transparent text-white border-white hover:bg-white hover:text-black transition-all duration-300 px-4 sm:px-6 lg:px-8 py-3 sm:py-4 text-xs sm:text-sm lg:text-base font-light tracking-[0.05em] sm:tracking-[0.15em] lg:tracking-[0.2em] uppercase w-full sm:w-auto sm:min-w-[200px] lg:min-w-[280px]"
               >
-                <Link href="/savoir-faire" aria-label="Découvrez notre savoir-faire">
-                  <span className="hidden sm:inline">Découvrez notre savoir-faire</span>
-                  <span className="sm:hidden">Découvrez</span>
+                <Link 
+                  href="/savoir-faire" 
+                  aria-label="Découvrez notre savoir-faire"
+                  className="flex items-center justify-center w-full h-full"
+                >
+                  <span className="hidden sm:inline whitespace-nowrap">Découvrez notre savoir-faire</span>
+                  <span className="sm:hidden whitespace-nowrap">Découvrez</span>
                 </Link>
               </Button>
             </div>
