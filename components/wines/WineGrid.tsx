@@ -60,7 +60,7 @@ export function WineGrid({
     "grid-cols-1 place-items-center",
     columns.tablet === 2 && "md:grid-cols-2 md:place-items-center",
     columns.tablet === 3 && "md:grid-cols-3",
-    columns.desktop === 3 && "lg:grid-cols-3 lg:justify-items-start lg:items-center",
+    columns.desktop === 3 && "lg:grid-cols-3 lg:justify-center lg:place-items-center",
     columns.desktop === 4 && "lg:grid-cols-4"
   )
 
