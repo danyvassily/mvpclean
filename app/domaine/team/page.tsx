@@ -71,7 +71,7 @@ export default function TeamPage() {
   return (
     <div ref={heroRef} className="min-h-screen">
       {/* Hero Section - Photo de groupe pleine largeur */}
-      <section className="relative w-full h-[70vh] md:h-[80vh] lg:h-[85vh] flex items-center justify-center overflow-hidden">
+      <section className="relative w-full h-[70vh] md:h-[80vh] lg:h-[85vh] flex items-end md:items-center justify-center overflow-hidden pb-16 md:pb-0">
         <div className="absolute inset-0 w-full h-full">
           <TeamImage
             src="/images/team/photo-de-groupe.jpeg"
