@@ -71,15 +71,12 @@ export function WineGrid({
         {(title || subtitle) && (
           <div className="text-center mb-12 lg:mb-16 max-w-4xl mx-auto">
             {title && (
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-light text-slate-900 tracking-wide mb-4">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif font-light text-slate-900 tracking-tight mb-6">
                 {title}
               </h2>
             )}
-            {title && subtitle && (
-              <div className="w-24 h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent mx-auto mb-6" />
-            )}
             {subtitle && (
-              <p className="text-base md:text-lg leading-relaxed text-slate-600 font-light">
+              <p className="text-sm md:text-base leading-relaxed text-slate-600 font-light max-w-3xl mx-auto">
                 {subtitle}
               </p>
             )}

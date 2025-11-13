@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { HeroStandard } from "@/components/common/HeroStandard";
+import { WinesHero } from "@/components/wines/WinesHero";
 import { WineGrid } from "@/components/wines/WineGrid";
 import { gammes } from "@/lib/wines";
 
@@ -9,23 +9,20 @@ export const metadata: Metadata = {
 };
 
 /**
- * Page Nos Vins - Refactorisée style Ruinart
+ * Page Nos Vins - Style Ruinart épuré minimaliste
  * 
- * Structure :
- * - Hero avec image + titre + sous-titre
+ * Structure Ruinart :
+ * - Hero image grande SANS overlay de texte
+ * - Titre sobre sous l'image sur fond blanc
  * - Grilles de vins par gamme
- * - Fond blanc, marges respirantes
+ * - Fond blanc pur, marges respirantes
  * - Responsive : 1 col mobile, 2 tablette, 3 desktop
  */
 export default function WinesPage() {
   return (
     <div className="min-h-screen bg-white" data-page="wines">
-      {/* Hero Section - Style Ruinart épuré */}
-      <HeroStandard
-        imageSrc="/images/wines/vin-blanc-rouge-rose-bulles-gaillac-sud-ouest-france.jpg"
-        title="Nos Cuvées d'Exception"
-        subtitle="Vivez l'émotion Lastours : des arômes captivants, des instants à partager, l'expression pure de notre art du vin."
-      />
+      {/* Hero Section - Style Ruinart minimaliste */}
+      <WinesHero />
 
       {/* Gammes Section - Une grille par gamme */}
       {gammes.map((gamme) => {

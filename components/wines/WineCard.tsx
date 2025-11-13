@@ -90,20 +90,9 @@ export function WineCard({
           </p>
         )}
 
-        {/* Séparateur */}
-        <div className="w-12 h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent" />
-
-        {/* CTA */}
-        <span className="text-sm font-medium text-slate-900 uppercase tracking-wider group-hover:text-wine-gold transition-colors flex items-center gap-2">
+        {/* CTA discret */}
+        <span className="text-xs font-light text-slate-600 uppercase tracking-wide group-hover:text-slate-900 transition-colors">
           Découvrir
-          <svg 
-            className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" 
-            fill="none" 
-            stroke="currentColor" 
-            viewBox="0 0 24 24"
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
         </span>
       </div>
     </Link>
