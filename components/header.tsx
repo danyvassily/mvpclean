@@ -771,7 +771,7 @@ export function Header() {
           )}
 
           {hoveredMenu === 'vins' && (
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
               {/* Nos Blancs */}
               <div className="space-y-2">
                 <h3 className="text-sm font-semibold tracking-wide mb-3 text-slate-900 font-heading">
@@ -791,13 +791,6 @@ export function Header() {
                     onClick={() => closeMenuImmediately()}
                   >
                     Claire de Lune
-                  </Link>
-                  <Link 
-                    href="/les-vins" 
-                    className="block text-sm font-medium tracking-wide transition-colors text-slate-600 hover:text-slate-900 py-2 px-2 rounded focus:outline-none focus:ring-2 focus:ring-wine-gold focus:text-wine-gold min-h-[44px] flex items-center"
-                    onClick={() => closeMenuImmediately()}
-                  >
-                    Toutes nos cuvées
                   </Link>
                 </div>
               </div>
@@ -822,13 +815,6 @@ export function Header() {
                   >
                     Petrichor
                   </Link>
-                  <Link 
-                    href="/les-vins" 
-                    className="block text-sm font-medium tracking-wide transition-colors text-slate-600 hover:text-slate-900 py-2 px-2 rounded focus:outline-none focus:ring-2 focus:ring-wine-gold focus:text-wine-gold min-h-[44px] flex items-center"
-                    onClick={() => closeMenuImmediately()}
-                  >
-                    Toutes nos cuvées
-                  </Link>
                 </div>
               </div>
 
@@ -852,18 +838,21 @@ export function Header() {
                   >
                     Petrichor
                   </Link>
-                  <Link 
-                    href="/les-vins" 
-                    className="block text-sm font-medium tracking-wide transition-colors text-slate-600 hover:text-slate-900 py-2 px-2 rounded focus:outline-none focus:ring-2 focus:ring-wine-gold focus:text-wine-gold min-h-[44px] flex items-center"
-                    onClick={() => closeMenuImmediately()}
-                  >
-                    Toutes nos cuvées
-                  </Link>
                 </div>
               </div>
 
-                {/* Photo de fin de section - SANS transparence */}
-                <div className="relative h-32 md:h-40 lg:h-44 rounded-lg overflow-hidden opacity-100" style={{ mixBlendMode: 'normal', backdropFilter: 'none' }}>
+              {/* Toutes nos cuvées + Photo */}
+              <div className="space-y-3">
+                <Link 
+                  href="/les-vins" 
+                  className="block text-base font-bold tracking-wide transition-colors text-slate-900 hover:text-wine-gold py-2 px-3 rounded-lg bg-slate-50 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-wine-gold min-h-[44px] flex items-center justify-center text-center border border-slate-200"
+                  onClick={() => closeMenuImmediately()}
+                >
+                  Toutes nos cuvées
+                </Link>
+                
+                {/* Photo de fin de section */}
+                <div className="relative h-24 md:h-32 lg:h-36 rounded-lg overflow-hidden opacity-100" style={{ mixBlendMode: 'normal', backdropFilter: 'none' }}>
                   <Image
                     src="/images/menu/menu-vins.jpg"
                     alt="Nos vins"
@@ -874,6 +863,7 @@ export function Header() {
                     style={{ opacity: 1, mixBlendMode: 'normal' }}
                   />
                 </div>
+              </div>
             </div>
           )}
 
