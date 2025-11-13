@@ -1,9 +1,9 @@
 import { Metadata } from "next";
-import { cn } from "@/lib/utils";
-import { HeroStandard } from "@/components/common/HeroStandard";
+import { HeroMinimal } from "@/components/common/HeroMinimal";
 import { StorySection } from "@/components/common/StorySection";
 import { TransitionLink } from "@/components/gsap/TransitionLink";
 import { SPACING } from "@/lib/constants";
+import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Le cycle de la vigne | Château Lastours",
@@ -80,15 +80,12 @@ const cycleSections = [
 export default function LeCycleDeLaVignePage() {
   return (
     <div className="min-h-screen relative bg-white" data-page="cycle-vigne">
-      {/* Hero Section - Texte court, image non étirée */}
-      <HeroStandard
+      {/* Hero Section - Style Ruinart minimaliste */}
+      <HeroMinimal
         imageSrc="/images/vineyard/jardins-a-la-francaise-lever-de-soleil.jpeg"
-        title="Le cycle de la vigne"
+        title="Le Cycle de la Vigne"
         subtitle="Un voyage à travers les saisons qui rythment notre travail viticole."
       />
-
-      {/* Espace aéré après le hero */}
-      <div className="h-12 lg:h-16"></div>
 
       {/* Sections éditoriales - Style Ruinart : Image + Texte séparés */}
       {cycleSections.map((section) => (

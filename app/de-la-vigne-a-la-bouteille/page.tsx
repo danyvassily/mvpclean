@@ -1,11 +1,11 @@
 import { Metadata } from "next";
-import { cn } from "@/lib/utils";
-import { HeroStandard } from "@/components/common/HeroStandard";
-import { StorySection } from "@/components/common/StorySection";
-import { SPACING } from "@/lib/constants";
-import { TransitionLink } from "@/components/gsap/TransitionLink";
 import Link from "next/link";
+import { HeroMinimal } from "@/components/common/HeroMinimal";
+import { StorySection } from "@/components/common/StorySection";
+import { TransitionLink } from "@/components/gsap/TransitionLink";
 import { ArrowRight } from "lucide-react";
+import { cn } from "@/lib/utils";
+import { SPACING } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "De la Vigne à la bouteille | Château Lastours",
@@ -98,10 +98,10 @@ const sections = [
 export default function DeLaVigneALaBouteillePage() {
   return (
     <div className="min-h-screen relative bg-white" data-page="de-la-vigne-a-la-bouteille">
-      {/* Hero Section - Texte court, image non étirée */}
-      <HeroStandard
+      {/* Hero Section - Style Ruinart minimaliste */}
+      <HeroMinimal
         imageSrc="/images/wines/elevage-vin-chai-a-barrique-chateau-lastours.jpg"
-        title="De la Vigne à la bouteille"
+        title="De la Vigne à la Bouteille"
         subtitle="Le voyage captivant de nos raisins, de la vigne à votre table."
       />
 
