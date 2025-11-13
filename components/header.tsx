@@ -161,7 +161,7 @@ export function Header() {
     setHoveredMenu(key)
   }
 
-  const closeMenuWithDelay = (delay: number = 150) => {
+  const closeMenuWithDelay = (delay: number = 200) => {
     if (hoverTimeoutRef.current) {
       clearTimeout(hoverTimeoutRef.current)
     }
@@ -200,7 +200,7 @@ export function Header() {
       console.debug('handleNavMouseLeave error:', error)
     }
     // Fermer avec un délai pour permettre la transition vers le mega-menu
-    closeMenuWithDelay(100)
+    closeMenuWithDelay(250)
   }
 
   const handleMegaMenuMouseLeave = (event: MouseEvent<HTMLDivElement>) => {
@@ -217,8 +217,8 @@ export function Header() {
       // Ignorer les erreurs si relatedTarget n'est pas valide
       console.debug('handleMegaMenuMouseLeave error:', error)
     }
-    // Fermer immédiatement si on quitte complètement la zone
-    closeMenuWithDelay(50)
+    // Fermer avec un délai raisonnable si on quitte complètement la zone
+    closeMenuWithDelay(150)
   }
 
   const handleMenuMouseEnter = () => {
@@ -232,7 +232,7 @@ export function Header() {
   const handleTriggerBlur = (event: FocusEvent<HTMLButtonElement>) => {
     const nextTarget = event.relatedTarget as Node | null
     if (!nextTarget) {
-      closeMenuWithDelay(200)
+      closeMenuWithDelay(300)
       return
     }
 
@@ -244,7 +244,7 @@ export function Header() {
       return
     }
 
-    closeMenuWithDelay(200)
+    closeMenuWithDelay(300)
   }
 
   const handleMegaMenuBlur = (event: FocusEvent<HTMLDivElement>) => {
@@ -259,7 +259,7 @@ export function Header() {
       return
     }
 
-    closeMenuWithDelay(200)
+    closeMenuWithDelay(300)
   }
 
   return (
@@ -758,7 +758,7 @@ export function Header() {
               {/* Photo de fin de section - SANS transparence */}
               <div className="relative h-32 md:h-40 lg:h-44 rounded-lg overflow-hidden opacity-100" style={{ mixBlendMode: 'normal', backdropFilter: 'none' }}>
                 <Image
-                  src="/page/photo-menu/domaine/jardins-a-la-francaise-chateau-lastours-gaillac-france.jpg"
+                  src="/images/menu/menu-domaine.jpg"
                   alt="Château Lastours"
                   fill
                   quality={95}
@@ -865,7 +865,7 @@ export function Header() {
                 {/* Photo de fin de section - SANS transparence */}
                 <div className="relative h-32 md:h-40 lg:h-44 rounded-lg overflow-hidden opacity-100" style={{ mixBlendMode: 'normal', backdropFilter: 'none' }}>
                   <Image
-                    src="/images/estate/img-20210102-150820-1.jpg"
+                    src="/images/menu/menu-vins.jpg"
                     alt="Nos vins"
                     fill
                     quality={95}
@@ -914,7 +914,7 @@ export function Header() {
               {/* Photo de fin de section - SANS transparence */}
               <div className="relative h-32 md:h-40 lg:h-44 rounded-lg overflow-hidden opacity-100" style={{ mixBlendMode: 'normal', backdropFilter: 'none' }}>
                 <Image
-                  src="/images/vineyard/coucher-de-soleil-vignes-chateau-lastours-aop-aoc-gaillac-france.jpeg"
+                  src="/images/menu/menu-savoir-faire.jpg"
                   alt="Savoir-faire"
                   fill
                   quality={95}
@@ -970,7 +970,7 @@ export function Header() {
               {/* Photo de fin de section - SANS transparence */}
               <div className="relative h-32 md:h-40 lg:h-44 rounded-lg overflow-hidden opacity-100" style={{ mixBlendMode: 'normal', backdropFilter: 'none' }}>
                 <Image
-                  src="/images/events/club-dinner-evenements-chateau-lastours-gaillac-sud-ouest-france.jpg"
+                  src="/images/menu/menu-experiences.jpg"
                   alt="Expériences"
                   fill
                   quality={95}
@@ -1036,7 +1036,7 @@ export function Header() {
               {/* Photo de fin de section - SANS transparence */}
               <div className="relative h-32 md:h-40 lg:h-44 rounded-lg overflow-hidden opacity-100" style={{ mixBlendMode: 'normal', backdropFilter: 'none' }}>
                 <Image
-                  src="/images/events/club-dinner-evenements-chateau-lastours-gaillac-sud-ouest-france.jpg"
+                  src="/images/menu/menu-experiences.jpg"
                   alt="Partagez notre passion"
                   fill
                   quality={95}
