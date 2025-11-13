@@ -50,74 +50,85 @@ function TeamImage({
 export default function TeamPage() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="relative min-h-[700px] md:min-h-[900px] lg:min-h-[1000px] flex items-center justify-center">
-        <div className="absolute inset-0 flex items-center justify-center">
+      {/* Hero Section - Photo de groupe pleine largeur */}
+      <section className="relative w-full h-[70vh] md:h-[80vh] lg:h-[85vh] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 w-full h-full">
           <TeamImage
             src="/images/team/photo-de-groupe.jpeg"
             alt="Portrait de l'équipe du Château Lastours"
             fill
             priority
-            objectFit="contain"
+            objectFit="cover"
+            objectPosition="center center"
             containerClassName="w-full h-full"
             className="w-full h-full"
             sizes="100vw"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60" />
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-4xl md:text-6xl font-display mb-4 text-balance">Notre Équipe</h1>
-          <p className="text-xl md:text-2xl text-pretty opacity-90">Passion et expertise au service de l'excellence</p>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-display mb-6 text-balance">Notre Équipe</h1>
+          <p className="text-xl md:text-2xl lg:text-3xl text-pretty opacity-90 font-light">Passion et expertise au service de l'excellence</p>
         </div>
       </section>
 
-      {/* Leadership */}
-      <section className="py-24">
+      {/* Leadership - Simple et élégant */}
+      <section className="py-24 md:py-32">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-display mb-6">Direction</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-light mb-6 tracking-tight">Direction</h2>
+            <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto font-light leading-relaxed">
               La famille de Faramond perpétue la tradition avec Louis, qui représente la nouvelle génération passionnée du domaine
             </p>
           </div>
 
-          <div className="max-w-5xl mx-auto">
-            <div className="bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl p-8 md:p-12 overflow-hidden">
-              <div className="grid md:grid-cols-2 gap-8 items-center">
-                <div className="order-2 md:order-1">
-                  <div className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-xl">
-                    <TeamImage
-                      src="/images/team/louis.jpeg"
-                      alt="Portrait de Louis de Faramond – équipe Château Lastours"
-                      fill
-                      objectFit="contain"
-                      objectPosition="center 30%"
-                      containerClassName="absolute inset-0"
-                      className="w-full h-full"
-                      sizes="(max-width: 768px) 100vw, 50vw"
-                    />
-                  </div>
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
+              {/* Photo à gauche */}
+              <div className="relative aspect-[3/4] md:aspect-[4/5] overflow-hidden rounded-lg shadow-2xl">
+                <TeamImage
+                  src="/images/team/louis.jpeg"
+                  alt="Portrait de Louis de Faramond – équipe Château Lastours"
+                  fill
+                  objectFit="cover"
+                  objectPosition="center 30%"
+                  containerClassName="absolute inset-0"
+                  className="w-full h-full"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+
+              {/* Contenu à droite */}
+              <div className="space-y-8">
+                <div>
+                  <h3 className="text-4xl md:text-5xl lg:text-6xl font-serif font-light text-slate-900 tracking-tight mb-4 leading-tight">
+                    Louis de Faramond
+                  </h3>
+                  <p className="text-xl md:text-2xl text-accent font-light tracking-wide italic mb-6">
+                    Vigneron & Nouvelle Génération
+                  </p>
                 </div>
-                <div className="order-1 md:order-2 text-center md:text-left">
-                  <h3 className="text-3xl md:text-4xl font-display mb-4">Louis de Faramond</h3>
-                  <p className="text-xl text-accent font-medium mb-6">Vigneron & Nouvelle Génération</p>
-                  <div className="space-y-4 text-muted-foreground leading-relaxed">
-                    <p className="text-lg">
-                      Louis représente la nouvelle génération de la famille de Faramond. Il fait preuve de courage et 
-                      d'abnégation pour le succès que connaît aujourd'hui le château.
-                    </p>
-                    <p className="text-lg">
-                      Louis apporte un regard moderne sur la viticulture tout en respectant les traditions familiales. Il
-                      participe activement à la transformation de l'espace de production en espace d'accueil agréable et au
-                      développement de l'œnotourisme.
-                    </p>
-                  </div>
-                  <div className="mt-8">
-                    <Button variant="outline" size="lg">
-                      <Mail className="w-5 h-5 mr-2" />
-                      louis@chateau-lastours.com
-                    </Button>
-                  </div>
+
+                <div className="space-y-6 text-slate-700 leading-relaxed">
+                  <p className="text-base md:text-lg font-light">
+                    Louis représente la nouvelle génération de la famille de Faramond. Il fait preuve de courage et 
+                    d'abnégation pour le succès que connaît aujourd'hui le château.
+                  </p>
+                  <p className="text-base md:text-lg font-light">
+                    Louis apporte un regard moderne sur la viticulture tout en respectant les traditions familiales. Il
+                    participe activement à la transformation de l'espace de production en espace d'accueil agréable et au
+                    développement de l'œnotourisme.
+                  </p>
+                </div>
+
+                <div className="pt-4">
+                  <a 
+                    href="mailto:louis@chateau-lastours.com"
+                    className="inline-flex items-center gap-3 px-8 py-4 bg-slate-900 hover:bg-slate-800 transition-all duration-300 shadow-lg hover:shadow-xl"
+                  >
+                    <Mail className="w-5 h-5 text-white" />
+                    <span className="text-sm tracking-wide font-light text-white">louis@chateau-lastours.com</span>
+                  </a>
                 </div>
               </div>
             </div>

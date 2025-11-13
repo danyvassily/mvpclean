@@ -35,7 +35,7 @@
   --muted: #f3f4f6;
   --muted-foreground: #4b5563;
   --accent: #c6a869; /* or doux */
-  --accent-foreground: #1f1d1a;
+  --accent-foreground: #ffffff; /* BLANC pour lisibilité sur tous les boutons */
   --destructive: #b91c1c;
   --destructive-foreground: #ffffff;
   --border: #e5e7eb;
@@ -446,6 +446,39 @@ small { font-size: 0.750rem; }
   .group-hover\:scale-110 {
     transform: none !important;
   }
+}
+
+/* ============================================================================
+   RÈGLES GLOBALES POUR LISIBILITÉ DES BOUTONS ET CTA
+   ============================================================================ */
+
+/* Force le texte blanc sur tous les boutons avec fond sombre */
+.bg-slate-900, .bg-slate-800, .bg-slate-900:hover, .bg-slate-800:hover,
+.bg-primary, .bg-secondary, .bg-wine-dark, .bg-wine-black,
+.bg-accent, .bg-destructive {
+  color: #ffffff !important;
+}
+
+/* Force le texte blanc sur les liens et boutons avec classes spécifiques */
+a.bg-slate-900, a.bg-slate-800, a.bg-primary, a.bg-secondary,
+a.bg-wine-dark, a.bg-wine-black, a.bg-accent,
+button.bg-slate-900, button.bg-slate-800, button.bg-primary, button.bg-secondary {
+  color: #ffffff !important;
+}
+
+/* Force le texte blanc sur les enfants des boutons sombres */
+.bg-slate-900 *, .bg-slate-800 *, .bg-primary *, .bg-secondary *,
+.bg-wine-dark *, .bg-wine-black *, .bg-accent * {
+  color: #ffffff !important;
+}
+
+/* Exceptions pour les badges et petits éléments avec fond clair */
+.bg-white, .bg-slate-50, .bg-slate-100, .bg-muted {
+  color: inherit !important;
+}
+
+.bg-white *, .bg-slate-50 *, .bg-slate-100 *, .bg-muted * {
+  color: inherit !important;
 }
 
 /* Styles spécifiques pour les images Next.js */

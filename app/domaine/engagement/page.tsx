@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nos Engagements Écoresponsables | Château Lastours",
     description: "Une viticulture durable en plein cœur du Sud-Ouest français.",
-    images: ["/images/vineyard/vignes-allee-de-platane-gaillac-france.jpg"],
+    images: ["/images/vineyard/coucher-de-soleil-vignes-chateau-lastours-aop-aoc-gaillac-france.jpeg"],
   },
 };
 
@@ -19,29 +19,29 @@ const engagementSections = [
   {
     id: "certification-hve",
     text: {
-      kicker: "Certification HVE",
+      kicker: "Viticulture Durable",
       title: "Certification HVE - Haute Valeur Environnementale",
       body: "La Certification HVE3 (Haute Valeur Environnementale niveau 3) est une démarche engagée par les viticulteurs soucieux de leur impact écologique. En obtenant cette certification, nous mettons en avant notre volonté d'adopter une viticulture durable, tout en garantissant la qualité de nos vins à travers des pratiques agricoles respectueuses de la biodiversité, de la gestion de l'eau, de la réduction de l'usage de produits phytosanitaires, et de la maintenance d'un espace naturel équilibré.",
     },
     image: {
-      src: "/images/vineyard/1682596442650.jpg",
-      alt: "Certification HVE au Château Lastours",
+      src: "/images/engagements/libellule-rouge-vigne-grappe-de-raisin.jpg",
+      alt: "Libellule rouge sur vigne et grappe de raisin - Biodiversité au Château Lastours",
     },
-    layout: "text-first",
-    logo: "/page/nos-engagement-ok/logo-hve3.png",
+    layout: "image-first",
+    logo: "/images/engagements/logo-hve3.png",
   },
   {
     id: "zero-insecticides",
     text: {
-      kicker: "Zéro Insecticides",
-      title: "Zero Insecticides",
-      body: "La confusion sexuelle est une méthode de lutte biologique contre certains ravageurs de la grappe que nous avons mis en place au domaine. Nous diffusons des phéromones femelles pour désorienter les mâles afin d'empêcher leur reproduction. Cette approche écologique nous permet de réduire considérablement l'usage de pesticides tout en préservant l'équilibre naturel de nos vignes.",
+      kicker: "Agriculture Raisonnée",
+      title: "Zéro Insecticides",
+      body: "La confusion sexuelle est une méthode de lutte biologique contre certains ravageurs de la grappe que nous avons mis en place au domaine. Nous diffusons des phéromones femelles pour désorienter les mâles afin d'empêcher leur reproduction.",
     },
     image: {
-      src: "/images/estate/nos-engagements-agriculture-raisonnee-chateau-lastours-aop-aoc-gaillac-france.jpg",
-      alt: "Confusion sexuelle dans les vignes du Château Lastours",
+      src: "/images/engagements/nos-engagements-agriculture-raisonnee.jpg",
+      alt: "Agriculture raisonnée - Confusion sexuelle dans les vignes du Château Lastours",
     },
-    layout: "image-first",
+    layout: "text-first",
   },
   {
     id: "terre-preservee",
@@ -51,10 +51,10 @@ const engagementSections = [
       body: "Notre domaine s'étend sur des terres cultivées dans le respect des équilibres naturels. Nous favorisons les pratiques douces : travail mécanique des sols, enherbement naturel, traitements alternatifs et limitation des intrants chimiques. L'objectif : laisser à la nature toute sa place et produire des vins authentiques, reflet de notre terroir.",
     },
     image: {
-      src: "/images/vineyard/vignes.jpg",
-      alt: "Vignoble durable du Château Lastours",
+      src: "/images/engagements/fleurs-roses-tronc-de-vigne.jpg",
+      alt: "Fleurs roses sur tronc de vigne - Vignoble préservé du Château Lastours",
     },
-    layout: "text-first",
+    layout: "image-first",
   },
   {
     id: "evenements-responsables",
@@ -64,10 +64,10 @@ const engagementSections = [
       body: "Organisez vos mariages, séminaires ou événements d'entreprise dans un cadre exceptionnel et engagé. Nous mettons un point d'honneur à proposer des services écoresponsables : partenariats avec traiteurs locaux, valorisation des circuits courts, recyclage et limitation des déchets. Offrez à vos invités une expérience aussi mémorable que durable.",
     },
     image: {
-      src: "/photos/bulle-de-jazz-2021-chazo-087.jpg",
-      alt: "Événement écoresponsable au Château Lastours",
+      src: "/images/engagements/mobilier-upcycle-chateau-lastours-gaillac.jpg",
+      alt: "Mobilier upcyclé - Événements écoresponsables au Château Lastours",
     },
-    layout: "image-first",
+    layout: "text-first",
   },
 ];
 
@@ -79,12 +79,12 @@ export default function EngagementPage() {
       <div className="fixed inset-0 opacity-8 pointer-events-none texture-grain"></div>
       <div className="fixed inset-0 opacity-30 pointer-events-none gradient-depth"></div>
 
-      {/* Hero Section - Style Ruinart */}
+      {/* Hero Section - Coucher de soleil avec allée de platanes et vignes */}
       <section className="relative h-[70vh] lg:h-[85vh] overflow-hidden z-10 mt-6 lg:mt-8 mb-6 lg:mb-8">
         <div className="absolute inset-0">
           <Image
-            src="/images/vineyard/vignes-allee-de-platane-gaillac-france.jpg"
-            alt="Coucher de soleil avec allée de platane et vignes - Château Lastours"
+            src="/images/vineyard/coucher-de-soleil-vignes-chateau-lastours-aop-aoc-gaillac-france.jpeg"
+            alt="Coucher de soleil sur l'allée de platanes et les vignes du Château Lastours"
             fill
             className="object-cover hover:scale-105 transition-transform duration-700"
             priority
