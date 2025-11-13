@@ -164,161 +164,161 @@ export default function TeamPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {/* Adrien */}
-            <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
+            <div className="bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/images/team/adrien.jpeg"
                   alt="Portrait d'Adrien – équipe Château Lastours"
                   fill
-                  objectFit="contain"
-                  objectPosition="center 30%"
+                  objectFit="cover"
+                  objectPosition="center center"
                   containerClassName="absolute inset-0"
                   className="w-full h-full"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-display mb-2">Adrien</h3>
-                <p className="text-accent font-semibold mb-3">Membre de l'Équipe</p>
-                <p className="text-muted-foreground leading-relaxed">
+              <div className="p-6 text-center">
+                <h3 className="text-xl font-serif font-light mb-1 text-slate-900">Adrien</h3>
+                <p className="text-sm text-slate-600 mb-3">Membre de l'Équipe</p>
+                <p className="text-sm text-slate-700 leading-relaxed font-light">
                   Passionné par la viticulture et le savoir-faire traditionnel, Adrien contribue à l'excellence de nos vins au quotidien.
                 </p>
               </div>
             </div>
 
             {/* Caroline */}
-            <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
+            <div className="bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/images/team/caroline.jpeg"
                   alt="Portrait de Caroline – équipe Château Lastours"
                   fill
-                  objectFit="contain"
-                  objectPosition="center 30%"
+                  objectFit="cover"
+                  objectPosition="center center"
                   containerClassName="absolute inset-0"
                   className="w-full h-full"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-display mb-2">Caroline</h3>
-                <p className="text-accent font-semibold mb-3">Membre de l'Équipe</p>
-                <p className="text-muted-foreground leading-relaxed">
+              <div className="p-6 text-center">
+                <h3 className="text-xl font-serif font-light mb-1 text-slate-900">Caroline</h3>
+                <p className="text-sm text-slate-600 mb-3">Membre de l'Équipe</p>
+                <p className="text-sm text-slate-700 leading-relaxed font-light">
                   Caroline apporte son expertise et sa passion pour offrir la meilleure expérience à nos visiteurs et clients.
                 </p>
               </div>
             </div>
 
             {/* Eva */}
-            <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
+            <div className="bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/images/team/eva.jpeg"
                   alt="Portrait d'Eva – équipe Château Lastours"
                   fill
-                  objectFit="contain"
-                  objectPosition="center 30%"
+                  objectFit="cover"
+                  objectPosition="center center"
                   containerClassName="absolute inset-0"
                   className="w-full h-full"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-display mb-2">Eva</h3>
-                <p className="text-accent font-semibold mb-3">Membre de l'Équipe</p>
-                <p className="text-muted-foreground leading-relaxed">
+              <div className="p-6 text-center">
+                <h3 className="text-xl font-serif font-light mb-1 text-slate-900">Eva</h3>
+                <p className="text-sm text-slate-600 mb-3">Membre de l'Équipe</p>
+                <p className="text-sm text-slate-700 leading-relaxed font-light">
                   Eva met son savoir-faire et son enthousiasme au service de la qualité et de l'innovation viticole.
                 </p>
               </div>
             </div>
 
             {/* François */}
-            <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
+            <div className="bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/images/team/francois.jpeg"
                   alt="Portrait de François – équipe Château Lastours"
                   fill
-                  objectFit="contain"
-                  objectPosition="center 30%"
+                  objectFit="cover"
+                  objectPosition="center center"
                   containerClassName="absolute inset-0"
                   className="w-full h-full"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-display mb-2">François</h3>
-                <p className="text-accent font-semibold mb-3">Membre de l'Équipe</p>
-                <p className="text-muted-foreground leading-relaxed">
+              <div className="p-6 text-center">
+                <h3 className="text-xl font-serif font-light mb-1 text-slate-900">François</h3>
+                <p className="text-sm text-slate-600 mb-3">Membre de l'Équipe</p>
+                <p className="text-sm text-slate-700 leading-relaxed font-light">
                   Avec son expérience et sa passion, François participe activement à l'élaboration de nos cuvées d'exception.
                 </p>
               </div>
             </div>
 
             {/* Nicolas */}
-            <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
+            <div className="bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/images/team/nicolas.jpeg"
                   alt="Portrait de Nicolas – équipe Château Lastours"
                   fill
-                  objectFit="contain"
-                  objectPosition="center 30%"
+                  objectFit="cover"
+                  objectPosition="center center"
                   containerClassName="absolute inset-0"
                   className="w-full h-full"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-display mb-2">Nicolas</h3>
-                <p className="text-accent font-semibold mb-3">Membre de l'Équipe</p>
-                <p className="text-muted-foreground leading-relaxed">
+              <div className="p-6 text-center">
+                <h3 className="text-xl font-serif font-light mb-1 text-slate-900">Nicolas</h3>
+                <p className="text-sm text-slate-600 mb-3">Membre de l'Équipe</p>
+                <p className="text-sm text-slate-700 leading-relaxed font-light">
                   Nicolas apporte son expertise technique et son dévouement pour garantir l'excellence de chaque étape de production.
                 </p>
               </div>
             </div>
 
             {/* Pauline */}
-            <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
+            <div className="bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/images/team/pauline.jpeg"
                   alt="Portrait de Pauline – équipe Château Lastours"
                   fill
-                  objectFit="contain"
-                  objectPosition="center 30%"
+                  objectFit="cover"
+                  objectPosition="center center"
                   containerClassName="absolute inset-0"
                   className="w-full h-full"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-display mb-2">Pauline</h3>
-                <p className="text-accent font-semibold mb-3">Membre de l'Équipe</p>
-                <p className="text-muted-foreground leading-relaxed">
+              <div className="p-6 text-center">
+                <h3 className="text-xl font-serif font-light mb-1 text-slate-900">Pauline</h3>
+                <p className="text-sm text-slate-600 mb-3">Membre de l'Équipe</p>
+                <p className="text-sm text-slate-700 leading-relaxed font-light">
                   Pauline contribue avec passion et professionnalisme à la renommée et au développement du domaine.
                 </p>
               </div>
             </div>
 
             {/* Stéphane */}
-            <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300 md:col-span-2 lg:col-span-1">
+            <div className="bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 md:col-span-2 lg:col-span-1">
               <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/images/team/stephane.jpeg"
                   alt="Portrait de Stéphane – équipe Château Lastours"
                   fill
-                  objectFit="contain"
-                  objectPosition="center 30%"
+                  objectFit="cover"
+                  objectPosition="center center"
                   containerClassName="absolute inset-0"
                   className="w-full h-full"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-display mb-2">Stéphane</h3>
-                <p className="text-accent font-semibold mb-3">Membre de l'Équipe</p>
-                <p className="text-muted-foreground leading-relaxed">
+              <div className="p-6 text-center">
+                <h3 className="text-xl font-serif font-light mb-1 text-slate-900">Stéphane</h3>
+                <p className="text-sm text-slate-600 mb-3">Membre de l'Équipe</p>
+                <p className="text-sm text-slate-700 leading-relaxed font-light">
                   Stéphane met son savoir-faire et son expertise au service de la tradition et de l'innovation viticole.
                 </p>
               </div>
