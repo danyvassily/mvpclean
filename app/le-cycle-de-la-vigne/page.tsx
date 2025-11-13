@@ -1,6 +1,7 @@
 import { Metadata } from "next";
-import Image from "next/image";
 import { cn } from "@/lib/utils";
+import { HeroStandard } from "@/components/common/HeroStandard";
+import { StorySection } from "@/components/common/StorySection";
 import { TransitionLink } from "@/components/gsap/TransitionLink";
 import { SPACING } from "@/lib/constants";
 
@@ -22,154 +23,86 @@ export const metadata: Metadata = {
 const cycleSections = [
   {
     id: "hiver",
-    text: {
-      kicker: "Hiver",
-      title: "Le Repos de la Vigne",
-      body: "L'hiver marque une période de repos pour la vigne. Les vignes dénudées attendent patiemment le retour des beaux jours. C'est aussi le moment de la taille, geste essentiel qui détermine la future récolte.",
-    },
-    image: {
-      src: "/images/vineyard/vignes-hiver-chapelle-saint-vincent-d-avens-gaillac-france.jpeg",
-      alt: "Vignes en hiver avec la chapelle Saint-Vincent d'Avens au Château Lastours, Gaillac",
-      ratio: "21/9" as const,
-    },
-    layout: "text-first" as const,
+    kicker: "Hiver",
+    title: "Le Repos de la Vigne",
+    content: "L'hiver marque une période de repos pour la vigne. Les vignes dénudées attendent patiemment le retour des beaux jours. C'est aussi le moment de la taille, geste essentiel qui détermine la future récolte.",
+    imageSrc: "/images/vineyard/vignes-hiver-chapelle-saint-vincent-d-avens-gaillac-france.jpeg",
+    imageAlt: "Vignes en hiver avec la chapelle Saint-Vincent d'Avens au Château Lastours, Gaillac",
+    layout: "image-left" as const,
   },
   {
     id: "debourrement",
-    text: {
-      kicker: "Printemps",
-      title: "Le Débourrement : Le Réveil de la Vigne",
-      body: "Au printemps, les bourgeons éclosent et la vigne se réveille. C'est le débourrement, moment magique où la vie reprend dans nos vignes. Les jeunes pousses vert tendre annoncent une nouvelle saison de croissance.",
-    },
-    image: {
-      src: "/images/vineyard/debourrement-bourgeon-vignes-chateau-lastours-gaillac-france.jpg",
-      alt: "Débourrement des bourgeons de vignes au Château Lastours, Gaillac, France",
-      ratio: "16/9" as const,
-    },
-    layout: "image-first" as const,
+    kicker: "Printemps",
+    title: "Le Débourrement : Le Réveil de la Vigne",
+    content: "Au printemps, les bourgeons éclosent et la vigne se réveille. C'est le débourrement, moment magique où la vie reprend dans nos vignes. Les jeunes pousses vert tendre annoncent une nouvelle saison de croissance.",
+    imageSrc: "/images/vineyard/debourrement-bourgeon-vignes-chateau-lastours-gaillac-france.jpg",
+    imageAlt: "Débourrement des bourgeons de vignes au Château Lastours, Gaillac, France",
+    layout: "image-right" as const,
   },
   {
     id: "palissage",
-    text: {
-      kicker: "Savoir-Faire",
-      title: "Le Palissage : Guider la Croissance",
-      body: "Le palissage est un travail minutieux qui guide la croissance des sarments. Cette technique ancestrale permet à nos vignes de capter la lumière optimale tout en favorisant une bonne circulation de l'air entre les grappes.",
-    },
-    image: {
-      src: "/images/vineyard/travail-dans-la-vigne-palissage.jpg",
-      alt: "Travail du palissage dans la vigne au Château Lastours",
-      ratio: "21/9" as const,
-    },
-    layout: "text-first" as const,
+    kicker: "Savoir-Faire",
+    title: "Le Palissage : Guider la Croissance",
+    content: "Le palissage est un travail minutieux qui guide la croissance des sarments. Cette technique ancestrale permet à nos vignes de capter la lumière optimale tout en favorisant une bonne circulation de l'air entre les grappes.",
+    imageSrc: "/images/vineyard/travail-dans-la-vigne-palissage.jpg",
+    imageAlt: "Travail du palissage dans la vigne au Château Lastours",
+    layout: "image-left" as const,
   },
   {
     id: "veraison",
-    text: {
-      kicker: "Été",
-      title: "La Véraison : La Maturation",
-      body: "La véraison marque le début de la maturation des raisins. Moment magique où les baies changent de couleur et commencent à accumuler les sucres qui feront la richesse de nos vins. Les rouges virent au violet profond tandis que les blancs prennent des teintes dorées.",
-    },
-    image: {
-      src: "/images/vineyard/grappe-de-raisins-en-veraison-chateau-lastours-gaillac-france.jpg",
-      alt: "Grappe de raisins en véraison au Château Lastours, Gaillac, France",
-      ratio: "16/9" as const,
-    },
-    layout: "image-first" as const,
+    kicker: "Été",
+    title: "La Véraison : La Maturation",
+    content: "La véraison marque le début de la maturation des raisins. Moment magique où les baies changent de couleur et commencent à accumuler les sucres qui feront la richesse de nos vins. Les rouges virent au violet profond tandis que les blancs prennent des teintes dorées.",
+    imageSrc: "/images/vineyard/grappe-de-raisins-en-veraison-chateau-lastours-gaillac-france.jpg",
+    imageAlt: "Grappe de raisins en véraison au Château Lastours, Gaillac, France",
+    layout: "image-right" as const,
   },
   {
     id: "cepages",
-    text: {
-      kicker: "Notre Terroir",
-      title: "Nos Cépages : Blancs et Rouges",
-      body: "Nos vignes cultivent une diversité de cépages, chacun avec sa personnalité. Des cépages blancs qui donneront des vins frais et élégants, aux cépages rouges qui révèleront la puissance et la complexité de notre terroir.",
-    },
-    image: {
-      src: "/images/vineyard/plantier-cepage-braucol-chateau-lastours-gaillac-france.jpeg",
-      alt: "Plantier de cépages Braucol au Château Lastours, Gaillac, France",
-      ratio: "21/9" as const,
-    },
-    layout: "text-first" as const,
+    kicker: "Notre Terroir",
+    title: "Nos Cépages : Blancs et Rouges",
+    content: "Nos vignes cultivent une diversité de cépages, chacun avec sa personnalité. Des cépages blancs qui donneront des vins frais et élégants, aux cépages rouges qui révèleront la puissance et la complexité de notre terroir.",
+    imageSrc: "/images/vineyard/plantier-cepage-braucol-chateau-lastours-gaillac-france.jpeg",
+    imageAlt: "Plantier de cépages Braucol au Château Lastours, Gaillac, France",
+    layout: "image-left" as const,
   },
   {
     id: "vendanges",
-    text: {
-      kicker: "Automne",
-      title: "Les Vendanges : Aboutissement d'une Année",
-      body: "Les vendanges représentent le moment tant attendu, l'aboutissement d'une année de travail et de patience. Nous vendangeons à maturité optimale, souvent manuellement pour préserver l'intégrité des grappes. Chaque parcelle est récoltée au moment idéal, déterminé par des dégustations régulières et des analyses précises.",
-    },
-    image: {
-      src: "/images/vineyard/allee-de-vigne-grappe-de-raisins-mur-cepage-rouge.jpg",
-      alt: "Allée de vigne avec grappes de raisins mûrs de cépages rouges au Château Lastours",
-      ratio: "21/9" as const,
-    },
-    layout: "image-first" as const,
+    kicker: "Automne",
+    title: "Les Vendanges : Aboutissement d'une Année",
+    content: "Les vendanges représentent le moment tant attendu, l'aboutissement d'une année de travail et de patience. Nous vendangeons à maturité optimale, souvent manuellement pour préserver l'intégrité des grappes. Chaque parcelle est récoltée au moment idéal, déterminé par des dégustations régulières et des analyses précises.",
+    imageSrc: "/images/vineyard/allee-de-vigne-grappe-de-raisins-mur-cepage-rouge.jpg",
+    imageAlt: "Allée de vigne avec grappes de raisins mûrs de cépages rouges au Château Lastours",
+    layout: "image-right" as const,
   },
 ];
 
 export default function LeCycleDeLaVignePage() {
   return (
     <div className="min-h-screen relative bg-white" data-page="cycle-vigne">
-      {/* Texture grain très subtile */}
-      <div className="fixed inset-0 opacity-[0.03] pointer-events-none texture-paper" />
-      <div className="fixed inset-0 opacity-[0.02] pointer-events-none texture-grain" />
+      {/* Hero Section - Texte court, image non étirée */}
+      <HeroStandard
+        imageSrc="/images/vineyard/jardins-a-la-francaise-lever-de-soleil.jpeg"
+        title="Le cycle de la vigne"
+        subtitle="Un voyage à travers les saisons qui rythment notre travail viticole."
+      />
 
-      {/* Hero Section - Responsive */}
-      <section className="image-text-section overlay-desktop relative mt-6 lg:mt-8">
-        {/* Image Hero */}
-        <div className="section-image" style={{height: '70vh'}}>
-          <Image
-            src="/images/vineyard/jardins-a-la-francaise-lever-de-soleil.jpeg"
-            alt="Jardins à la française au lever du soleil au Château Lastours"
-            fill
-            priority
-            className="object-cover object-center"
-            sizes="100vw"
-          />
-        </div>
+      {/* Espace aéré après le hero */}
+      <div className="h-12 lg:h-16"></div>
 
-        {/* Texte Hero */}
-        <div className="section-text">
-          <div className="kicker">Savoir-Faire</div>
-          <h1 style={{fontSize: '2rem', fontFamily: 'var(--font-serif)', fontWeight: 300, lineHeight: 1.1, marginBottom: '1rem'}}>
-            Le cycle de la vigne
-          </h1>
-          <p style={{maxWidth: '600px', margin: '0 auto'}}>
-            Découvrez les saisons qui rythment notre travail viticole, du débourrement aux vendanges. Un voyage à travers les moments essentiels qui façonnent nos vins d'exception.
-          </p>
-        </div>
-      </section>
-
-      {/* Sections image + texte - Responsive */}
+      {/* Sections éditoriales - Style Ruinart : Image + Texte séparés */}
       {cycleSections.map((section) => (
-        <section 
+        <StorySection
           key={section.id}
-          className="image-text-section overlay-desktop relative"
-        >
-          {/* Image */}
-          <div className="section-image">
-            <Image
-              src={section.image.src}
-              alt={section.image.alt}
-              fill
-              className="object-cover object-center"
-              sizes="100vw"
-            />
-          </div>
-
-          {/* Texte */}
-          <div className="section-text">
-            {/* Kicker */}
-            <div className="kicker">
-              {section.text.kicker}
-            </div>
-            
-            {/* Titre */}
-            <h2>{section.text.title}</h2>
-            
-            {/* Corps */}
-            <p>{section.text.body}</p>
-          </div>
-        </section>
+          id={section.id}
+          title={section.title}
+          kicker={section.kicker}
+          content={section.content}
+          imageSrc={section.imageSrc}
+          imageAlt={section.imageAlt}
+          layout={section.layout}
+          className="mb-8 lg:mb-12"
+        />
       ))}
 
       {/* Footer local - Style Histoire */}

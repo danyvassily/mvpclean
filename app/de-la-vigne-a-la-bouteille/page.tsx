@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 import { cn } from "@/lib/utils";
 import { HeroStandard } from "@/components/common/HeroStandard";
+import { StorySection } from "@/components/common/StorySection";
 import { SPACING } from "@/lib/constants";
 import { TransitionLink } from "@/components/gsap/TransitionLink";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "De la Vigne à la bouteille | Château Lastours",
@@ -24,108 +24,103 @@ const sections = [
   {
     id: "pressurage",
     title: "Le Pressurage : Tout commence ici",
+    kicker: "Étape 1",
     content: "Dès leur arrivée, les raisins fraîchement vendangés sont amenés au pressoir. Cette étape délicate libère les premiers jus de nos cuvées blanches et rosées. Ces jus, que l'on appelle « moûts », sont ensuite clarifiés par débourbage, puis transférés dans des cuves en béton ou en inox. C'est le prélude à toutes les grandes cuvées du domaine.",
     imageSrc: "/images/wines/vendange-raisin-rouge.jpg",
     imageAlt: "Pressurage des raisins au Château Lastours",
-    align: "left" as const,
+    layout: "image-left" as const,
   },
   {
     id: "fermentation-alcoolique",
     title: "La Fermentation Alcoolique : Quand le sucre devient vin",
+    kicker: "Étape 2",
     content: "La fermentation alcoolique débute : les levures transforment naturellement le sucre du moût en alcool. Ici, chaque détail compte ! Nous veillons scrupuleusement à la température pour préserver la fraîcheur et permettre aux levures de travailler dans les meilleures conditions. Pour nos vins rouges, un savoir-faire unique : les remontages. Cette technique consiste à faire circuler le moût du bas vers le haut de la cuve, favorisant ainsi l'extraction des tanins, de la couleur et des arômes. S'ensuit une période de macération, surveillée et dégustée quotidiennement, pour offrir équilibre et caractère à chaque cuvée.",
     imageSrc: "/images/wines/allee-de-cuves-inox-chai-a-vinification.jpeg",
     imageAlt: "Fermentation alcoolique en cuves inox au Château Lastours",
-    align: "right" as const,
+    layout: "image-right" as const,
   },
   {
     id: "fermentation-malo-lactique",
     title: "La Fermentation Malo-lactique : Douceur et stabilité",
+    kicker: "Étape 3",
     content: "Après la fermentation alcoolique, une seconde transformation s'opère grâce aux bactéries naturelles. L'acide malique se convertit en acide lactique, adoucissant le vin tout en stabilisant sa structure. Cette fermentation, incontournable pour nos vins rouges, est aussi réalisée sur certaines cuvées de blanc pour en révéler pleinement la personnalité.",
     imageSrc: "/images/wines/fermentation-malo-lactique-chateau-lastours-france.jpg",
     imageAlt: "Fermentation malolactique au Château Lastours",
-    align: "left" as const,
+    layout: "image-left" as const,
   },
   {
     id: "ecoulage-decuvage",
     title: "Écoulage et Décuvage : Sélection et précision",
+    kicker: "Étape 4",
     content: "Après la macération, vient l'écoulage : nous séparons le « vin de goutte », synonyme de finesse, du « vin de presse », plus puissant. Les marcs issus de cette opération sont délicatement pressés afin d'extraire chaque goutte de jus. Chacun de ces jus sera traité selon ses qualités pour composer nos meilleures cuvées.",
     imageSrc: "/images/wines/decuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
     imageAlt: "Écoulage et décuvage au Château Lastours",
-    align: "right" as const,
+    layout: "image-right" as const,
   },
   {
     id: "elevage-barrique",
     title: "L'Élevage en Barrique : L'art du temps",
+    kicker: "Étape 5",
     content: "Nos vins poursuivent leur évolution en barrique de chêne français, pièce maîtresse pour le développement des arômes et l'affinage de la texture. L'entonnage, entre novembre et décembre, apporte rondeur, complexité et profondeur à chaque cru, grâce à une multitude de transformations naturelles.",
     imageSrc: "/images/wines/chai-a-barrique-chateau-lastours-gaillac-france.jpg",
     imageAlt: "Élevage en barrique au Château Lastours",
-    align: "left" as const,
+    layout: "image-left" as const,
   },
   {
     id: "assemblage",
     title: "L'Assemblage : L'émotion de la création",
+    kicker: "Étape 6",
     content: "L'assemblage est le cœur de notre créativité. Nous sélectionnons avec soin les différentes parcelles et cépages avant de les déguster un à un. C'est par le jeu subtil des assemblages que naissent les grandes cuvées, reflets authentiques de notre terroir et de nos ambitions.",
     imageSrc: "/images/wines/assemblage-vin-chai-a-barrique-chateau-lastours-gaillac-france.jpeg",
     imageAlt: "Assemblage des vins au Château Lastours",
-    align: "right" as const,
+    layout: "image-right" as const,
   },
   {
     id: "mise-en-bouteille",
     title: "La Mise en Bouteille : La naissance d'un vin",
+    kicker: "Étape 7",
     content: "Toutes les étapes mènent ici ! Nous assurons nous-mêmes la mise en bouteille, sur la propriété, sous atmosphère neutre. Cette attention préserve toute la fraîcheur aromatique de nos vins et garantit leur qualité jusqu'à votre table.",
     imageSrc: "/images/wines/chaine-d-emouteillage-methode-ancestrale-gaillac.jpeg",
     imageAlt: "Mise en bouteille au Château Lastours",
-    align: "left" as const,
+    layout: "image-left" as const,
   },
   {
     id: "ouillage",
     title: "L'Ouillage : Un soin permanent",
+    kicker: "Étape 8",
     content: "Parmi nos gestes quotidiens en cave, l'ouillage tient une place centrale : il s'agit de compléter le niveau des barriques pour compenser les pertes naturelles dues à l'évaporation et éviter toute oxydation. Ce soin méticuleux préserve l'équilibre et la finesse de nos vins durant toute la phase d'élevage.",
     imageSrc: "/images/wines/ouillage-vin-rouge-fut-de-chene-francaise.jpeg",
     imageAlt: "Ouillage en barrique au Château Lastours",
-    align: "right" as const,
+    layout: "image-right" as const,
   },
 ];
 
 export default function DeLaVigneALaBouteillePage() {
   return (
     <div className="min-h-screen relative bg-white" data-page="de-la-vigne-a-la-bouteille">
-      {/* Hero Section - Image d'en-tête avec texte adossé */}
+      {/* Hero Section - Texte court, image non étirée */}
       <HeroStandard
         imageSrc="/images/wines/elevage-vin-chai-a-barrique-chateau-lastours.jpg"
         title="De la Vigne à la bouteille"
-        subtitle="Plongez dans le voyage captivant de nos raisins, qui, de trésors viticoles, deviennent l'expression en bouteille de notre passion et de notre héritage. Au Château Lastours, chaque étape de notre travail de vinification révèle une histoire de dévouement, de respect de la nature et de la magie qui transforme le fruit en un grand vin. Bienvenue au cœur du vignoble et de la cave, là où tradition et art se rencontrent."
+        subtitle="Le voyage captivant de nos raisins, de la vigne à votre table."
       />
 
       {/* Espace aéré après le hero */}
-      <div className="h-16 lg:h-24"></div>
+      <div className="h-12 lg:h-16"></div>
 
-      {/* Sections image + texte - Responsive */}
-      {sections.map((section, index) => (
-        <section 
+      {/* Sections éditoriales - Style Ruinart : Image + Texte séparés */}
+      {sections.map((section) => (
+        <StorySection
           key={section.id}
-          className="image-text-section overlay-desktop relative"
-        >
-          {/* Image */}
-          <div className="section-image">
-            <Image
-              src={section.imageSrc}
-              alt={section.imageAlt}
-              fill
-              className="object-cover object-center"
-              sizes="100vw"
-            />
-          </div>
-
-          {/* Texte */}
-          <div className="section-text">
-            {/* Titre */}
-            <h2>{section.title}</h2>
-            
-            {/* Corps */}
-            <p>{section.content}</p>
-          </div>
-        </section>
+          id={section.id}
+          title={section.title}
+          kicker={section.kicker}
+          content={section.content}
+          imageSrc={section.imageSrc}
+          imageAlt={section.imageAlt}
+          layout={section.layout}
+          className="mb-8 lg:mb-12"
+        />
       ))}
 
       {/* Encadré CTA "Le saviez-vous" */}
