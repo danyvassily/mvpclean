@@ -1,0 +1,258 @@
+type Cuvee = {
+  title: string;
+  slug: string;
+  route: string;
+  pdf?: string;         // si override, sinon dérivé de slug
+  colorTag?: "Blanc" | "Rosé" | "Rouge" | "Effervescent";
+  image?: string;
+};
+
+type Gamme = {
+  id: string;
+  title: string;
+  description: string;
+  accent: string;
+  cover?: string;
+  cuvees: Cuvee[];
+};
+
+// Map des PDFs avec noms spécifiques (overrides) - Chemins mis à jour selon la structure réelle du dossier public
+const pdfOverrides: Record<string, string> = {
+  "claire-de-lune": "/fiche-technique/ft-blanc-claire-de-lune-2023.pdf",
+  "domeni-blanc": "/fiche-technique/ft-blanc-domeni-2024.pdf",
+  "domeni-rose": "/fiche-technique/ft-rose-domeni-2024-1.pdf",
+  "domeni-rouge": "/fiche-technique/ft-rouge-domeni-2022.pdf",
+  "opus-blanc": "/fiche-technique/ft-blanc-opus-2023.pdf",
+  "opus-rouge": "/fiche-technique/ft-rouge-opus-2021.pdf",
+  "petrichor-rouge": "/fiche-technique/ft-rouge-petrichor-2020.pdf",
+  "petrichor-rose": "/fiche-technique/ft-rose-petrichor-2024.pdf",
+  "pigeonnier": "/fiche-technique/ft-rouge-cuvee-du-pigeonnier-2022.pdf",
+  "perle": "/fiche-technique/ft-perle-2023.pdf",
+  "poussin-blanc": "/fiche-technique/ft-poussin-moelleux-2024.pdf",
+  "poussin-rose": "/fiche-technique/ft-poussin-rose-moelleux-2024.pdf",
+  "methode-blanc": "/fiche-technique/ft-la-methode-blanc.pdf",
+  "methode-rose": "/fiche-technique/ft-la-methode-rosee-23.pdf"
+};
+
+// Helper pour obtenir le PDF path
+function getPdfPath(slug: string): string {
+  return pdfOverrides[slug] || `/fiche-technique/${slug}.pdf`;
+}
+
+export const gammes: Gamme[] = [
+  {
+    id: "domeni",
+    title: "Doméni",
+    description: "L'expression pure du terroir gaillacois. Cette collection incarne l'authenticité de nos cépages autochtones, révélant la typicité de notre terroir avec élégance et caractère.",
+    accent: "#D4AF37", // Or élégant
+    cover: "/images/wines/gamme-domeni.jpg",
+    cuvees: [
+      {
+        title: "Doméni Blanc",
+        slug: "domeni-blanc",
+        route: "/les-vins/domeni-blanc",
+        pdf: getPdfPath("domeni-blanc"),
+        colorTag: "Blanc",
+        image: "/images/wines/blanc-domeni-sf.png"
+      },
+      {
+        title: "Doméni Rosé", 
+        slug: "domeni-rose",
+        route: "/les-vins/domeni-rose",
+        pdf: getPdfPath("domeni-rose"),
+        colorTag: "Rosé",
+        image: "/images/wines/rose-domeni-sf.png"
+      },
+      {
+        title: "Doméni Rouge",
+        slug: "domeni-rouge", 
+        route: "/les-vins/domeni-rouge",
+        pdf: getPdfPath("domeni-rouge"),
+        colorTag: "Rouge",
+        image: "/images/wines/rouge-domeni-sf.png"
+      }
+    ]
+  },
+  {
+    id: "opus",
+    title: "Opus",
+    description: "L'excellence absolue. Nos cuvées les plus prestigieuses, issues de nos parcelles d'exception et élevées avec un soin méticuleux pour révéler toute la noblesse de notre terroir.",
+    accent: "#8B4513", // Bordeaux noble
+    cover: "/images/wines/gamme-opus.jpg",
+    cuvees: [
+      {
+        title: "Opus Blanc",
+        slug: "opus-blanc",
+        route: "/les-vins/opus-blanc", 
+        pdf: getPdfPath("opus-blanc"),
+        colorTag: "Blanc",
+        image: "/images/wines/blanc-opus-sf.png"
+      },
+      {
+        title: "Opus Rouge",
+        slug: "opus-rouge",
+        route: "/les-vins/opus-rouge",
+        pdf: getPdfPath("opus-rouge"),
+        colorTag: "Rouge",
+        image: "/images/wines/rouge-opus-sf.png"
+      }
+    ]
+  },
+  {
+    id: "methode",
+    title: "Méthode Traditionnelle",
+    description: "L'art de l'effervescence selon nos traditions. Élaborés selon la méthode ancestrale gaillacoise, ces vins révèlent la finesse de nos bulles et la complexité de nos terroirs.",
+    accent: "#4A90E2", // Bleu sophistiqué
+    cover: "/images/wines/gamme-methode.jpg",
+    cuvees: [
+      {
+        title: "Méthode Blanc",
+        slug: "methode-blanc",
+        route: "/les-vins/methode-blanc",
+        pdf: getPdfPath("methode-blanc"), 
+        colorTag: "Effervescent",
+        image: "/images/wines/la-methode-blanc-st.png"
+      },
+      {
+        title: "Méthode Rosé",
+        slug: "methode-rose",
+        route: "/les-vins/methode-rose",
+        pdf: getPdfPath("methode-rose"),
+        colorTag: "Effervescent", 
+        image: "/images/wines/la-methode-rose-sf.png"
+      },
+      {
+        title: "Perlé",
+        slug: "perle",
+        route: "/les-vins/perle",
+        pdf: getPdfPath("perle"),
+        colorTag: "Effervescent",
+        image: "/images/wines/blanc-perle-sf.png"
+      }
+    ]
+  },
+  {
+    id: "poussin", 
+    title: "Poussin",
+    description: "Fraîcheur et gourmandise. Cette collection accessible invite à la découverte de nos vins dans un esprit de convivialité, parfaite pour les nouveaux amateurs de vin.",
+    accent: "#50C878", // Vert émeraude
+    cover: "/images/wines/gamme-poussin.jpg",
+    cuvees: [
+      {
+        title: "Poussin Blanc",
+        slug: "poussin-blanc",
+        route: "/les-vins/poussin-blanc",
+        pdf: getPdfPath("poussin-blanc"),
+        colorTag: "Blanc",
+        image: "/images/wines/poussin-blanc-sf.png"
+      },
+      {
+        title: "Poussin Rosé",
+        slug: "poussin-rose", 
+        route: "/les-vins/poussin-rose",
+        pdf: getPdfPath("poussin-rose"),
+        colorTag: "Rosé",
+        image: "/images/wines/poussin-rose-sf.png"
+      }
+    ]
+  },
+  {
+    id: "petrichor",
+    title: "Petrichor",
+    description: "Signature de notre savoir-faire. Cette gamme évoque l'odeur si particulière de la terre après la pluie, capturant l'essence même de notre terroir dans des cuvées d'exception.",
+    accent: "#8B7355", // Terre cuite
+    cover: "/images/wines/bouteille-de-vin-rouge-tonneau-en-bois.jpg",
+    cuvees: [
+      {
+        title: "Petrichor Rouge",
+        slug: "petrichor-rouge",
+        route: "/les-vins/petrichor-rouge", 
+        pdf: getPdfPath("petrichor-rouge"),
+        colorTag: "Rouge",
+        image: "/images/wines/petrichor-st.png"
+      },
+      {
+        title: "Petrichor Rosé",
+        slug: "petrichor-rose",
+        route: "/les-vins/petrichor-rose",
+        pdf: getPdfPath("petrichor-rose"),
+        colorTag: "Rosé",
+        image: "/images/wines/petrichor-ros-sf.png"
+      }
+    ]
+  },
+  {
+    id: "signatures",
+    title: "Signatures",
+    description: "Cuvées rares et mystérieuses. Chacune raconte une histoire unique, issue de parcelles sélectionnées et de vinifications d'exception pour les amateurs les plus exigeants.",
+    accent: "#9370DB", // Violet mystique
+    cover: "/images/wines/gamme-confidentielle.jpg", 
+    cuvees: [
+      {
+        title: "Claire de Lune",
+        slug: "claire-de-lune",
+        route: "/les-vins/claire-de-lune",
+        pdf: getPdfPath("claire-de-lune"),
+        colorTag: "Blanc",
+        image: "/images/wines/claire-de-lune-sf.png"
+      },
+      {
+        title: "Pigeonnier",
+        slug: "pigeonnier",
+        route: "/les-vins/pigeonnier",
+        pdf: getPdfPath("pigeonnier"),
+        colorTag: "Rouge",
+        image: "/images/wines/pigeonnier-sf.png"
+      }
+    ]
+  }
+];
+
+// Helper pour filtrer par couleur
+function filterCuveesByColor(cuvees: Cuvee[], colorFilter?: string): Cuvee[] {
+  if (!colorFilter || colorFilter === "Tous") {
+    return cuvees;
+  }
+  return cuvees.filter(cuvee => cuvee.colorTag === colorFilter);
+}
+
+// Helper pour obtenir toutes les couleurs disponibles
+function getAvailableColors(): string[] {
+  const colors = new Set<string>();
+  gammes.forEach(gamme => {
+    gamme.cuvees.forEach(cuvee => {
+      if (cuvee.colorTag) {
+        colors.add(cuvee.colorTag);
+      }
+    });
+  });
+  return ["Tous", ...Array.from(colors).sort()];
+}
+
+// Helper pour obtenir les cuvées groupées par couleur (pour le menu navigation)
+export function getCuveesByColor() {
+  const cuveesByColor: Record<string, Cuvee[]> = {
+    "Blanc": [],
+    "Rosé": [],
+    "Rouge": [],
+    "Effervescent": []
+  };
+  
+  const specialites: Cuvee[] = [];
+  
+  gammes.forEach(gamme => {
+    gamme.cuvees.forEach(cuvee => {
+      // Les cuvées de la gamme "Signatures" vont dans Spécialités
+      if (gamme.id === "signatures") {
+        specialites.push(cuvee);
+      } else if (cuvee.colorTag && cuveesByColor[cuvee.colorTag]) {
+        cuveesByColor[cuvee.colorTag].push(cuvee);
+      }
+    });
+  });
+  
+  return {
+    byColor: cuveesByColor,
+    specialites
+  };
+}

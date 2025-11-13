@@ -1,0 +1,469 @@
+/* ============================================================================
+   RESPONSIVE FIXES - Mobile & Tablette
+   ============================================================================
+   
+   Corrections des problèmes de:
+   - Fonds et bandes parasites
+   - Espaces verticaux excessifs
+   - Débordements et overflow
+   - Rythme vertical cohérent
+   ============================================================================ */
+
+/* ============================================================================
+   1. NORMALISATION DES FONDS
+   ============================================================================ */
+
+html,
+body,
+#__next {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+/* Assurer que le main container n'a pas de fond parasite */
+main {
+  background: transparent;
+  position: relative;
+}
+
+/* Supprimer les backgrounds hérités non désirés */
+.no-stripe,
+.no-background {
+  background: transparent !important;
+}
+
+/* ============================================================================
+   2. RYTHME VERTICAL - Variables CSS
+   ============================================================================ */
+
+/* NOTE: Les variables de rythme sont maintenant définies dans globals.css
+   pour assurer la cohérence avec le système unifié basé sur la page Home.
+   Ce fichier conserve uniquement les ajustements responsive spécifiques. */
+
+/* ============================================================================
+   3. ESPACEMENT VERTICAL COHÉRENT
+   ============================================================================ */
+
+/* Sections principales - Utilisation du système unifié depuis globals.css
+   Les règles de base sont dans globals.css, ici on ajuste uniquement pour mobile */
+
+/* Footer directement collé après la dernière section */
+footer {
+  margin-top: 0;
+}
+
+/* Dernière section - pas de marge excessive (la première est gérée dans globals.css) */
+main > section:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Pas d'espace entre la dernière section et le footer */
+main > section:last-child + footer {
+  margin-top: 0;
+}
+
+/* Containers internes */
+.section-container {
+  padding-inline: var(--rhythm-1);
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+/* ============================================================================
+   4. CONTAINERS RESPONSIVE
+   ============================================================================ */
+
+.container {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-inline: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding-inline: 2.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+    padding-inline: 3rem;
+  }
+}
+
+/* ============================================================================
+   5. CORRECTIONS MOBILE (320px - 640px)
+   ============================================================================ */
+
+@media (max-width: 640px) {
+  /* Réduire les espacements verticaux en mobile
+     Le système de rythme dans globals.css réduit déjà --rhythm à 18px pour mobile,
+     donc les valeurs calculées s'ajustent automatiquement */
+  
+  /* Hero sections plus compactes */
+  .hero-section,
+  [class*="hero"] {
+    min-height: 50vh;
+    padding-block: var(--rhythm-2);
+  }
+  
+  /* Éviter les doubles marges */
+  section > *:first-child {
+    margin-top: 0;
+  }
+  
+  section > *:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Titres plus compacts */
+  h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-block: var(--rhythm-0-5);
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+    line-height: 1.3;
+    margin-block: var(--rhythm-0-5);
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin-block: var(--rhythm-0-5);
+  }
+  
+  /* Paragraphes plus compacts */
+  p {
+    margin-block: var(--rhythm-0-5);
+  }
+  
+  /* Grilles en colonne unique */
+  .grid,
+  [class*="grid-"] {
+    grid-template-columns: 1fr !important;
+    gap: var(--rhythm-1);
+  }
+  
+  /* Images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Désactiver background-attachment: fixed en mobile (cause banding) */
+  [style*="background-attachment: fixed"],
+  .bg-fixed {
+    background-attachment: scroll !important;
+  }
+}
+
+/* ============================================================================
+   6. CORRECTIONS TABLETTE (641px - 1024px)
+   ============================================================================ */
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  section {
+    margin-block: var(--rhythm-2);
+    padding-block: var(--rhythm-2);
+  }
+  
+  .hero-section,
+  [class*="hero"] {
+    min-height: 60vh;
+    padding-block: var(--rhythm-3);
+  }
+  
+  /* Grilles 2 colonnes max */
+  .grid-responsive {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--rhythm-1-5);
+  }
+}
+
+/* ============================================================================
+   7. CORRECTIONS OVERFLOW ET DÉBORDEMENT
+   ============================================================================ */
+
+/* Prévenir le débordement horizontal */
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Containers qui ne doivent jamais déborder */
+.container,
+.section-container,
+main,
+section {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Images et médias */
+img,
+video,
+iframe,
+embed {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Exception pour les iframes de cartes Google Maps - hauteur fixe requise */
+iframe[title*="Localisation"],
+iframe[title*="Map"],
+.map-iframe {
+  height: 600px !important;
+  min-height: 600px !important;
+}
+
+/* Prévenir débordement des éléments position: absolute */
+.relative {
+  position: relative;
+  overflow: hidden;
+}
+
+/* ============================================================================
+   8. STICKY HEADER - Corrections d'espacement
+   ============================================================================ */
+
+/* Offset pour ancres sous header sticky */
+section[id],
+[id] {
+  scroll-margin-top: var(--header-height);
+}
+
+/* Pas de marge fantôme sous header */
+.pt-20,
+.pt-header {
+  padding-top: var(--header-height);
+}
+
+/* ============================================================================
+   9. CORRECTIONS DE BANDES/FONDS PARASITES
+   ============================================================================ */
+
+/* Reset des bandes colorées involontaires */
+@media (max-width: 1024px) {
+  /* Forcer fond blanc sur sections si bande parasite */
+  section:not([class*="bg-"]):not([style*="background"]) {
+    background: transparent;
+  }
+  
+  /* Supprimer les backgrounds gradient parasites */
+  .no-gradient {
+    background-image: none !important;
+  }
+  
+  /* Supprimer ombres portées excessives qui créent des bandes */
+  .no-shadow-mobile {
+    box-shadow: none !important;
+  }
+}
+
+/* ============================================================================
+   10. OPTIMISATIONS IMAGES NEXT/IMAGE
+   ============================================================================ */
+
+/* Containers d'images Next.js */
+.next-image-wrapper,
+.relative:has(> img[data-nimg]) {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Images en fill */
+img[data-nimg="fill"] {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Prévenir object-fit: none en mobile */
+@media (max-width: 640px) {
+  img[style*="object-fit: none"] {
+    object-fit: cover !important;
+  }
+}
+
+/* ============================================================================
+   11. CORRECTIONS GRILLES ET FLEX
+   ============================================================================ */
+
+/* Grilles responsive avec min-width */
+.grid-auto-fit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(280px, 100%), 1fr));
+  gap: var(--rhythm-1);
+}
+
+@media (min-width: 640px) {
+  .grid-auto-fit {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+/* Flex wrapping approprié */
+.flex-wrap-responsive {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--rhythm-1);
+}
+
+/* ============================================================================
+   12. CORRECTIONS DE LISIBILITÉ
+   ============================================================================ */
+
+/* Assurer contraste suffisant */
+body {
+  color: #111827;
+  background: transparent;
+}
+
+/* Textes sur fonds colorés */
+.bg-accent,
+[class*="bg-accent"] {
+  color: #1f1d1a;
+}
+
+.bg-primary,
+[class*="bg-primary"] {
+  color: #ffffff;
+}
+
+/* Liens visibles */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Boutons lisibles - Contraste garanti */
+button,
+[role="button"],
+[data-slot="button"] {
+  cursor: pointer;
+}
+
+/* Assurer le contraste minimum sur tous les boutons */
+[data-slot="button"] {
+  /* Garantir une couleur de texte si aucune n'est définie */
+  color: inherit;
+}
+
+/* Boutons avec texte blanc sur fond clair ou image - forcer fond sombre */
+button.border-white.text-white,
+[data-slot="button"].border-white.text-white,
+a.border-white.text-white,
+button.bg-transparent.border-white.text-white,
+[data-slot="button"].bg-transparent.border-white.text-white {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(8px);
+  transition: background-color 0.3s ease;
+}
+
+button.border-white.text-white:hover,
+[data-slot="button"].border-white.text-white:hover,
+a.border-white.text-white:hover,
+button.bg-transparent.border-white.text-white:hover,
+[data-slot="button"].bg-transparent.border-white.text-white:hover {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  color: #111827 !important;
+}
+
+/* Boutons outline par défaut - garantir texte foncé */
+button[data-slot="button"]:not([class*="text-"]):not(.text-white) {
+  color: var(--foreground);
+}
+
+/* Boutons ghost - garantir contraste */
+button[data-slot="button"]:not([class*="text-"])[class*="hover:bg-accent"] {
+  color: var(--foreground);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ============================================================================
+   13. DEBUG - Classes utilitaires (à supprimer en production)
+   ============================================================================ */
+
+/* Marquer visuellement les éléments qui débordent (dev uniquement) */
+.debug-overflow * {
+  outline: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+.debug-overflow *:where([style*="width"]) {
+  outline: 2px solid red;
+}
+
+/* ============================================================================
+   14. CORRECTIONS SPÉCIFIQUES PAR BREAKPOINT
+   ============================================================================ */
+
+/* Mobile (320px - 480px) */
+@media (max-width: 480px) {
+  /* Le système de rythme dans globals.css ajuste déjà --rhythm à 18px pour mobile
+     On peut réduire légèrement pour très petits écrans */
+  :root {
+    --rhythm: 16px;
+  }
+  
+  .container {
+    padding-inline: 1rem;
+  }
+}
+
+/* Phablet (481px - 640px) */
+@media (min-width: 481px) and (max-width: 640px) {
+  /* Utiliser la valeur mobile standard de globals.css */
+  :root {
+    --rhythm: 18px;
+  }
+}
+
+/* Tablette (641px - 1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  /* Retour au rythme de base pour tablette */
+  :root {
+    --rhythm: 24px;
+  }
+  
+  .container {
+    padding-inline: 2rem;
+  }
+}
+
+/* Desktop (1025px+) - Utilisation du système unifié */
+@media (min-width: 1025px) {
+  /* Le système de rythme dans globals.css utilise déjà --rhythm: 24px par défaut
+     Les media queries dans globals.css gèrent les ajustements desktop */
+}
+

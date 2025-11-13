@@ -1,0 +1,1010 @@
+{
+  "missing": [],
+  "caseMismatch": [],
+  "unsafeNames": [
+    {
+      "file": "/FT_rouge_opus_2021.pdf",
+      "suggested": "/ft_rouge_opus_2021.pdf"
+    },
+    {
+      "file": "/FT_rouge_Domeni_2022.pdf",
+      "suggested": "/ft_rouge_domeni_2022.pdf"
+    },
+    {
+      "file": "/FT_poussin_moelleux_2024.pdf",
+      "suggested": "/ft_poussin_moelleux_2024.pdf"
+    },
+    {
+      "file": "/FT_blanc_claire_de_lune_2023.pdf",
+      "suggested": "/ft_blanc_claire_de_lune_2023.pdf"
+    },
+    {
+      "file": "/FT_blanc_Opus_2023.pdf",
+      "suggested": "/ft_blanc_opus_2023.pdf"
+    },
+    {
+      "file": "/FT_blanc_Domeni 2024.pdf",
+      "suggested": "/ft_blanc_domeni-2024.pdf"
+    },
+    {
+      "file": "/FT_Rouge_Petrichor_2020.pdf",
+      "suggested": "/ft_rouge_petrichor_2020.pdf"
+    },
+    {
+      "file": "/photos-web-lastours/vinification/Capture ameyric prod.JPG",
+      "suggested": "/images/production/capture-ameyric-prod.jpg"
+    },
+    {
+      "file": "/photos-web-lastours/pigeonnier/pigeonnier-vetuste/Sans titre.bmp",
+      "suggested": "/photos-web-lastours/pigeonnier/pigeonnier-vetuste/sans-titre.bmp"
+    },
+    {
+      "file": "/photos-web-lastours/bouteilles/par-gamme/Gamme Poussin.jpg",
+      "suggested": "/photos-web-lastours/bouteilles/par-gamme/images/wines/gamme-poussin.jpg"
+    },
+    {
+      "file": "/photos-web-lastours/bouteilles/par-gamme/Gamme Opus.jpg",
+      "suggested": "/photos-web-lastours/bouteilles/par-gamme/images/wines/gamme-opus.jpg"
+    },
+    {
+      "file": "/photos-web-lastours/bouteilles/par-gamme/Gamme M‚thode.jpg",
+      "suggested": "/images/wines/gamme-m-thode.jpg"
+    },
+    {
+      "file": "/photos-web-lastours/bouteilles/par-gamme/Gamme Domeni.jpg",
+      "suggested": "/photos-web-lastours/bouteilles/par-gamme/images/wines/gamme-domeni.jpg"
+    },
+    {
+      "file": "/photos-web-lastours/bouteilles/par-gamme/Gamme Confidentielle.jpg",
+      "suggested": "/photos-web-lastours/bouteilles/par-gamme/images/wines/gamme-confidentielle.jpg"
+    },
+    {
+      "file": "/page/retour site internet.docx",
+      "suggested": "/page/retour-site-internet.docx"
+    },
+    {
+      "file": "/page/Plan.docx",
+      "suggested": "/page/plan.docx"
+    },
+    {
+      "file": "/page/Indication spécifique pour chaque page.docx",
+      "suggested": "/page/indication-specifique-pour-chaque-page.docx"
+    },
+    {
+      "file": "/page/Gemini_Generated_Image_dgfu0ddgfu0ddgfu.png",
+      "suggested": "/page/gemini_generated_image_dgfu0ddgfu0ddgfu.png"
+    },
+    {
+      "file": "/page/Fidelity club.docx",
+      "suggested": "/page/fidelity-club.docx"
+    },
+    {
+      "file": "/page/visite-ok/photos page visite - ok.docx",
+      "suggested": "/page/visite-ok/photos-page-visite-ok.docx"
+    },
+    {
+      "file": "/page/page-notre-chai-dans-section-notre-terroir/Photo notre chai.docx",
+      "suggested": "/page/page-notre-chai-dans-section-notre-terroir/photo-notre-chai.docx"
+    },
+    {
+      "file": "/page/page-notre-chai-dans-section-notre-terroir/Page notre chai.pdf",
+      "suggested": "/page/page-notre-chai-dans-section-notre-terroir/page-notre-chai.pdf"
+    },
+    {
+      "file": "/page/page-notre-chai-dans-section-notre-terroir/Page notre chai.docx",
+      "suggested": "/page/page-notre-chai-dans-section-notre-terroir/page-notre-chai.docx"
+    },
+    {
+      "file": "/page/page-mecenat-ok/photo mécénat.docx",
+      "suggested": "/page/page-mecenat-ok/photo-mecenat.docx"
+    },
+    {
+      "file": "/page/page-mecenat-ok/Texte de la page Mécénat EN.docx",
+      "suggested": "/page/page-mecenat-ok/texte-de-la-page-mecenat-en.docx"
+    },
+    {
+      "file": "/page/page-mecenat-ok/Texte Page Mécenat FR.docx",
+      "suggested": "/page/page-mecenat-ok/texte-page-mecenat-fr.docx"
+    },
+    {
+      "file": "/page/page-actualite-ok/~�ticle Petrichor Fr.docx",
+      "suggested": "/page/page-actualite-ok/-ticle-petrichor-fr.docx"
+    },
+    {
+      "file": "/page/page-actualite-ok/Photos page actualité.docx",
+      "suggested": "/page/page-actualite-ok/photos-page-actualite.docx"
+    },
+    {
+      "file": "/page/page-actualite-ok/Page Actualité Fr.docx",
+      "suggested": "/page/page-actualite-ok/page-actualite-fr.docx"
+    },
+    {
+      "file": "/page/page-actualite-ok/Page Actualité En.docx",
+      "suggested": "/page/page-actualite-ok/page-actualite-en.docx"
+    },
+    {
+      "file": "/page/page-actualite-ok/Artilce salon vigneron indépendant.docx",
+      "suggested": "/page/page-actualite-ok/artilce-salon-vigneron-independant.docx"
+    },
+    {
+      "file": "/page/page-actualite-ok/Article sur vendanges 2025.docx",
+      "suggested": "/page/page-actualite-ok/article-sur-vendanges-2025.docx"
+    },
+    {
+      "file": "/page/page-actualite-ok/Article fête des vins de Gaillac Fr.docx",
+      "suggested": "/page/page-actualite-ok/article-fete-des-vins-de-gaillac-fr.docx"
+    },
+    {
+      "file": "/page/page-actualite-ok/Article fête des vins de Gaillac En.docx",
+      "suggested": "/page/page-actualite-ok/article-fete-des-vins-de-gaillac-en.docx"
+    },
+    {
+      "file": "/page/page-actualite-ok/Article Petrichor Fr.docx",
+      "suggested": "/page/page-actualite-ok/article-petrichor-fr.docx"
+    },
+    {
+      "file": "/page/page-actualite-ok/Article Petrichor En.docx",
+      "suggested": "/page/page-actualite-ok/article-petrichor-en.docx"
+    },
+    {
+      "file": "/page/page-actualite-ok/Article Arnaud Liard.docx",
+      "suggested": "/page/page-actualite-ok/article-arnaud-liard.docx"
+    },
+    {
+      "file": "/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/Photos Organiser votre evenement - ok.docx",
+      "suggested": "/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/photos-organiser-votre-evenement-ok.docx"
+    },
+    {
+      "file": "/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/Page Organiser votre événement FREN.html",
+      "suggested": "/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/page-organiser-votre-evenement-fren.html"
+    },
+    {
+      "file": "/page/notre-vignoble-manque-1-photo/Photo Notre vignoble - manque 1 photo.docx",
+      "suggested": "/page/notre-vignoble-manque-1-photo/photo-notre-vignoble-manque-1-photo.docx"
+    },
+    {
+      "file": "/page/notre-vignoble-manque-1-photo/Notre vignoble Fr.html",
+      "suggested": "/page/notre-vignoble-manque-1-photo/notre-vignoble-fr.html"
+    },
+    {
+      "file": "/page/notre-vignoble-manque-1-photo/Notre vignoble En.docx",
+      "suggested": "/page/notre-vignoble-manque-1-photo/notre-vignoble-en.docx"
+    },
+    {
+      "file": "/page/notre-histoire-ok/Photo Notre histoire - ok.docx",
+      "suggested": "/page/notre-histoire-ok/photo-notre-histoire-ok.docx"
+    },
+    {
+      "file": "/page/notre-histoire-ok/Notre histoire Fr.docx",
+      "suggested": "/page/notre-histoire-ok/notre-histoire-fr.docx"
+    },
+    {
+      "file": "/page/notre-histoire-ok/Notre Histoire En.docx",
+      "suggested": "/page/notre-histoire-ok/notre-histoire-en.docx"
+    },
+    {
+      "file": "/page/notre-histoire/allée-platanes-feuilles-automne-campagne.jpg",
+      "suggested": "/images/estate/allee-platanes-feuilles-automne-campagne.jpg"
+    },
+    {
+      "file": "/page/notre-chai-manque-1-photo/Photos De la Vigne à la Bouteille - manque 1 photo.docx",
+      "suggested": "/page/notre-chai-manque-1-photo/photos-de-la-vigne-a-la-bouteille-manque-1-photo.docx"
+    },
+    {
+      "file": "/page/notre-chai-manque-1-photo/De la Vigne à la Bouteille FR.docx",
+      "suggested": "/page/notre-chai-manque-1-photo/de-la-vigne-a-la-bouteille-fr.docx"
+    },
+    {
+      "file": "/page/notre-chai-manque-1-photo/De la Vigne à la Bouteille En.docx",
+      "suggested": "/page/notre-chai-manque-1-photo/de-la-vigne-a-la-bouteille-en.docx"
+    },
+    {
+      "file": "/page/nos-evenements-ok/Photos nos evenements - ok.docx",
+      "suggested": "/page/nos-evenements-ok/photos-nos-evenements-ok.docx"
+    },
+    {
+      "file": "/page/nos-evenements-ok/Page nos evenement Fr.docx",
+      "suggested": "/page/nos-evenements-ok/page-nos-evenement-fr.docx"
+    },
+    {
+      "file": "/page/nos-evenements-ok/Page Nos Evénement En.docx",
+      "suggested": "/page/nos-evenements-ok/page-nos-evenement-en.docx"
+    },
+    {
+      "file": "/page/nos-engagement-ok/Photos Page eco responsable - ok.docx",
+      "suggested": "/page/nos-engagement-ok/photos-page-eco-responsable-ok.docx"
+    },
+    {
+      "file": "/page/nos-engagement-ok/Page éco responsable FR.html",
+      "suggested": "/page/nos-engagement-ok/page-eco-responsable-fr.html"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/Accords mets et vins sur chaque cuvée.pdf",
+      "suggested": "/page/nos-cuvee-ok/accords-mets-et-vins-sur-chaque-cuvee.pdf"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/Accords mets et vins sur chaque cuvée.docx",
+      "suggested": "/page/nos-cuvee-ok/accords-mets-et-vins-sur-chaque-cuvee.docx"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-rose/FT_poussin rosé_moelleux_2024.pdf",
+      "suggested": "/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-rose/ft_poussin-rose_moelleux_2024.pdf"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-blanc/FT_poussin_moelleux_2024.pdf",
+      "suggested": "/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-blanc/ft_poussin_moelleux_2024.pdf"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/gamme-petrichor/page-cuvee-petrichor-rose/FT_Rosé_Petrichor_2024.pdf",
+      "suggested": "/page/nos-cuvee-ok/gamme-petrichor/page-cuvee-petrichor-rose/ft_rose_petrichor_2024.pdf"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/gamme-petrichor/page-cuvee-pertichor-rouge/FT_Rouge_Petrichor_2020.pdf",
+      "suggested": "/page/nos-cuvee-ok/gamme-petrichor/page-cuvee-pertichor-rouge/ft_rouge_petrichor_2020.pdf"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/gamme-perle/page-cuvee-perle/FT_perlé_2023.pdf",
+      "suggested": "/page/nos-cuvee-ok/gamme-perle/page-cuvee-perle/ft_perle_2023.pdf"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/gamme-opus/page-cuvee-opus-rouge/FT_rouge_opus_2021.pdf",
+      "suggested": "/page/nos-cuvee-ok/gamme-opus/page-cuvee-opus-rouge/ft_rouge_opus_2021.pdf"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/gamme-opus/page-cuvee-opus-blanc/FT_blanc_Opus_2023.pdf",
+      "suggested": "/page/nos-cuvee-ok/gamme-opus/page-cuvee-opus-blanc/ft_blanc_opus_2023.pdf"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-rose/FT_la_méthode_rosée_23.pdf",
+      "suggested": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-rose/ft_la_methode_rosee_23.pdf"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-blanche/FT_la_méthode_blanc.pdf",
+      "suggested": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-blanche/ft_la_methode_blanc.pdf"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-rouge/FT_rouge_Domeni_2022.pdf",
+      "suggested": "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-rouge/ft_rouge_domeni_2022.pdf"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-rose/FT_rosé_Domeni_2024 (1).pdf",
+      "suggested": "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-rose/ft_rose_domeni_2024-1-.pdf"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-blanc/FT_blanc_Domeni 2024.pdf",
+      "suggested": "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-blanc/ft_blanc_domeni-2024.pdf"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-pigeonnier/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf",
+      "suggested": "/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-pigeonnier/ft_rouge_cuvee_du_pigeonnier_2022.pdf"
+    },
+    {
+      "file": "/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-claire-de-lune/FT_blanc_claire_de_lune_2023.pdf",
+      "suggested": "/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-claire-de-lune/ft_blanc_claire_de_lune_2023.pdf"
+    },
+    {
+      "file": "/page/la-vigne-ok/Photos la vigne - la vigne.docx",
+      "suggested": "/page/la-vigne-ok/photos-la-vigne-la-vigne.docx"
+    },
+    {
+      "file": "/page/la-vigne-ok/Page la vigne EN.docx",
+      "suggested": "/page/la-vigne-ok/page-la-vigne-en.docx"
+    },
+    {
+      "file": "/page/la-vigne-ok/La vigne FR.docx",
+      "suggested": "/page/la-vigne-ok/la-vigne-fr.docx"
+    },
+    {
+      "file": "/page/homepage/Nos vins gamme pétrichor.jpg",
+      "suggested": "/page/homepage/nos-vins-gamme-petrichor.jpg"
+    },
+    {
+      "file": "/page/homepage/Mariage au château.jpg",
+      "suggested": "/page/homepage/mariage-au-chateau.jpg"
+    },
+    {
+      "file": "/page/homepage/Château côté jardin.JPG",
+      "suggested": "/page/homepage/chateau-cote-jardin.jpg"
+    },
+    {
+      "file": "/page/homepage/Chapelle et vignes.jpeg",
+      "suggested": "/page/homepage/chapelle-et-vignes.jpeg"
+    },
+    {
+      "file": "/page/home-page-ok/~�xte Home page FR.docx",
+      "suggested": "/page/home-page-ok/-xte-home-page-fr.docx"
+    },
+    {
+      "file": "/page/home-page-ok/photo page Home page.docx",
+      "suggested": "/page/home-page-ok/photo-page-home-page.docx"
+    },
+    {
+      "file": "/page/home-page-ok/Texte Home page FR.docx",
+      "suggested": "/page/home-page-ok/texte-home-page-fr.docx"
+    },
+    {
+      "file": "/page/home-page-ok/Texte Home page EN.docx",
+      "suggested": "/page/home-page-ok/texte-home-page-en.docx"
+    },
+    {
+      "file": "/page/gastronomie-art-de-table-manque-eventuel-photo-chambrage/Photo Le service l'art de la degustat- 1 manqauntes.docx",
+      "suggested": "/page/gastronomie-art-de-table-manque-eventuel-photo-chambrage/photo-le-service-l-art-de-la-degustat-1-manqauntes.docx"
+    },
+    {
+      "file": "/page/gastronomie-art-de-table-manque-eventuel-photo-chambrage/Page service et dégustation EN.docx",
+      "suggested": "/page/gastronomie-art-de-table-manque-eventuel-photo-chambrage/page-service-et-degustation-en.docx"
+    },
+    {
+      "file": "/page/gastronomie-art-de-table-manque-eventuel-photo-chambrage/Page service et degustation FR.docx",
+      "suggested": "/page/gastronomie-art-de-table-manque-eventuel-photo-chambrage/page-service-et-degustation-fr.docx"
+    },
+    {
+      "file": "/page/degustation-ok/Photo Degustation.docx",
+      "suggested": "/page/degustation-ok/photo-degustation.docx"
+    },
+    {
+      "file": "/page/degustation-ok/Page degustation En.docx",
+      "suggested": "/page/degustation-ok/page-degustation-en.docx"
+    },
+    {
+      "file": "/page/degustation-ok/Degustation Fr.html",
+      "suggested": "/page/degustation-ok/degustation-fr.html"
+    },
+    {
+      "file": "/page/club-ok/photo club - ok.docx",
+      "suggested": "/page/club-ok/photo-club-ok.docx"
+    },
+    {
+      "file": "/page/asset-page-notre-vignoble/Notre vignoble Fr.html",
+      "suggested": "/page/asset-page-notre-vignoble/notre-vignoble-fr.html"
+    },
+    {
+      "file": "/page/asset-page-notre-vignoble/Notre vignoble En.docx",
+      "suggested": "/page/asset-page-notre-vignoble/notre-vignoble-en.docx"
+    },
+    {
+      "file": "/page/asset-page-notre-chai/Notre chai.html",
+      "suggested": "/page/asset-page-notre-chai/notre-chai.html"
+    },
+    {
+      "file": "/page/asset-page-notre-chai/Notre chai En.docx",
+      "suggested": "/page/asset-page-notre-chai/notre-chai-en.docx"
+    },
+    {
+      "file": "/page/asset-page-notre-chai/Le chai.docx",
+      "suggested": "/page/asset-page-notre-chai/le-chai.docx"
+    },
+    {
+      "file": "/page/asset-page-la-vigne/~� vigne.docx",
+      "suggested": "/page/asset-page-la-vigne/-vigne.docx"
+    },
+    {
+      "file": "/page/asset-page-la-vigne/Page la vigne EN.docx",
+      "suggested": "/page/asset-page-la-vigne/page-la-vigne-en.docx"
+    },
+    {
+      "file": "/page/asset-page-la-vigne/La vigne.docx",
+      "suggested": "/page/asset-page-la-vigne/la-vigne.docx"
+    },
+    {
+      "file": "/page/asset-page-degustation/Page dégustation En.docx",
+      "suggested": "/page/asset-page-degustation/page-degustation-en.docx"
+    },
+    {
+      "file": "/page/asset-page-degustation/Degustation.html",
+      "suggested": "/page/asset-page-degustation/degustation.html"
+    },
+    {
+      "file": "/page/Visite - ok/photos page visite - ok.docx",
+      "suggested": "/page/Visite - ok/photos-page-visite-ok.docx"
+    },
+    {
+      "file": "/page/Visite - ok/jardins-a-la française-buis-chateau-lastours-gaillac-france.jpg",
+      "suggested": "/page/Visite - ok/jardins-a-la-francaise-buis-chateau-lastours-gaillac-france.jpg"
+    },
+    {
+      "file": "/page/Photo Menu/Nos vins/IMG_20210102_150820 (1).jpg",
+      "suggested": "/page/Photo Menu/Nos vins/img_20210102_150820-1-.jpg"
+    },
+    {
+      "file": "/page/Photo Menu/Domaine/jardins-a-la-francaise-chateau-lastours-gaillac-france.JPG",
+      "suggested": "/page/Photo Menu/Domaine/jardins-a-la-francaise-chateau-lastours-gaillac-france.jpg"
+    },
+    {
+      "file": "/page/Page notre Chai dans séction Notre terroir/ancien-chai-semi-enterré-chateau-lastours-aop-aoc-gaillac-france.jpeg",
+      "suggested": "/page/Page notre Chai dans séction Notre terroir/ancien-chai-semi-enterre-chateau-lastours-aop-aoc-gaillac-france.jpeg"
+    },
+    {
+      "file": "/page/Page notre Chai dans séction Notre terroir/Photo notre chai.docx",
+      "suggested": "/page/Page notre Chai dans séction Notre terroir/photo-notre-chai.docx"
+    },
+    {
+      "file": "/page/Page notre Chai dans séction Notre terroir/Page notre chai.pdf",
+      "suggested": "/page/Page notre Chai dans séction Notre terroir/page-notre-chai.pdf"
+    },
+    {
+      "file": "/page/Page notre Chai dans séction Notre terroir/Page notre chai.docx",
+      "suggested": "/page/Page notre Chai dans séction Notre terroir/page-notre-chai.docx"
+    },
+    {
+      "file": "/page/Page Team/Photos page team/Stephane.jpeg",
+      "suggested": "/page/Page Team/Photos page team/stephane.jpeg"
+    },
+    {
+      "file": "/page/Page Team/Photos page team/Photo de groupe.jpeg",
+      "suggested": "/page/Page Team/Photos page team/photo-de-groupe.jpeg"
+    },
+    {
+      "file": "/page/Page Team/Photos page team/Pauline.jpeg",
+      "suggested": "/page/Page Team/Photos page team/pauline.jpeg"
+    },
+    {
+      "file": "/page/Page Team/Photos page team/Nicolas.jpeg",
+      "suggested": "/page/Page Team/Photos page team/nicolas.jpeg"
+    },
+    {
+      "file": "/page/Page Team/Photos page team/Louis.jpeg",
+      "suggested": "/page/Page Team/Photos page team/louis.jpeg"
+    },
+    {
+      "file": "/page/Page Team/Photos page team/François.jpeg",
+      "suggested": "/page/Page Team/Photos page team/francois.jpeg"
+    },
+    {
+      "file": "/page/Page Team/Photos page team/Eva.jpeg",
+      "suggested": "/page/Page Team/Photos page team/eva.jpeg"
+    },
+    {
+      "file": "/page/Page Team/Photos page team/Caroline.jpeg",
+      "suggested": "/page/Page Team/Photos page team/caroline.jpeg"
+    },
+    {
+      "file": "/page/Page Team/Photos page team/Adrien.jpeg",
+      "suggested": "/page/Page Team/Photos page team/adrien.jpeg"
+    },
+    {
+      "file": "/page/Page Mécénat - ok/photo mécénat.docx",
+      "suggested": "/page/Page Mécénat - ok/photo-mecenat.docx"
+    },
+    {
+      "file": "/page/Page Mécénat - ok/Texte de la page Mécénat EN.docx",
+      "suggested": "/page/Page Mécénat - ok/texte-de-la-page-mecenat-en.docx"
+    },
+    {
+      "file": "/page/Page Mécénat - ok/Texte Page Mécenat FR.docx",
+      "suggested": "/page/Page Mécénat - ok/texte-page-mecenat-fr.docx"
+    },
+    {
+      "file": "/page/Page Actualité - ok/~�ticle Petrichor Fr.docx",
+      "suggested": "/page/Page Actualité - ok/-ticle-petrichor-fr.docx"
+    },
+    {
+      "file": "/page/Page Actualité - ok/Salon-Vignerons-Independants-Paris-2025-france.jpg",
+      "suggested": "/page/Page Actualité - ok/salon-vignerons-independants-paris-2025-france.jpg"
+    },
+    {
+      "file": "/page/Page Actualité - ok/Photos page actualité.docx",
+      "suggested": "/page/Page Actualité - ok/photos-page-actualite.docx"
+    },
+    {
+      "file": "/page/Page Actualité - ok/Page Actualité Fr.docx",
+      "suggested": "/page/Page Actualité - ok/page-actualite-fr.docx"
+    },
+    {
+      "file": "/page/Page Actualité - ok/Page Actualité En.docx",
+      "suggested": "/page/Page Actualité - ok/page-actualite-en.docx"
+    },
+    {
+      "file": "/page/Page Actualité - ok/Artilce salon vigneron indépendant.docx",
+      "suggested": "/page/Page Actualité - ok/artilce-salon-vigneron-independant.docx"
+    },
+    {
+      "file": "/page/Page Actualité - ok/Article sur vendanges 2025.docx",
+      "suggested": "/page/Page Actualité - ok/article-sur-vendanges-2025.docx"
+    },
+    {
+      "file": "/page/Page Actualité - ok/Article fête des vins de Gaillac Fr.docx",
+      "suggested": "/page/Page Actualité - ok/article-fete-des-vins-de-gaillac-fr.docx"
+    },
+    {
+      "file": "/page/Page Actualité - ok/Article fête des vins de Gaillac En.docx",
+      "suggested": "/page/Page Actualité - ok/article-fete-des-vins-de-gaillac-en.docx"
+    },
+    {
+      "file": "/page/Page Actualité - ok/Article Petrichor Fr.docx",
+      "suggested": "/page/Page Actualité - ok/article-petrichor-fr.docx"
+    },
+    {
+      "file": "/page/Page Actualité - ok/Article Petrichor En.docx",
+      "suggested": "/page/Page Actualité - ok/article-petrichor-en.docx"
+    },
+    {
+      "file": "/page/Page Actualité - ok/Article Arnaud Liard.docx",
+      "suggested": "/page/Page Actualité - ok/article-arnaud-liard.docx"
+    },
+    {
+      "file": "/page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/salle-de-réception-evenements-familials-professionnels.JPG",
+      "suggested": "/page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/salle-de-reception-evenements-familials-professionnels.jpg"
+    },
+    {
+      "file": "/page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/Photos Organiser votre evenement - ok.docx",
+      "suggested": "/page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/photos-organiser-votre-evenement-ok.docx"
+    },
+    {
+      "file": "/page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/Page Organiser votre événement FREN.html",
+      "suggested": "/page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/page-organiser-votre-evenement-fren.html"
+    },
+    {
+      "file": "/page/Notre vignoble - manque 1 photo/vignes-vue-de-haut-fille-qui-marche.JPG",
+      "suggested": "/page/Notre vignoble - manque 1 photo/vignes-vue-de-haut-fille-qui-marche.jpg"
+    },
+    {
+      "file": "/page/Notre vignoble - manque 1 photo/Photo Notre vignoble - manque 1 photo.docx",
+      "suggested": "/page/Notre vignoble - manque 1 photo/photo-notre-vignoble-manque-1-photo.docx"
+    },
+    {
+      "file": "/page/Notre vignoble - manque 1 photo/Notre vignoble Fr.html",
+      "suggested": "/page/Notre vignoble - manque 1 photo/notre-vignoble-fr.html"
+    },
+    {
+      "file": "/page/Notre vignoble - manque 1 photo/Notre vignoble En.docx",
+      "suggested": "/page/Notre vignoble - manque 1 photo/notre-vignoble-en.docx"
+    },
+    {
+      "file": "/page/Notre histoire - ok/allée-platanes-feuilles-automne-campagne.jpg",
+      "suggested": "/page/Notre histoire - ok/allee-platanes-feuilles-automne-campagne.jpg"
+    },
+    {
+      "file": "/page/Notre histoire - ok/Photo Notre histoire - ok.docx",
+      "suggested": "/page/Notre histoire - ok/photo-notre-histoire-ok.docx"
+    },
+    {
+      "file": "/page/Notre histoire - ok/Notre histoire Fr.docx",
+      "suggested": "/page/Notre histoire - ok/notre-histoire-fr.docx"
+    },
+    {
+      "file": "/page/Notre histoire - ok/Notre Histoire En.docx",
+      "suggested": "/page/Notre histoire - ok/notre-histoire-en.docx"
+    },
+    {
+      "file": "/page/Notre Chai - manque 1 photo/elevage-vin-chai-a-barrique-chateau-lastours.JPG",
+      "suggested": "/page/Notre Chai - manque 1 photo/elevage-vin-chai-a-barrique-chateau-lastours.jpg"
+    },
+    {
+      "file": "/page/Notre Chai - manque 1 photo/décuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
+      "suggested": "/page/Notre Chai - manque 1 photo/decuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg"
+    },
+    {
+      "file": "/page/Notre Chai - manque 1 photo/Photos De la Vigne à la Bouteille - manque 1 photo.docx",
+      "suggested": "/page/Notre Chai - manque 1 photo/photos-de-la-vigne-a-la-bouteille-manque-1-photo.docx"
+    },
+    {
+      "file": "/page/Notre Chai - manque 1 photo/De la Vigne à la Bouteille FR.docx",
+      "suggested": "/page/Notre Chai - manque 1 photo/de-la-vigne-a-la-bouteille-fr.docx"
+    },
+    {
+      "file": "/page/Notre Chai - manque 1 photo/De la Vigne à la Bouteille En.docx",
+      "suggested": "/page/Notre Chai - manque 1 photo/de-la-vigne-a-la-bouteille-en.docx"
+    },
+    {
+      "file": "/page/Nos evenements - ok/Photos nos evenements - ok.docx",
+      "suggested": "/page/Nos evenements - ok/photos-nos-evenements-ok.docx"
+    },
+    {
+      "file": "/page/Nos evenements - ok/Page nos evenement Fr.docx",
+      "suggested": "/page/Nos evenements - ok/page-nos-evenement-fr.docx"
+    },
+    {
+      "file": "/page/Nos evenements - ok/Page Nos Evénement En.docx",
+      "suggested": "/page/Nos evenements - ok/page-nos-evenement-en.docx"
+    },
+    {
+      "file": "/page/Nos Engagement - ok/logo-HVE3.png",
+      "suggested": "/page/Nos Engagement - ok/logo-hve3.png"
+    },
+    {
+      "file": "/page/Nos Engagement - ok/Photos Page eco responsable - ok.docx",
+      "suggested": "/page/Nos Engagement - ok/photos-page-eco-responsable-ok.docx"
+    },
+    {
+      "file": "/page/Nos Engagement - ok/Page éco responsable FR.html",
+      "suggested": "/page/Nos Engagement - ok/page-eco-responsable-fr.html"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Accords mets et vins sur chaque cuvée.pdf",
+      "suggested": "/page/Nos Cuvée-ok/accords-mets-et-vins-sur-chaque-cuvee.pdf"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Accords mets et vins sur chaque cuvée.docx",
+      "suggested": "/page/Nos Cuvée-ok/accords-mets-et-vins-sur-chaque-cuvee.docx"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Photo entête de page cuvées blanc/Vin-Blanc-Rouge-Rosé-Bulles-Gaillac-Sud-Ouest-France.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Photo entête de page cuvées blanc/vin-blanc-rouge-rose-bulles-gaillac-sud-ouest-france.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/POUSSIN BLANC.svg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/poussin-blanc.svg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/POUSSIN BLANC.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/poussin-blanc.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/POUSSIN BLANC.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/poussin-blanc.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/POUSSIN BLANC-SF.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/poussin-blanc-sf.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/FT_poussin_moelleux_2024.pdf",
+      "suggested": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/ft_poussin_moelleux_2024.pdf"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/POUSSIN ROSE.svg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/poussin-rose.svg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/POUSSIN ROSE.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/poussin-rose.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/POUSSIN ROSE.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/poussin-rose.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/POUSSIN ROSE-SF.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/poussin-rose-sf.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/FT_poussin rosé_moelleux_2024.pdf",
+      "suggested": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/ft_poussin-rose_moelleux_2024.pdf"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/FT_perlé_2023.pdf",
+      "suggested": "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/ft_perle_2023.pdf"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/BLANC_PERLE_sf.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/blanc_perle_sf.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/BLANC PERLE.svg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/blanc-perle.svg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/BLANC PERLE.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/blanc-perle.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/BLANC PERLE.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/blanc-perle.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/Petrichor rosé.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/petrichor-rose.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/Petrichor rosé.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/petrichor-rose.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/Petrichor Rosé.svg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/petrichor-rose.svg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/PETRICHOR__Ros_SF.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/petrichor__ros_sf.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/FT_Rosé_Petrichor_2024.pdf",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/ft_rose_petrichor_2024.pdf"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/Pétrichor Rouge.svg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/petrichor-rouge.svg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/Pétrichor Rouge.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/petrichor-rouge.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/PETRICHOR_st.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/petrichor_st.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/PETRICHOR ROUGE.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/petrichor-rouge.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/FT_Rouge_Petrichor_2020.pdf",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/ft_rouge_petrichor_2020.pdf"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/ROUGE_OPUS_sf.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/rouge_opus_sf.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/ROUGE OPUS.svg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/rouge-opus.svg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/ROUGE OPUS.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/rouge-opus.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/ROUGE OPUS.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/rouge-opus.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/FT_rouge_opus_2021.pdf",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/ft_rouge_opus_2021.pdf"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/FT_blanc_Opus_2023.pdf",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/ft_blanc_opus_2023.pdf"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/BLANC_OPUS_sf.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/blanc_opus_sf.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/BLANC OPUS.svg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/blanc-opus.svg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/BLANC OPUS.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/blanc-opus.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/BLANC OPUS.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/blanc-opus.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/LA_METHODE_ROSE_SF.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/la_methode_rose_sf.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/LA METHODE ROSE.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/la-methode-rose.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/LA METHODE ROSE.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/la-methode-rose.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/LA METHODE BLANC.svg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/la-methode-blanc.svg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/FT_la_méthode_rosée_23.pdf",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/ft_la_methode_rosee_23.pdf"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/LA_METHODE_BLANC_st.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/la_methode_blanc_st.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/LA METHODE BLANC.svg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/la-methode-blanc.svg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/LA METHODE BLANC.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/la-methode-blanc.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/LA METHODE BLANC.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/la-methode-blanc.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/FT_la_méthode_blanc.pdf",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/ft_la_methode_blanc.pdf"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/ROSE DOMENI.svg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/rose-domeni.svg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/ROSE DOMENI.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/rose-domeni.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/ROSE DOMENI.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/rose-domeni.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/ROSE DOMENI-sf.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/rose-domeni-sf.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/FT_rosé_Domeni_2024 (1).pdf",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/ft_rose_domeni_2024-1-.pdf"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/FT_blanc_Domeni 2024.pdf",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/ft_blanc_domeni-2024.pdf"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/BLANC_DOMENI_sf.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/blanc_domeni_sf.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/BLANC DOMENI.svg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/blanc-domeni.svg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/BLANC DOMENI.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/blanc-domeni.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/BLANC DOMENI.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/blanc-domeni.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/ROUGE_DOMENI_sf.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/rouge_domeni_sf.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/ROUGE DOMENI.svg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/rouge-domeni.svg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/ROUGE DOMENI.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/rouge-domeni.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/ROUGE DOMENI.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/rouge-domeni.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/FT_rouge_Domeni_2022.pdf",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/ft_rouge_domeni_2022.pdf"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/FT_blanc_claire_de_lune_2023.pdf",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/ft_blanc_claire_de_lune_2023.pdf"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/CLAIRE_DE_LUNE_sf.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/claire_de_lune_sf.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/CLAIRE DE LUNE.svg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/claire-de-lune.svg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/CLAIRE DE LUNE.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/claire-de-lune.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/CLAIRE DE LUNE.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/claire-de-lune.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/PIGEONNIER_sf.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/pigeonnier_sf.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/PIGEONNIER.svg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/pigeonnier.svg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/PIGEONNIER.png",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/pigeonnier.png"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/PIGEONNIER.jpg",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/pigeonnier.jpg"
+    },
+    {
+      "file": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf",
+      "suggested": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/ft_rouge_cuvee_du_pigeonnier_2022.pdf"
+    },
+    {
+      "file": "/page/La vigne - ok/Photos la vigne - la vigne.docx",
+      "suggested": "/page/La vigne - ok/photos-la-vigne-la-vigne.docx"
+    },
+    {
+      "file": "/page/La vigne - ok/Page la vigne EN.docx",
+      "suggested": "/page/La vigne - ok/page-la-vigne-en.docx"
+    },
+    {
+      "file": "/page/La vigne - ok/La vigne FR.docx",
+      "suggested": "/page/La vigne - ok/la-vigne-fr.docx"
+    },
+    {
+      "file": "/page/Home page - ok/~�xte Home page FR.docx",
+      "suggested": "/page/Home page - ok/-xte-home-page-fr.docx"
+    },
+    {
+      "file": "/page/Home page - ok/photo page Home page.docx",
+      "suggested": "/page/Home page - ok/photo-page-home-page.docx"
+    },
+    {
+      "file": "/page/Home page - ok/Texte Home page FR.docx",
+      "suggested": "/page/Home page - ok/texte-home-page-fr.docx"
+    },
+    {
+      "file": "/page/Home page - ok/Texte Home page EN.docx",
+      "suggested": "/page/Home page - ok/texte-home-page-en.docx"
+    },
+    {
+      "file": "/page/Gastronomie art de table - manque eventuel photo chambrage/Photo Le service l'art de la degustat- 1 manqauntes.docx",
+      "suggested": "/page/Gastronomie art de table - manque eventuel photo chambrage/photo-le-service-l-art-de-la-degustat-1-manqauntes.docx"
+    },
+    {
+      "file": "/page/Gastronomie art de table - manque eventuel photo chambrage/Page service et dégustation EN.docx",
+      "suggested": "/page/Gastronomie art de table - manque eventuel photo chambrage/page-service-et-degustation-en.docx"
+    },
+    {
+      "file": "/page/Gastronomie art de table - manque eventuel photo chambrage/Page service et degustation FR.docx",
+      "suggested": "/page/Gastronomie art de table - manque eventuel photo chambrage/page-service-et-degustation-fr.docx"
+    },
+    {
+      "file": "/page/Degustation - ok/Photo Degustation.docx",
+      "suggested": "/page/Degustation - ok/photo-degustation.docx"
+    },
+    {
+      "file": "/page/Degustation - ok/Page degustation En.docx",
+      "suggested": "/page/Degustation - ok/page-degustation-en.docx"
+    },
+    {
+      "file": "/page/Degustation - ok/Degustation Fr.html",
+      "suggested": "/page/Degustation - ok/degustation-fr.html"
+    },
+    {
+      "file": "/page/Club - ok/photo club - ok.docx",
+      "suggested": "/page/Club - ok/photo-club-ok.docx"
+    },
+    {
+      "file": "/page/Asset page la vigne/~� vigne.docx",
+      "suggested": "/page/Asset page la vigne/-vigne.docx"
+    },
+    {
+      "file": "/page/Asset page la vigne/Page la vigne EN.docx",
+      "suggested": "/page/Asset page la vigne/page-la-vigne-en.docx"
+    },
+    {
+      "file": "/page/Asset page la vigne/La vigne.docx",
+      "suggested": "/page/Asset page la vigne/la-vigne.docx"
+    },
+    {
+      "file": "/page/Asset page dégustation/Page dégustation En.docx",
+      "suggested": "/page/Asset page dégustation/page-degustation-en.docx"
+    },
+    {
+      "file": "/page/Asset page dégustation/Degustation.html",
+      "suggested": "/page/Asset page dégustation/degustation.html"
+    },
+    {
+      "file": "/page/Asset page Notre vignoble/Notre vignoble Fr.html",
+      "suggested": "/page/Asset page Notre vignoble/notre-vignoble-fr.html"
+    },
+    {
+      "file": "/page/Asset page Notre vignoble/Notre vignoble En.docx",
+      "suggested": "/page/Asset page Notre vignoble/notre-vignoble-en.docx"
+    },
+    {
+      "file": "/page/Asset page Notre Chai/Notre chai.html",
+      "suggested": "/page/Asset page Notre Chai/notre-chai.html"
+    },
+    {
+      "file": "/page/Asset page Notre Chai/Notre chai En.docx",
+      "suggested": "/page/Asset page Notre Chai/notre-chai-en.docx"
+    },
+    {
+      "file": "/page/Asset page Notre Chai/Le chai.docx",
+      "suggested": "/page/Asset page Notre Chai/le-chai.docx"
+    },
+    {
+      "file": "/asset/histoire-du-domaine/allée-platanes-feuilles-automne-campagne.jpg",
+      "suggested": "/asset/histoire-du-domaine/allee-platanes-feuilles-automne-campagne.jpg"
+    },
+    {
+      "file": "/asset/de-la-vigne-a-la-bouteille/décuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
+      "suggested": "/images/wines/decuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg"
+    }
+  ]
+}

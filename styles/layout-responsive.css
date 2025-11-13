@@ -1,0 +1,261 @@
+/* ============================================================================
+   LAYOUT RESPONSIVE - Variables et règles globales
+   ============================================================================
+   Anti-coupures, anti-overflow, alignement mobile/tablette parfait
+   ============================================================================ */
+
+:root {
+  --container-max: 1200px;
+  --gutter-m: 16px;   /* mobile */
+  --gutter-t: 24px;   /* tablette */
+  --gutter-d: 32px;   /* desktop */
+  --rhythm: 24px;
+  
+  /* Hauteur du header pour offsets - sera mis à jour dynamiquement */
+  --header-height: 80px;
+}
+
+/* ============================================================================
+   1. BASE HTML/BODY - Anti-overflow horizontal
+   ============================================================================ */
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================================================================
+   2. CONTAINER RESPONSIVE
+   ============================================================================ */
+
+.container {
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--gutter-m);
+}
+
+@media (min-width: 641px) {
+  .container {
+    padding-inline: var(--gutter-t);
+  }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    padding-inline: var(--gutter-d);
+  }
+}
+
+/* ============================================================================
+   3. TYPOGRAPHIE ET WRAPS - Anti-coupures
+   ============================================================================ */
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: clamp(28px, 5vw, 40px);
+}
+
+h2 {
+  font-size: clamp(22px, 3.8vw, 32px);
+}
+
+h3 {
+  font-size: clamp(18px, 3.2vw, 24px);
+}
+
+.text {
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+/* ============================================================================
+   4. BOUTONS/CTA - Responsive et accessibles
+   ============================================================================ */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  line-height: 1.2;
+  white-space: normal;
+  text-align: center;
+}
+
+.btn > svg {
+  flex: 0 0 auto;
+  margin-inline-end: 8px;
+}
+
+/* Mobile: forcer whitespace-normal si whitespace-nowrap présent */
+@media (max-width: 640px) {
+  .btn,
+  button,
+  [role="button"],
+  [class*="whitespace-nowrap"] {
+    white-space: normal !important;
+  }
+}
+
+/* ============================================================================
+   5. GRILLES & COLONNES - Pas de colonnes trop étroites
+   ============================================================================ */
+
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--gutter-m);
+}
+
+@media (min-width: 641px) {
+  .grid-auto {
+    gap: var(--gutter-t);
+  }
+}
+
+/* Éviter les sections à 100vw qui incluent la scrollbar */
+section {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* ============================================================================
+   6. HÉROS & IMAGES - Optimisations Next/Image
+   ============================================================================ */
+
+/* Désactiver background-attachment: fixed en mobile (bandes/bégaiements) */
+@media (max-width: 1024px) {
+  [style*="background-attachment: fixed"],
+  .bg-fixed {
+    background-attachment: scroll !important;
+  }
+}
+
+/* Si texte sur image: backplate claire discrète */
+.hero-text-overlay {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .hero-text-overlay {
+    padding: 1.5rem;
+  }
+}
+
+/* ============================================================================
+   7. ANTI-OVERFLOW/CLIPPING
+   ============================================================================ */
+
+/* Prévenir les débordements */
+* {
+  box-sizing: border-box;
+}
+
+/* Elements position:absolute doivent être dans un conteneur relatif */
+.relative {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Marges cumulées parent/enfant - préférer gap */
+.grid,
+.flex {
+  gap: var(--rhythm);
+}
+
+/* ============================================================================
+   8. ACCESSIBILITÉ & VISIBILITÉ
+   ============================================================================ */
+
+/* Focus visible pour liens/boutons */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid var(--ring, #c6a869);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Zones cliquables ≥ 44px de hauteur */
+button,
+a:not(.no-touch-target),
+[role="button"] {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ============================================================================
+   9. SCROLL PADDING - Pour header sticky
+   ============================================================================ */
+
+html {
+  scroll-padding-top: var(--header-height);
+}
+
+/* Cibles d'ancre locales */
+section[id],
+[id] {
+  scroll-margin-top: var(--header-height);
+}
+
+/* ============================================================================
+   10. SAFE-AREA iOS
+   ============================================================================ */
+
+@supports (padding: max(0px)) {
+  .safe-area-top {
+    padding-top: max(env(safe-area-inset-top), var(--header-height));
+  }
+  
+  .safe-area-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* ============================================================================
+   11. CORRECTIONS SPÉCIFIQUES MOBILE
+   ============================================================================ */
+
+@media (max-width: 640px) {
+  /* Réduire les espacements */
+  .container {
+    padding-inline: var(--gutter-m);
+  }
+  
+  /* Grilles en colonne unique si trop étroites */
+  .grid-auto {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================================
+   12. CORRECTIONS TABLETTE
+   ============================================================================ */
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .container {
+    padding-inline: var(--gutter-t);
+  }
+}
+

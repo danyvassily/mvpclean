@@ -1,0 +1,99 @@
+{
+  "totalSize": 449553090,
+  "categories": {
+    "documentation": {
+      "files": 56,
+      "size": 548555
+    },
+    "images": {
+      "files": 0,
+      "size": 0
+    },
+    "build": {
+      "files": 0,
+      "size": 0
+    },
+    "git": {
+      "files": 0,
+      "size": 0
+    },
+    "node_modules": {
+      "files": 0,
+      "size": 0
+    },
+    "public": {
+      "files": 0,
+      "size": 446644267
+    },
+    "source": {
+      "files": 201,
+      "size": 1164966
+    },
+    "other": {
+      "files": 32,
+      "size": 1195302
+    }
+  },
+  "largeFiles": [
+    {
+      "path": "public/Page/Nos evenements - ok/soiree-partenaire-rugby-chateau-lastours-gaillac-france.jpg",
+      "size": 88993232,
+      "sizeFormatted": "84.87 MB"
+    },
+    {
+      "path": "public/ASSET/histoire-du-domaine/pigeonnier-ancien-sud-ouest-france.jpg",
+      "size": 18115139,
+      "sizeFormatted": "17.28 MB"
+    },
+    {
+      "path": "public/Page/Nos evenements - ok/pigeonnier-renove-domaine-viticole-gaillac-france.jpg",
+      "size": 18115139,
+      "sizeFormatted": "17.28 MB"
+    },
+    {
+      "path": "public/Page/_common/histoire-hero.jpg",
+      "size": 18115139,
+      "sizeFormatted": "17.28 MB"
+    },
+    {
+      "path": "public/Page/Photo Menu/Domaine/jardins-a-la-francaise-chateau-lastours-gaillac-france.JPG",
+      "size": 16493655,
+      "sizeFormatted": "15.73 MB"
+    },
+    {
+      "path": "public/Page/Page Engagement/wetransfer_logo-hve-png_2025-08-08_1426.zip",
+      "size": 14804202,
+      "sizeFormatted": "14.12 MB"
+    },
+    {
+      "path": "public/Page/Nos Engagement - ok/nos-engagements-agriculture-raisonnee-chateau-lastours-aop-aoc-gaillac-france.jpg",
+      "size": 13024140,
+      "sizeFormatted": "12.42 MB"
+    },
+    {
+      "path": "public/Page/Notre Chai - manque 1 photo/fermentation-malo-lactique-chateau-lastours-france.jpg",
+      "size": 11667910,
+      "sizeFormatted": "11.13 MB"
+    }
+  ],
+  "unusedFiles": [],
+  "recommendations": [
+    {
+      "type": "assets",
+      "title": "Optimiser les images volumineuses",
+      "description": "8 fichiers > 10MB trouvés dans public/",
+      "savings": 79731422.4,
+      "files": [
+        "public/Page/Nos evenements - ok/soiree-partenaire-rugby-chateau-lastours-gaillac-france.jpg",
+        "public/ASSET/histoire-du-domaine/pigeonnier-ancien-sud-ouest-france.jpg",
+        "public/Page/Nos evenements - ok/pigeonnier-renove-domaine-viticole-gaillac-france.jpg",
+        "public/Page/_common/histoire-hero.jpg",
+        "public/Page/Photo Menu/Domaine/jardins-a-la-francaise-chateau-lastours-gaillac-france.JPG",
+        "public/Page/Page Engagement/wetransfer_logo-hve-png_2025-08-08_1426.zip",
+        "public/Page/Nos Engagement - ok/nos-engagements-agriculture-raisonnee-chateau-lastours-aop-aoc-gaillac-france.jpg",
+        "public/Page/Notre Chai - manque 1 photo/fermentation-malo-lactique-chateau-lastours-france.jpg"
+      ],
+      "priority": "medium"
+    }
+  ]
+}

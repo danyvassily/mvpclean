@@ -1,0 +1,132 @@
+[build]
+  # Configuration Netlify pour Next.js 15 avec export statique
+  publish = "out"
+  command = "pnpm install --frozen-lockfile && pnpm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+  PNPM_VERSION = "8"
+  NPM_FLAGS = "--version"
+  # Configuration pour Next.js avec export statique
+  NETLIFY_PUBLISH_DIR = "out"
+
+# Pas de plugin nécessaire pour l'export statique
+
+# Configuration des redirections pour les routes dynamiques
+[[redirects]]
+  from = "/les-vins/*"
+  to = "/les-vins/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/actualites/*"
+  to = "/actualites/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/evenements/*"
+  to = "/evenements/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/club/*"
+  to = "/club/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/domaine/*"
+  to = "/domaine/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/home"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/la-vigne"
+  to = "/le-cycle-de-la-vigne/"
+  status = 301
+
+[[redirects]]
+  from = "/savoir-faire/vigne"
+  to = "/le-cycle-de-la-vigne/"
+  status = 301
+
+# Redirections SEO : Les Chais / Notre Chai → De la Vigne à la bouteille
+[[redirects]]
+  from = "/les-chais"
+  to = "/de-la-vigne-a-la-bouteille/"
+  status = 301
+
+[[redirects]]
+  from = "/les-chais/"
+  to = "/de-la-vigne-a-la-bouteille/"
+  status = 301
+
+[[redirects]]
+  from = "/savoir-faire/chais"
+  to = "/de-la-vigne-a-la-bouteille/"
+  status = 301
+
+[[redirects]]
+  from = "/savoir-faire/chais/"
+  to = "/de-la-vigne-a-la-bouteille/"
+  status = 301
+
+[[redirects]]
+  from = "/notre-chai"
+  to = "/de-la-vigne-a-la-bouteille/"
+  status = 301
+
+[[redirects]]
+  from = "/notre-chai/"
+  to = "/de-la-vigne-a-la-bouteille/"
+  status = 301
+
+# Configuration des en-têtes de sécurité
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+
+# Cache optimisé pour les assets statiques
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.pdf"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+    Content-Type = "application/pdf"

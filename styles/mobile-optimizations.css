@@ -1,0 +1,249 @@
+/* ===========================================
+   OPTIMISATIONS MOBILE & TABLETTE
+   =========================================== */
+
+/* Amélioration des zones tactiles sur mobile */
+@media (max-width: 1024px) {
+  /* Boutons et liens interactifs - taille minimale 44px */
+  button, 
+  a:not(.no-touch-target),
+  [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Espacement amélioré pour les listes de liens */
+  nav a, 
+  nav button {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  /* Menu mobile - zone de balayage confortable */
+  .mobile-menu {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  /* Inputs et formulaires - taille adaptée */
+  input:not([type="checkbox"]):not([type="radio"]),
+  textarea,
+  select {
+    min-height: 48px;
+    font-size: 16px; /* Empêche le zoom automatique sur iOS */
+    padding: 0.75rem 1rem;
+  }
+
+  /* Checkbox et radio - zone tactile élargie */
+  input[type="checkbox"],
+  input[type="radio"] {
+    min-width: 24px;
+    min-height: 24px;
+    cursor: pointer;
+  }
+
+  /* Amélioration des cartes cliquables */
+  .card-clickable {
+    padding: 1.25rem;
+    min-height: 80px;
+  }
+
+  /* Images responsive - optimisées pour mobile */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Tables responsive */
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Tablettes (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Container adapté pour tablettes */
+  .container {
+    max-width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  /* Grilles adaptatives */
+  .grid-responsive {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  /* Hero sections - hauteur optimisée tablette */
+  .hero-section {
+    min-height: 60vh;
+  }
+}
+
+/* Mobile uniquement (< 768px) */
+@media (max-width: 767px) {
+  /* Container réduit sur mobile */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Textes réduits mais lisibles */
+  h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    line-height: 1.3;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+
+  /* Boutons full-width sur mobile */
+  .btn-mobile-full {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Cards empilées sur mobile */
+  .card-stack-mobile {
+    margin-bottom: 1.5rem;
+  }
+
+  /* Hero réduit sur mobile */
+  .hero-section {
+    min-height: 50vh;
+  }
+
+  /* Footer colonnes empilées */
+  .footer-cols {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /* Réduction des espacements verticaux */
+  .section-mobile {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+/* Optimisations performance mobile */
+@media (max-width: 1024px) {
+  /* Désactiver animations complexes sur mobile */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Smooth scroll natif */
+  html {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Optimisation scroll */
+  * {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+    -webkit-touch-callout: none;
+  }
+
+  /* Links et boutons - feedback tactile */
+  a:active,
+  button:active {
+    opacity: 0.7;
+    transform: scale(0.98);
+    transition: all 0.1s ease;
+  }
+}
+
+/* Landscape mobile (téléphones horizontaux) */
+@media (max-width: 896px) and (orientation: landscape) {
+  /* Réduire les hauteurs en mode paysage */
+  .hero-section {
+    min-height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  /* Adapter les modals */
+  .modal-content {
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+}
+
+/* iPad Pro et grandes tablettes */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  /* Grid 3 colonnes pour tablettes larges */
+  .grid-tablet-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Support touch devices */
+@media (hover: none) and (pointer: coarse) {
+  /* Agrandir les zones interactives sur écrans tactiles */
+  button,
+  a,
+  [role="button"] {
+    padding: 0.875rem 1.25rem;
+  }
+
+  /* Supprimer les effets hover sur touch */
+  *:hover {
+    /* Les effets hover sont remplacés par :active */
+  }
+}
+
+/* Dark mode désactivé - Force le mode clair */
+/* Note: darkMode désactivé dans tailwind.config.mjs */
+
+/* Accessibilité - high contrast */
+@media (prefers-contrast: high) {
+  * {
+    border-width: 2px;
+  }
+  
+  button,
+  a {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print,
+  header,
+  footer,
+  nav,
+  .floating-button {
+    display: none !important;
+  }
+
+  * {
+    background: white !important;
+    color: black !important;
+  }
+}
+

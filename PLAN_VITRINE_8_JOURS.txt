@@ -1,0 +1,66 @@
+Château Lastours — Plan de finalisation du site vitrine (8 jours)
+
+1) Ce que j’ai déjà (constaté dans le repo)
+- Navigation: Header avec menus, dropdowns et actions (components/header.tsx). Bouton flottant d’authentification des bouteilles (components/floating-auth-button.tsx).
+- Pages Domaine: Histoire, Terroir, Équipe, Engagement (app/domaine/*/page.tsx).
+- Savoir-Faire: La Vigne, Les Chais (app/savoir-faire/vigne/page.tsx, app/savoir-faire/chais/page.tsx).
+- Les Vins: Listing + filtres + cartes, page vin par slug, données riches (lib/wines-data.ts, app/les-vins/*).
+- Expériences: Réservation (formulaire + CalendarWidget simulé), Événements (listing), Organiser un événement (simulateur de prix) (app/reservation/page.tsx, components/calendar-widget.tsx, app/evenements/page.tsx, app/evenements/organiser/page.tsx).
+- Club: Page Club + Inscription (app/club/page.tsx, app/club/inscription/page.tsx).
+- Légal & Infos: FAQ, Mentions Légales, CGU, CGV, Cookies, Plan du site (visuel) (app/faq/page.tsx, app/mentions-legales/page.tsx, app/cgu/page.tsx, app/cgv/page.tsx, app/cookies/page.tsx, app/sitemap/page.tsx).
+- Structure UI: Footer (components/footer.tsx), cartes, boutons, etc. Animations GSAP et sections d’accueil (app/page.tsx).
+
+2) Ce que je dois encore faire (écarts majeurs vs cahier des charges + docs Word)
+- Pages manquantes Savoir-Faire: Conservation des vins; Service & Dégustation (docs: «La conservation de nos vins», «Le service et la dégustation»).
+- Actualités: Page «Notre actualité» + modèle page article; gestion future via back-office (aujourd’hui: dataset local).
+- Espace Presse: Page presse (logo, kit média, contact presse, visuels téléchargeables).
+- Où nous trouver: Page avec recherche d’adresse, carte et listing points de vente (dataset à intégrer ultérieurement).
+- Événements: Détails par événement (/evenements/[slug]) + calendrier par événement + bouton de pré‑réservation; structuration des données (lib/events-data.ts) et intégration avec Reservation.
+- Panier: Restreindre aux expériences/événements (le CDC indique «vente uniquement des visite et événement»), masquer l’achat de vins côté vitrine.
+- SEO: Métadonnées par page (title/description/OG/Twitter), balisage, hreflang, sitemap.xml (app/sitemap.ts) et robots.txt (public/robots.txt).
+- Multilingue FR/EN: Structure i18n (ex. next-intl ou next-i18next), routes/segments et contenus clés.
+- Consentement cookies: Bandeau de consentement (lien vers app/cookies/page.tsx).
+- Contenus & médias: Sélection photo sur pages marquées «texte ok manque sélection photo» (Plan.docx), ajout logo HVE et items «Vignoble durable / Confusion sexuelle».
+- Réseaux sociaux: Liens réels dans le footer et méta sociales.
+
+3) Priorités par ordre chronologique (plan 8 jours)
+
+Jour 1 — Cadrage & fondations
+- À terminer / à coder: Harmoniser la navigation et les liens (header/footer) avec le CDC; préparer composants CTA uniformes; audit images à sélectionner par page.
+- Manquants / à ajouter: Plan de données (events, articles, points de vente) en JSON/TS; routes placeholders: /evenements/[slug], /actualites, /presse, /ou-nous-trouver.
+
+Jour 2 — Savoir‑Faire (compléter)
+- À terminer / à coder: Styles/sections cohérents avec La Vigne/Chais; intégrer CTA vers Réservation.
+- Manquants / à ajouter: Pages «Conservation des vins» et «Service & Dégustation» avec blocs FR; emplacements images issus des dossiers «Asset page ...».
+
+Jour 3 — Actualités & Presse
+- À terminer / à coder: Composants ArticleCard + ArticleLayout; flux articles mock (lib/news-data.ts).
+- Manquants / à ajouter: /actualites (index + pagination), /actualites/[slug] (modèle); /presse (logos, kit média, contact, visuels téléchargeables).
+
+Jour 4 — Événements (profondeur)
+- À terminer / à coder: Refactor events en dataset (lib/events-data.ts) et mapping des cartes existantes.
+- Manquants / à ajouter: /evenements/[slug] (détail + calendrier par événement + CTA pré‑réservation), lien depuis /evenements et depuis la home.
+
+Jour 5 — Réservation & panier «expériences»
+- À terminer / à coder: Connecter CalendarWidget à lib/events-data.ts/experiences (simu locale) et préremplir formulaire.
+- Manquants / à ajouter: Flux de pré‑réservation (submit simulé, toast/confirmation); restreindre CartSheet aux produits «experience» (masquer vins côté vitrine).
+
+Jour 6 — SEO & i18n (FR/EN)
+- À terminer / à coder: export const metadata sur pages clés; OpenGraph/Twitter; canonical.
+- Manquants / à ajouter: Structure i18n (lib/i18n + middleware) et traductions de base FR/EN pour navigation, titres et CTA; sitemap.xml (app/sitemap.ts) et robots.txt.
+
+Jour 7 — Conformité & UX
+- À terminer / à coder: Bandeau cookies (consentement) relié à /cookies; accessibilité (aria-labels, contrastes, focus visibles); remplacer <img> par <Image> sur les pages restantes.
+- Manquants / à ajouter: Page «Où nous trouver» (carte + recherche + liste points de vente en mock), liens réseaux sociaux réels.
+
+Jour 8 — Contenu & QA finale
+- À terminer / à coder: Sélection/optimisation images (WebP, tailles) pour toutes pages «en attente photo»; vérification responsive, liens brisés et performances.
+- Manquants / à ajouter: Logo HVE, blocs «HVE / Vignoble durable / Confusion sexuelle» sur Engagement; checklist publication.
+
+Notes d’implémentation (conseils rapides)
+- Données locales: ajouter lib/events-data.ts, lib/news-data.ts, lib/poi-data.ts pour simuler le back‑office.
+- Routes nouvelles: /actualites, /actualites/[slug], /evenements/[slug], /presse, /ou-nous-trouver, /savoir-faire/conservation, /savoir-faire/service-degustation.
+- SEO: ajouter app/sitemap.ts (sitemap XML) et public/robots.txt; compléter metadata par page.
+- i18n: démarrer par FR par défaut, EN partiel (navigation, hero, CTA) puis étendre texte long.
+
+https://www.hotel-royal.it/en/enjoy/south-tyrolean-winehttps://www.hotel-royal.it/en/enjoy/south-tyrolean-winehttps://www.hotel-royal.it/en/enjoy/south-tyrolean-winehttps://www.hotel-royal.it/en/enjoy/south-tyrolean-winehttps://www.hotel-royal.it/en/enjoy/south-tyrolean-winehttps://www.hotel-royal.it/en/enjoy/south-tyrolean-wine

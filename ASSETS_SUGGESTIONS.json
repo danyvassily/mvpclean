@@ -1,0 +1,5900 @@
+[
+  {
+    "reference": "/photos/image00002.jpeg",
+    "files": [
+      {
+        "file": "app/actualites/page.tsx",
+        "line": 169
+      },
+      {
+        "file": "app/domaine/terroir/page.tsx",
+        "line": 53
+      },
+      {
+        "file": "app/domaine/terroir/page.tsx",
+        "line": 53
+      },
+      {
+        "file": "app/savoir-faire/vigne/page.tsx",
+        "line": 98
+      },
+      {
+        "file": "lib/news-data.ts",
+        "line": 19
+      },
+      {
+        "file": "lib/news-data.ts",
+        "line": 19
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 11
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3
+      },
+      {
+        "file": "app/actualites/page.tsx",
+        "line": 169
+      },
+      {
+        "file": "app/domaine/terroir/page.tsx",
+        "line": 53
+      },
+      {
+        "file": "app/domaine/terroir/page.tsx",
+        "line": 53
+      },
+      {
+        "file": "app/savoir-faire/vigne/page.tsx",
+        "line": 98
+      },
+      {
+        "file": "lib/news-data.ts",
+        "line": 19
+      },
+      {
+        "file": "lib/news-data.ts",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "reference": "/",
+    "files": [
+      {
+        "file": "app/domaine/engagement/page.tsx",
+        "line": 11
+      },
+      {
+        "file": "app/faq/page.tsx",
+        "line": 148
+      },
+      {
+        "file": "app/mecenat/page.tsx",
+        "line": 40
+      },
+      {
+        "file": "app/ou-nous-trouver/page.tsx",
+        "line": 23
+      },
+      {
+        "file": "app/presse/page.tsx",
+        "line": 17
+      },
+      {
+        "file": "app/domaine/engagement/page.tsx",
+        "line": 11
+      },
+      {
+        "file": "app/faq/page.tsx",
+        "line": 148
+      },
+      {
+        "file": "app/mecenat/page.tsx",
+        "line": 40
+      },
+      {
+        "file": "app/ou-nous-trouver/page.tsx",
+        "line": 23
+      },
+      {
+        "file": "app/presse/page.tsx",
+        "line": 17
+      }
+    ]
+  },
+  {
+    "reference": "/winemaking-team-portrait-in-vineyard.png",
+    "files": [
+      {
+        "file": "app/domaine/team/page.tsx",
+        "line": 14
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 119
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 109
+      },
+      {
+        "file": "app/domaine/team/page.tsx",
+        "line": 14
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 77
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page organiser votre événement/chateau-lastours-panoramic-view.jpg",
+    "suggestedPath": "/Page/Page organiser votre événement/chateau-lastours-panoramic-view.jpg",
+    "files": [
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 28
+      },
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 28
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 145
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 134
+      },
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 28
+      },
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 28
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page organiser votre événement/accompagnement-personnalise.jpg",
+    "suggestedPath": "/Page/Page organiser votre événement/accompagnement-personnalise.jpg",
+    "files": [
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 176
+      },
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 176
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 176
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 164
+      },
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 176
+      },
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 176
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page organiser votre événement/apero-concerts-ete.jpg",
+    "suggestedPath": "/Page/Page organiser votre événement/apero-concerts-ete.jpg",
+    "files": [
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 299
+      },
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 299
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 207
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 194
+      },
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 299
+      },
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 299
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page organiser votre événement/chateau-lastours-contact-background.jpg",
+    "suggestedPath": "/Page/Page organiser votre événement/chateau-lastours-contact-background.jpg",
+    "files": [
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 319
+      },
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 319
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 238
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 224
+      },
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 319
+      },
+      {
+        "file": "app/evenements/organiser/page.tsx",
+        "line": 319
+      }
+    ]
+  },
+  {
+    "reference": "/wine-events-celebration-vineyard-gathering.png",
+    "files": [
+      {
+        "file": "app/evenements/page.tsx",
+        "line": 39
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 269
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 254
+      },
+      {
+        "file": "app/evenements/page.tsx",
+        "line": 39
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 69
+      }
+    ]
+  },
+  {
+    "reference": "/faq-help-support-wine-estate.png",
+    "files": [
+      {
+        "file": "app/faq/page.tsx",
+        "line": 148
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 295
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 279
+      },
+      {
+        "file": "app/faq/page.tsx",
+        "line": 148
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 75
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Gastronomie art de table - manque éventuel photo chambrage/debouchage bouteille .jpg",
+    "files": [
+      {
+        "file": "app/gastronomie/page.tsx",
+        "line": 291
+      },
+      {
+        "file": "app/gastronomie/page.tsx",
+        "line": 291
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 68
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 43
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 68
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 53
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 321
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 304
+      },
+      {
+        "file": "app/gastronomie/page.tsx",
+        "line": 291
+      },
+      {
+        "file": "app/gastronomie/page.tsx",
+        "line": 291
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 68
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 43
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 68
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 53
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Gastronomie art de table - manque éventuel photo chambrage/Art de la Table.jpg",
+    "files": [
+      {
+        "file": "app/gastronomie/page.tsx",
+        "line": 94
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 55
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 17
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 33
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 55
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 51
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 383
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 365
+      },
+      {
+        "file": "app/gastronomie/page.tsx",
+        "line": 94
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 55
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 17
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 33
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 55
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 51
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Gastronomie art de table - manque éventuel photo chambrage/carafage.jpg",
+    "files": [
+      {
+        "file": "app/gastronomie/page.tsx",
+        "line": 99
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 86
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 38
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 86
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 52
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 445
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 426
+      },
+      {
+        "file": "app/gastronomie/page.tsx",
+        "line": 99
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 86
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 38
+      },
+      {
+        "file": "app/gastronomie-art-de-la-table/page.tsx",
+        "line": 86
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 52
+      }
+    ]
+  },
+  {
+    "reference": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/toutes-gammes/Ordre dégustation.jpg",
+    "files": [
+      {
+        "file": "app/gastronomie/page.tsx",
+        "line": 104
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 499
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 479
+      },
+      {
+        "file": "app/gastronomie/page.tsx",
+        "line": 104
+      }
+    ]
+  },
+  {
+    "reference": "/%23paperTexture",
+    "files": [
+      {
+        "file": "app/globals.css",
+        "line": 199
+      },
+      {
+        "file": "app/globals.css",
+        "line": 226
+      },
+      {
+        "file": "app/globals.css",
+        "line": 199
+      },
+      {
+        "file": "app/globals.css",
+        "line": 226
+      }
+    ]
+  },
+  {
+    "reference": "/%23fineGrain",
+    "files": [
+      {
+        "file": "app/globals.css",
+        "line": 204
+      },
+      {
+        "file": "app/globals.css",
+        "line": 204
+      }
+    ]
+  },
+  {
+    "reference": "/%23noiseFilter",
+    "files": [
+      {
+        "file": "app/globals.css",
+        "line": 231
+      },
+      {
+        "file": "app/globals.css",
+        "line": 270
+      },
+      {
+        "file": "app/les-vins/[slug]/wine-page-client.tsx",
+        "line": 44
+      },
+      {
+        "file": "app/les-vins/[slug]/wine-page-client.tsx",
+        "line": 44
+      },
+      {
+        "file": "components/gsap/CinematicEffects.tsx",
+        "line": 102
+      },
+      {
+        "file": "components/gsap/CinematicEffects.tsx",
+        "line": 102
+      },
+      {
+        "file": "app/globals.css",
+        "line": 231
+      },
+      {
+        "file": "app/globals.css",
+        "line": 270
+      },
+      {
+        "file": "app/les-vins/[slug]/wine-page-client.tsx",
+        "line": 44
+      },
+      {
+        "file": "app/les-vins/[slug]/wine-page-client.tsx",
+        "line": 44
+      },
+      {
+        "file": "components/gsap/CinematicEffects.tsx",
+        "line": 102
+      },
+      {
+        "file": "components/gsap/CinematicEffects.tsx",
+        "line": 102
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/CLAIRE DE LUNE.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/CLAIRE DE LUNE.jpg",
+    "files": [
+      {
+        "file": "app/les-vins/claire-de-lune/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/claire-de-lune/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 171
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 171
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 611
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 587
+      },
+      {
+        "file": "app/les-vins/claire-de-lune/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/claire-de-lune/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 171
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 171
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 16
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/FT_blanc_claire_de_lune_2023.pdf",
+    "suggestedPath": "/FT_blanc_claire_de_lune_2023.pdf",
+    "files": [
+      {
+        "file": "app/les-vins/claire-de-lune/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 405
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 405
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 21
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 654
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 629
+      },
+      {
+        "file": "app/les-vins/claire-de-lune/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 405
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 405
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 21
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 17
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/BLANC DOMENI.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/BLANC DOMENI.jpg",
+    "files": [
+      {
+        "file": "app/les-vins/domeni-blanc/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/domeni-blanc/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 55
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 55
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 689
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 663
+      },
+      {
+        "file": "app/les-vins/domeni-blanc/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/domeni-blanc/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 55
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 55
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 20
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/FT_blanc_Domeni 2024.pdf",
+    "suggestedPath": "/FT_blanc_Domeni 2024.pdf",
+    "files": [
+      {
+        "file": "app/les-vins/domeni-blanc/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 47
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 47
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 100
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 100
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 22
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 732
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 705
+      },
+      {
+        "file": "app/les-vins/domeni-blanc/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 47
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 47
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 100
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 100
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 22
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 21
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/ROSE DOMENI.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/ROSE DOMENI.jpg",
+    "files": [
+      {
+        "file": "app/les-vins/domeni-rose/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/domeni-rose/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 63
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 63
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 767
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 739
+      },
+      {
+        "file": "app/les-vins/domeni-rose/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/domeni-rose/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 63
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 63
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 24
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/FT_rosé_Domeni_2024 (1).pdf",
+    "files": [
+      {
+        "file": "app/les-vins/domeni-rose/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 60
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 60
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 199
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 199
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 23
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 810
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 781
+      },
+      {
+        "file": "app/les-vins/domeni-rose/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 60
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 60
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 199
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 199
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 23
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 25
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/ROUGE DOMENI.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/ROUGE DOMENI.jpg",
+    "files": [
+      {
+        "file": "app/les-vins/domeni-rouge/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/domeni-rouge/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 71
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 71
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 844
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 814
+      },
+      {
+        "file": "app/les-vins/domeni-rouge/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/domeni-rouge/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 71
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 71
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 28
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/FT_rouge_Domeni_2022.pdf",
+    "suggestedPath": "/FT_rouge_Domeni_2022.pdf",
+    "files": [
+      {
+        "file": "app/les-vins/domeni-rouge/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 73
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 73
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 249
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 249
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 24
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 887
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 856
+      },
+      {
+        "file": "app/les-vins/domeni-rouge/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 73
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 73
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 249
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 249
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 24
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 29
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/LA METHODE BLANC.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/LA METHODE BLANC.jpg",
+    "files": [
+      {
+        "file": "app/les-vins/methode-blanc/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/methode-blanc/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "app/methode-blanche/page.tsx",
+        "line": 35
+      },
+      {
+        "file": "app/methode-blanche/page.tsx",
+        "line": 50
+      },
+      {
+        "file": "app/methode-blanche/page.tsx",
+        "line": 17
+      },
+      {
+        "file": "app/methode-blanche/page.tsx",
+        "line": 35
+      },
+      {
+        "file": "app/methode-blanche/page.tsx",
+        "line": 50
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 119
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 113
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 113
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 922
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 890
+      },
+      {
+        "file": "app/les-vins/methode-blanc/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/methode-blanc/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "app/methode-blanche/page.tsx",
+        "line": 35
+      },
+      {
+        "file": "app/methode-blanche/page.tsx",
+        "line": 50
+      },
+      {
+        "file": "app/methode-blanche/page.tsx",
+        "line": 17
+      },
+      {
+        "file": "app/methode-blanche/page.tsx",
+        "line": 35
+      },
+      {
+        "file": "app/methode-blanche/page.tsx",
+        "line": 50
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 119
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 113
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 113
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 60
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/FT_la_méthode_blanc.pdf",
+    "suggestedPath": "/Fiche technique/FT_la_méthode_blanc.pdf",
+    "files": [
+      {
+        "file": "app/les-vins/methode-blanc/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "app/methode-blanche/page.tsx",
+        "line": 115
+      },
+      {
+        "file": "app/methode-blanche/page.tsx",
+        "line": 115
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 118
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 665
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 665
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 32
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1013
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 980
+      },
+      {
+        "file": "app/les-vins/methode-blanc/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "app/methode-blanche/page.tsx",
+        "line": 115
+      },
+      {
+        "file": "app/methode-blanche/page.tsx",
+        "line": 115
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 118
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 665
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 665
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 32
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 61
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/LA METHODE ROSE.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/LA METHODE ROSE.jpg",
+    "files": [
+      {
+        "file": "app/les-vins/methode-rose/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/methode-rose/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 125
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 121
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 121
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1072
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1038
+      },
+      {
+        "file": "app/les-vins/methode-rose/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/methode-rose/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 125
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 121
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 121
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 64
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/FT_la_méthode_rosée_23.pdf",
+    "suggestedPath": "/Fiche technique/FT_la_méthode_rosée_23.pdf",
+    "files": [
+      {
+        "file": "app/les-vins/methode-rose/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 124
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 715
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 715
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 33
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1123
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1088
+      },
+      {
+        "file": "app/les-vins/methode-rose/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 124
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 715
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 715
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 33
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 65
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/BLANC OPUS.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/BLANC OPUS.jpg",
+    "files": [
+      {
+        "file": "app/les-vins/opus-blanc/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/opus-blanc/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 88
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 88
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1166
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1130
+      },
+      {
+        "file": "app/les-vins/opus-blanc/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/opus-blanc/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 88
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 88
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 32
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/FT_blanc_Opus_2023.pdf",
+    "suggestedPath": "/FT_blanc_Opus_2023.pdf",
+    "files": [
+      {
+        "file": "app/les-vins/opus-blanc/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 98
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 98
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 302
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 302
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 25
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1209
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1172
+      },
+      {
+        "file": "app/les-vins/opus-blanc/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 98
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 98
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 302
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 302
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 25
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 33
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/ROUGE OPUS.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/ROUGE OPUS.jpg",
+    "files": [
+      {
+        "file": "app/les-vins/opus-rouge/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/opus-rouge/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 96
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 96
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1244
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1206
+      },
+      {
+        "file": "app/les-vins/opus-rouge/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/opus-rouge/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 96
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 96
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 36
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/FT_rouge_opus_2021.pdf",
+    "suggestedPath": "/FT_rouge_opus_2021.pdf",
+    "files": [
+      {
+        "file": "app/les-vins/opus-rouge/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 111
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 111
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 353
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 353
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 26
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1287
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1248
+      },
+      {
+        "file": "app/les-vins/opus-rouge/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 111
+      },
+      {
+        "file": "app/les-vins/page-simple.tsx",
+        "line": 111
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 353
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 353
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 26
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 37
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/BLANC PERLE.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/BLANC PERLE.jpg",
+    "files": [
+      {
+        "file": "app/les-vins/perle/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/perle/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 129
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 129
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1360
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1319
+      },
+      {
+        "file": "app/les-vins/perle/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/perle/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 129
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 129
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 40
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/FT_perlé_2023.pdf",
+    "suggestedPath": "/Fiche technique/FT_perlé_2023.pdf",
+    "files": [
+      {
+        "file": "app/les-vins/perle/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 1012
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 1012
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 29
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1403
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1361
+      },
+      {
+        "file": "app/les-vins/perle/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 1012
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 1012
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 29
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 41
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/Pétrichor Rouge.jpg",
+    "files": [
+      {
+        "file": "app/les-vins/petrichor-rouge/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/petrichor-rouge/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 179
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 179
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1438
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1395
+      },
+      {
+        "file": "app/les-vins/petrichor-rouge/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/petrichor-rouge/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 179
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 179
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 44
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/FT_Rouge_Petrichor_2020.pdf",
+    "suggestedPath": "/FT_Rouge_Petrichor_2020.pdf",
+    "files": [
+      {
+        "file": "app/les-vins/petrichor-rouge/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 507
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 507
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 27
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1480
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1436
+      },
+      {
+        "file": "app/les-vins/petrichor-rouge/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 507
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 507
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 27
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 45
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/PIGEONNIER.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/PIGEONNIER.jpg",
+    "files": [
+      {
+        "file": "app/les-vins/pigeonnier/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/pigeonnier/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 187
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 187
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1515
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1470
+      },
+      {
+        "file": "app/les-vins/pigeonnier/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/pigeonnier/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 187
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 187
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 48
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf",
+    "suggestedPath": "/Fiche technique/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf",
+    "files": [
+      {
+        "file": "app/les-vins/pigeonnier/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 559
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 559
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 28
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1558
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1512
+      },
+      {
+        "file": "app/les-vins/pigeonnier/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 559
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 559
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 28
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 49
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/POUSSIN BLANC.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/POUSSIN BLANC.jpg",
+    "files": [
+      {
+        "file": "app/les-vins/poussin-blanc/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/poussin-blanc/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 146
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 146
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1593
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1546
+      },
+      {
+        "file": "app/les-vins/poussin-blanc/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/poussin-blanc/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 146
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 146
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 52
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/FT_poussin_moelleux_2024.pdf",
+    "suggestedPath": "/FT_poussin_moelleux_2024.pdf",
+    "files": [
+      {
+        "file": "app/les-vins/poussin-blanc/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 150
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 150
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 30
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1636
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1588
+      },
+      {
+        "file": "app/les-vins/poussin-blanc/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 150
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 150
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 30
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 53
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/POUSSIN ROSE.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/POUSSIN ROSE.jpg",
+    "files": [
+      {
+        "file": "app/les-vins/poussin-rose/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/poussin-rose/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 154
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 154
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1671
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1622
+      },
+      {
+        "file": "app/les-vins/poussin-rose/page.tsx",
+        "line": 15
+      },
+      {
+        "file": "app/les-vins/poussin-rose/page.tsx",
+        "line": 36
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 154
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 154
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 56
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/FT_poussin rosé_moelleux_2024.pdf",
+    "suggestedPath": "/FT_poussin rosé_moelleux_2024.pdf",
+    "files": [
+      {
+        "file": "app/les-vins/poussin-rose/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 613
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 613
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 31
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1714
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1664
+      },
+      {
+        "file": "app/les-vins/poussin-rose/page.tsx",
+        "line": 16
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 613
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 613
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 31
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 57
+      }
+    ]
+  },
+  {
+    "reference": "/mecenat-partnership-wine-estate.png",
+    "files": [
+      {
+        "file": "app/mecenat/page.tsx",
+        "line": 40
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1749
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1698
+      },
+      {
+        "file": "app/mecenat/page.tsx",
+        "line": 40
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 73
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Notre Chai - manque 1 photo/Capture ameyric prod.JPG",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VINIFICATION/Capture ameyric prod.JPG",
+    "files": [
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 97
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 31
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 97
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1775
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1723
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 97
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 31
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 97
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Notre Chai - manque 1 photo/barriques et barboteurs.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VINIFICATION/barriques et barboteurs.jpg",
+    "files": [
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 271
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 59
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 271
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1814
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1761
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 271
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 59
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 271
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Notre Chai - manque 1 photo/ecoulage et décuvage.jpg",
+    "files": [
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 286
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 45
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 286
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1853
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1799
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 286
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 45
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 286
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Notre Chai - manque 1 photo/Embouteillage rosé methode.jpeg",
+    "files": [
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 301
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 301
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1891
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1836
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 301
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 301
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Notre Chai - manque 1 photo/image00001.jpeg",
+    "files": [
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 316
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 331
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 316
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 331
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1921
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1865
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 316
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 331
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 316
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 331
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Notre Chai - manque 1 photo/image00021.jpeg",
+    "files": [
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 346
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 346
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1967
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1910
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 346
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 346
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Notre Chai - manque 1 photo/IMG_20220902_190142 (2).jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VIGNES/IMG_20220902_190142 (2).jpg",
+    "files": [
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 73
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1997
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1939
+      },
+      {
+        "file": "app/notre-chai/page.tsx",
+        "line": 73
+      }
+    ]
+  },
+  {
+    "reference": "/Page/homepage/Nos vins gamme pétrichor.jpg",
+    "files": [
+      {
+        "file": "app/page.tsx",
+        "line": 220
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 220
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2020
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1961
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 220
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 220
+      }
+    ]
+  },
+  {
+    "reference": "/Page/homepage/Château côté jardin.JPG",
+    "files": [
+      {
+        "file": "app/page.tsx",
+        "line": 278
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 278
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2050
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1990
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 278
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 278
+      }
+    ]
+  },
+  {
+    "reference": "/Page/homepage/Chapelle et vignes.jpeg",
+    "files": [
+      {
+        "file": "app/page.tsx",
+        "line": 331
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 331
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2080
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2019
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 331
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 331
+      }
+    ]
+  },
+  {
+    "reference": "/Page/homepage/Mariage au château.jpg",
+    "files": [
+      {
+        "file": "app/page.tsx",
+        "line": 383
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 383
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2110
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2048
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 383
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 383
+      }
+    ]
+  },
+  {
+    "reference": "/PHOTOS-WEB-LASTOURS/VINIFICATION/barrique cuve béton.jpg",
+    "files": [
+      {
+        "file": "app/savoir-faire/chais/page.tsx",
+        "line": 114
+      },
+      {
+        "file": "app/savoir-faire/chais/page.tsx",
+        "line": 114
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2140
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2077
+      },
+      {
+        "file": "app/savoir-faire/chais/page.tsx",
+        "line": 114
+      },
+      {
+        "file": "app/savoir-faire/chais/page.tsx",
+        "line": 114
+      }
+    ]
+  },
+  {
+    "reference": "/PHOTOS-WEB-LASTOURS/VINIFICATION/chai barriques CP Gérard Négrier.jpg",
+    "files": [
+      {
+        "file": "app/savoir-faire/chais/page.tsx",
+        "line": 18
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2170
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2106
+      },
+      {
+        "file": "app/savoir-faire/chais/page.tsx",
+        "line": 18
+      }
+    ]
+  },
+  {
+    "reference": "/Page/La vigne - ok/20230426_214346.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VIGNES/20230426_214346.jpg",
+    "files": [
+      {
+        "file": "app/savoir-faire/vigne/page.tsx",
+        "line": 14
+      },
+      {
+        "file": "app/savoir-faire/vigne/page.tsx",
+        "line": 28
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2192
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2127
+      },
+      {
+        "file": "app/savoir-faire/vigne/page.tsx",
+        "line": 14
+      },
+      {
+        "file": "app/savoir-faire/vigne/page.tsx",
+        "line": 28
+      }
+    ]
+  },
+  {
+    "reference": "/Page/La vigne - ok/Palissage vigne .jpg",
+    "files": [
+      {
+        "file": "app/savoir-faire/vigne/page.tsx",
+        "line": 42
+      },
+      {
+        "file": "lib/news-data.ts",
+        "line": 86
+      },
+      {
+        "file": "lib/news-data.ts",
+        "line": 86
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2223
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2157
+      },
+      {
+        "file": "app/savoir-faire/vigne/page.tsx",
+        "line": 42
+      },
+      {
+        "file": "lib/news-data.ts",
+        "line": 86
+      },
+      {
+        "file": "lib/news-data.ts",
+        "line": 86
+      }
+    ]
+  },
+  {
+    "reference": "/%23headerGrain",
+    "files": [
+      {
+        "file": "components/gsap/HeroBarrelsAnimation.tsx",
+        "line": 114
+      },
+      {
+        "file": "components/gsap/HeroBarrelsAnimation.tsx",
+        "line": 114
+      },
+      {
+        "file": "components/gsap/HeroBarrelsAnimation.tsx",
+        "line": 114
+      },
+      {
+        "file": "components/gsap/HeroBarrelsAnimation.tsx",
+        "line": 114
+      }
+    ]
+  },
+  {
+    "reference": "/test.png",
+    "files": [
+      {
+        "file": "lib/__tests__/cartReducer.test.ts",
+        "line": 8
+      },
+      {
+        "file": "lib/__tests__/cartReducer.test.ts",
+        "line": 8
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2283
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2215
+      },
+      {
+        "file": "lib/__tests__/cartReducer.test.ts",
+        "line": 8
+      },
+      {
+        "file": "lib/__tests__/cartReducer.test.ts",
+        "line": 8
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Asset page dégustation/Degustation.html",
+    "suggestedPath": "/Page/Asset page dégustation/Degustation.html",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 17
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2313
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2244
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 17
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Club/Page présentation club FR EN.html",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 45
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2336
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2266
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 45
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Gastronomie art de table - manque éventuel photo chambrage/Page service et dégustation.docx",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 54
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2358
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2287
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 54
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos événements - ok/UAG-LASTOURS-infinitygraphic-16.jpg",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 70
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2380
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2308
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 70
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos événements - ok/bulle-de-jazz-2021-chazo-087.jpg",
+    "suggestedPath": "/photos/bulle-de-jazz-2021-chazo-087.jpg",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 71
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2402
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2329
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 71
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos événements - ok/PIANO JARDINS.jpg",
+    "suggestedPath": "/photos/PIANO JARDINS.jpg",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 72
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2425
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2351
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 72
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos événements - ok/007.jpg",
+    "suggestedPath": "/photos/007.jpg",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 73
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2448
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2373
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 73
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Nos événement/Page Nos Evénement En.docx",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 74
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2471
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2395
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 74
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Nos événement/Page nos evenement Fr.docx",
+    "suggestedPath": "/Page/Nos evenements - ok/Page nos evenement Fr.docx",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 75
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2493
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2416
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 75
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page organiser votre événement/Page Organiser votre événement FREN.html",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 88
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2516
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2438
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 88
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/Article Petrichor En.docx",
+    "suggestedPath": "/Page/Page Actualité/Article Petrichor En.docx",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 99
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2538
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2459
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 99
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/Article Petrichor Fr.docx",
+    "suggestedPath": "/Page/Page Actualité/Article Petrichor Fr.docx",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 100
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2561
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2481
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 100
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/Article fête des vins de Gaillac En.docx",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 101
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2584
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2503
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 101
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/Article fête des vins de Gaillac Fr.docx",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 102
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2606
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2524
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 102
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/Page Actualité En.docx",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 103
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2628
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2545
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 103
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/Page Actualité Fr.docx",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 104
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2650
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2566
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 104
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/Article Arnaud Liard.docx",
+    "suggestedPath": "/Page/Page Actualité - ok/Article Arnaud Liard.docx",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 105
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2672
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2587
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 105
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/Article sur vendanges 2025.docx",
+    "suggestedPath": "/Page/Page Actualité - ok/Article sur vendanges 2025.docx",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 106
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2695
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2609
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 106
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/actualites-chateau-lastours-gaillac-france.jpeg",
+    "suggestedPath": "/Page/Page Actualité - ok/actualites-chateau-lastours-gaillac-france.jpeg",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 107
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2718
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2631
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 107
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/portrait-artiste-placticien-francais-arnaud-liard.jpeg",
+    "suggestedPath": "/Page/Page Actualité - ok/portrait-artiste-placticien-francais-arnaud-liard.jpeg",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 108
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2741
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2653
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 108
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/actualite-evenements-chateau-lastours-gaillac-france.jpg",
+    "suggestedPath": "/Page/Page Actualité - ok/actualite-evenements-chateau-lastours-gaillac-france.jpg",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 109
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2764
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2675
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 109
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/Salon-Vignerons-Independants-Paris-2025-france.jpg",
+    "suggestedPath": "/Page/Page Actualité - ok/Salon-Vignerons-Independants-Paris-2025-france.jpg",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 110
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2787
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2697
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 110
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/machine-a-vendanger-chateau-lastours-gaillac-2025.jpg",
+    "suggestedPath": "/Page/Page Actualité - ok/machine-a-vendanger-chateau-lastours-gaillac-2025.jpg",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 111
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2810
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2719
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 111
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/fete-des-vins-2025-gaillac-sud-ouest-france.jpeg",
+    "suggestedPath": "/Page/Page Actualité - ok/fete-des-vins-2025-gaillac-sud-ouest-france.jpeg",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 112
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2833
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2741
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 112
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité - ok/vin-rose-gastronomique-elevage-barrique-petrichor.jpg",
+    "suggestedPath": "/Page/Page Actualité - ok/vin-rose-gastronomique-elevage-barrique-petrichor.jpg",
+    "files": [
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 113
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2856
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2763
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 113
+      }
+    ]
+  },
+  {
+    "reference": "/harvest-festival-celebration-vineyard.png",
+    "files": [
+      {
+        "file": "lib/events-data.ts",
+        "line": 37
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 37
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2879
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2785
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 37
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 37
+      }
+    ]
+  },
+  {
+    "reference": "/prestige-wine-tasting-evening-elegant.png",
+    "files": [
+      {
+        "file": "lib/events-data.ts",
+        "line": 57
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 57
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2909
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2814
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 57
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 57
+      }
+    ]
+  },
+  {
+    "reference": "/wine-blending-masterclass-workshop.png",
+    "files": [
+      {
+        "file": "lib/events-data.ts",
+        "line": 77
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 77
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2939
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2843
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 77
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 77
+      }
+    ]
+  },
+  {
+    "reference": "/christmas-celebration-wine-estate-family.png",
+    "files": [
+      {
+        "file": "lib/events-data.ts",
+        "line": 93
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 93
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2969
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2872
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 93
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 93
+      }
+    ]
+  },
+  {
+    "reference": "/romantic-valentine-dinner-wine-cellar.png",
+    "files": [
+      {
+        "file": "lib/events-data.ts",
+        "line": 108
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 108
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 2999
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2901
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 108
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 108
+      }
+    ]
+  },
+  {
+    "reference": "/spring-wine-tasting-new-vintages.png",
+    "files": [
+      {
+        "file": "lib/events-data.ts",
+        "line": 123
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 123
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3029
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2930
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 123
+      },
+      {
+        "file": "lib/events-data.ts",
+        "line": 123
+      }
+    ]
+  },
+  {
+    "reference": "/wine-rouge-fruité.png",
+    "files": [
+      {
+        "file": "lib/wines-data.ts",
+        "line": 961
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 961
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3059
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2959
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 961
+      },
+      {
+        "file": "lib/wines-data.ts",
+        "line": 961
+      }
+    ]
+  },
+  {
+    "reference": "/images/gammes/domeni-cover.jpg",
+    "files": [
+      {
+        "file": "lib/wines.ts",
+        "line": 47
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3111
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3009
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 47
+      }
+    ]
+  },
+  {
+    "reference": "/images/gammes/opus-cover.jpg",
+    "files": [
+      {
+        "file": "lib/wines.ts",
+        "line": 80
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3133
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3030
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 80
+      }
+    ]
+  },
+  {
+    "reference": "/images/gammes/methode-cover.jpg",
+    "files": [
+      {
+        "file": "lib/wines.ts",
+        "line": 105
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3155
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3051
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 105
+      }
+    ]
+  },
+  {
+    "reference": "/images/gammes/poussin-cover.jpg",
+    "files": [
+      {
+        "file": "lib/wines.ts",
+        "line": 138
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3177
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3072
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 138
+      }
+    ]
+  },
+  {
+    "reference": "/images/gammes/signatures-cover.jpg",
+    "files": [
+      {
+        "file": "lib/wines.ts",
+        "line": 163
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3199
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3093
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 163
+      }
+    ]
+  },
+  {
+    "reference": "/fiche-technique/FT_blanc_Domeni_2024.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 1322
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 1282
+      }
+    ]
+  },
+  {
+    "reference": "/fiche-technique/FT_poussin_rosé_moelleux_2024.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3089
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 2988
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page cuvée Claire de Lune/CLAIRE DE LUNE.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/CLAIRE DE LUNE.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3221
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3114
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 16
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page cuvée Claire de Lune/FT_blanc_claire_de_lune_2023.pdf",
+    "suggestedPath": "/FT_blanc_claire_de_lune_2023.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3240
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3132
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 17
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée Domeni blanc/BLANC DOMENI.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/BLANC DOMENI.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3259
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3150
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 20
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée Domeni blanc/FT_blanc_Domeni 2024.pdf",
+    "suggestedPath": "/FT_blanc_Domeni 2024.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3278
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3168
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 21
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée domeni Rosé/ROSE DOMENI.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/ROSE DOMENI.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3297
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3186
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 24
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée domeni Rosé/FT_rosé_Domeni_2024 (1).pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3316
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3204
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 25
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée Domeni Rouge/ROUGE DOMENI.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/ROUGE DOMENI.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3334
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3221
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 28
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée Domeni Rouge/FT_rouge_Domeni_2022.pdf",
+    "suggestedPath": "/FT_rouge_Domeni_2022.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3353
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3239
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 29
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Méthode Blanche/LA METHODE BLANC.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/LA METHODE BLANC.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3372
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3257
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 60
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Méthode Blanche/FT_la_méthode_blanc.pdf",
+    "suggestedPath": "/Fiche technique/FT_la_méthode_blanc.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3391
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3275
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 61
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Méthode Rosé/LA METHODE ROSE.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/LA METHODE ROSE.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3410
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3293
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 64
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Méthode Rosé/FT_la_méthode_rosée_23.pdf",
+    "suggestedPath": "/Fiche technique/FT_la_méthode_rosée_23.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3429
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3311
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 65
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée Opus Balnc/BLANC OPUS.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/BLANC OPUS.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3448
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3329
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 32
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée Opus Balnc/FT_blanc_Opus_2023.pdf",
+    "suggestedPath": "/FT_blanc_Opus_2023.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3467
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3347
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 33
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée Opus Rouge/ROUGE OPUS.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/ROUGE OPUS.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3486
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3365
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 36
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée Opus Rouge/FT_rouge_opus_2021.pdf",
+    "suggestedPath": "/FT_rouge_opus_2021.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3505
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3383
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 37
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page cuvée Perlé/BLANC PERLE.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/BLANC PERLE.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3524
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3401
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 40
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page cuvée Perlé/FT_perlé_2023.pdf",
+    "suggestedPath": "/Fiche technique/FT_perlé_2023.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3543
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3419
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 41
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée Pertichor Rouge/ROUGE PETRICHOR.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3562
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3437
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 44
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée Pertichor Rouge/FT_Rouge_Petrichor_2020.pdf",
+    "suggestedPath": "/FT_Rouge_Petrichor_2020.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3580
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3454
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 45
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée Pigeonnier/ROUGE PIGEONNIER.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3599
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3472
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 48
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée Pigeonnier/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf",
+    "suggestedPath": "/Fiche technique/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3617
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3489
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 49
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée poussin Blanc/BLANC POUSSIN.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3636
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3507
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 52
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée poussin Blanc/FT_poussin_moelleux_2024.pdf",
+    "suggestedPath": "/FT_poussin_moelleux_2024.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3654
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3524
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 53
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée Poussin Rosé/POUSSIN ROSE.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/indivuelles/POUSSIN ROSE.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3673
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3542
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 56
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Cuvée Poussin Rosé/FT_poussin rosé_moelleux_2024.pdf",
+    "suggestedPath": "/Fiche technique/FT_poussin rosé_moelleux_2024.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3692
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3560
+      },
+      {
+        "file": "scripts/fix-wine-paths.js",
+        "line": 57
+      }
+    ]
+  },
+  {
+    "reference": "/Page/La vigne - ok/la véraison .jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3711
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3578
+      },
+      {
+        "file": "scripts/apply-asset-corrections.js",
+        "line": 17
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 30
+      }
+    ]
+  },
+  {
+    "reference": "/Page/La vigne - ok/image00002.jpeg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3733
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3599
+      },
+      {
+        "file": "scripts/apply-asset-corrections.js",
+        "line": 33
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Club - ok/Club Chateau Lastours.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3751
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3616
+      },
+      {
+        "file": "scripts/apply-asset-corrections.js",
+        "line": 36
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Engagement - ok/1682596442650.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VIGNES/1682596442650.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3769
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3633
+      },
+      {
+        "file": "scripts/apply-asset-corrections.js",
+        "line": 21
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Engagement - ok/IMG_20230808_201123 - pas bonne taille.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3788
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3651
+      },
+      {
+        "file": "scripts/apply-asset-corrections.js",
+        "line": 38
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Notre vignoble - manque 1 photo/vignes.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VIGNES/vignes.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3806
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3668
+      },
+      {
+        "file": "scripts/apply-asset-corrections.js",
+        "line": 24
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Nos Engagement - ok/bulle-de-jazz-2021-chazo-127.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3825
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3686
+      },
+      {
+        "file": "scripts/apply-asset-corrections.js",
+        "line": 37
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Notre histoire - ok/007.jpg",
+    "suggestedPath": "/photos/007.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3843
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3703
+      },
+      {
+        "file": "scripts/apply-asset-corrections.js",
+        "line": 28
+      }
+    ]
+  },
+  {
+    "reference": "/Page/La vigne - ok/IMG_20230809_124834.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VIGNES/IMG_20230809_124834.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3862
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3721
+      },
+      {
+        "file": "scripts/apply-asset-corrections.js",
+        "line": 18
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Notre vignoble - manque 1 photo/vieille vigne.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VIGNES/vieille vigne.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3881
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3739
+      },
+      {
+        "file": "scripts/apply-asset-corrections.js",
+        "line": 25
+      }
+    ]
+  },
+  {
+    "reference": "/Page/La vigne - ok/image00005.jpeg",
+    "suggestedPath": "/photos/image00005.jpeg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3900
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3757
+      },
+      {
+        "file": "scripts/apply-asset-corrections.js",
+        "line": 34
+      }
+    ]
+  },
+  {
+    "reference": "/Page/La vigne - ok/image00036.jpeg",
+    "suggestedPath": "/photos/image00036.jpeg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3919
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3775
+      },
+      {
+        "file": "scripts/apply-asset-corrections.js",
+        "line": 35
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Notre Chai - manque 1 photo/image00005.jpeg",
+    "suggestedPath": "/photos/image00005.jpeg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3938
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3793
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité/Article Petrichor En.docx",
+    "suggestedPath": "/Page/Page Actualité/Article Petrichor En.docx",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3953
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3807
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité/Article Petrichor Fr.docx",
+    "suggestedPath": "/Page/Page Actualité/Article Petrichor Fr.docx",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3968
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3821
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité/Article fête des vins de Gaillac En.docx",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3983
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3835
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité/Article fête des vins de Gaillac Fr.docx",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 3997
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3848
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité/Page Actualité En.docx",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4011
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3861
+      }
+    ]
+  },
+  {
+    "reference": "/Page/Page Actualité/Page Actualité Fr.docx",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4025
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3874
+      }
+    ]
+  },
+  {
+    "reference": "/PHOTOS-WEB-LASTOURS/LOGO/logo argenté.PNG",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4039
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3887
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 12
+      }
+    ]
+  },
+  {
+    "reference": "/photos/allée-platane-tente.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4057
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3904
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 16
+      }
+    ]
+  },
+  {
+    "reference": "/wine-fermentation-tanks-stainless-steel.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4075
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3921
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 34
+      }
+    ]
+  },
+  {
+    "reference": "/wine-malolactic-fermentation-process.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4093
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3938
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 35
+      }
+    ]
+  },
+  {
+    "reference": "/wine-barrel-aging-french-oak.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4111
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3955
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 37
+      }
+    ]
+  },
+  {
+    "reference": "/wine-blending-tasting-room.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4129
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3972
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 38
+      }
+    ]
+  },
+  {
+    "reference": "/wine-bottling-line-estate.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4147
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 3989
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 39
+      }
+    ]
+  },
+  {
+    "reference": "/wine-barrel-maintenance-cellar.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4165
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4006
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 40
+      }
+    ]
+  },
+  {
+    "reference": "/sustainable-vineyard-practices-organic-farming.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4183
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4023
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 41
+      }
+    ]
+  },
+  {
+    "reference": "/syrah-grape-clusters-on-vine-close-up.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4201
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4040
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 42
+      }
+    ]
+  },
+  {
+    "reference": "/chardonnay-white-grapes-golden-sunlight.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4219
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4057
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 43
+      }
+    ]
+  },
+  {
+    "reference": "/grenache-red-grape-bunches-mediterranean.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4237
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4074
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 44
+      }
+    ]
+  },
+  {
+    "reference": "/precision-viticulture-technology-sensors-vineyard.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4255
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4091
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 45
+      }
+    ]
+  },
+  {
+    "reference": "/white-wine-seafood-pairing.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4273
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4108
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 46
+      }
+    ]
+  },
+  {
+    "reference": "/red-wine-meat-pairing.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4291
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4125
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 47
+      }
+    ]
+  },
+  {
+    "reference": "/rose-wine-summer-pairing.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4309
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4142
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 48
+      }
+    ]
+  },
+  {
+    "reference": "/sparkling-wine-celebration-pairing.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4327
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4159
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 49
+      }
+    ]
+  },
+  {
+    "reference": "/gaillac-grape-varieties.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4345
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4176
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 50
+      }
+    ]
+  },
+  {
+    "reference": "/marie-lastours-portrait-winemaker.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4363
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4193
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 53
+      }
+    ]
+  },
+  {
+    "reference": "/thomas-lastours-portrait-vineyard-manager.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4381
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4210
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 54
+      }
+    ]
+  },
+  {
+    "reference": "/jean-michel-cellar-master-portrait.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4399
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4227
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 55
+      }
+    ]
+  },
+  {
+    "reference": "/sophie-vineyard-manager-portrait.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4417
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4244
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 56
+      }
+    ]
+  },
+  {
+    "reference": "/pierre-sommelier-tasting-room-portrait.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4435
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4261
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 57
+      }
+    ]
+  },
+  {
+    "reference": "/claire-marketing-director-portrait.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4453
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4278
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 58
+      }
+    ]
+  },
+  {
+    "reference": "/antoine-export-manager-portrait.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4471
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4295
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 59
+      }
+    ]
+  },
+  {
+    "reference": "/isabelle-hospitality-manager-portrait.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4489
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4312
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 60
+      }
+    ]
+  },
+  {
+    "reference": "/confusion-sexuelle-vineyard.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4507
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4329
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 64
+      }
+    ]
+  },
+  {
+    "reference": "/biodiversity-vineyard-ecosystem.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4525
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4346
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 65
+      }
+    ]
+  },
+  {
+    "reference": "/wine-cellar-with-barrels-and-bottles.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4543
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4363
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 66
+      }
+    ]
+  },
+  {
+    "reference": "/wine-tasting-room-elegant-setup-reservation.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4561
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4380
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 67
+      }
+    ]
+  },
+  {
+    "reference": "/vineyard-workers-tending-vines-traditional-methods.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4579
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4397
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 68
+      }
+    ]
+  },
+  {
+    "reference": "/private-event-organization-luxury.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4597
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4414
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 76
+      }
+    ]
+  },
+  {
+    "reference": "/terroir-landscape-with-vineyard-rows-and-hills.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4615
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4431
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 78
+      }
+    ]
+  },
+  {
+    "reference": "/exclusive-wine-club-tasting-room-luxury.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4633
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4448
+      },
+      {
+        "file": "scripts/clean-public-assets.js",
+        "line": 79
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/wines/exclusive-french-wine-club.png",
+    "suggestedPath": "/images/wines/exclusive-french-wine-club.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4651
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5833
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4465
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/vineyard/french-chateau-vineyard-landscape-with-rolling-hil.png",
+    "suggestedPath": "/images/vineyard/french-chateau-vineyard-landscape-with-rolling-hil.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4670
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5873
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4483
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/VINIFICATION/Capture ameyric prod.JPG",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VINIFICATION/Capture ameyric prod.JPG",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4689
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5925
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4501
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Page/_common/histoire-hero.jpg",
+    "suggestedPath": "/Page/_common/histoire-hero.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4708
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6197
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4519
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/photos/007.jpg",
+    "suggestedPath": "/photos/007.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4727
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6241
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4537
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/photos/gege-neg-allee-platanes.jpg",
+    "suggestedPath": "/photos/gege-neg-allee-platanes.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4746
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6321
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4555
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/photos/lastours017.jpg",
+    "suggestedPath": "/photos/lastours017.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4765
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6353
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4573
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/photos/gege-neg-6.jpg",
+    "suggestedPath": "/photos/gege-neg-6.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4784
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6421
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4591
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/wines/wine-tasting-event.png",
+    "suggestedPath": "/images/wines/wine-tasting-event.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4803
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6709
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4609
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/Photos-GENERAL/repas-vins-lastours.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/Photos-GENERAL/repas-vins-lastours.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4822
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6773
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4627
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/placeholders/placeholder.svg",
+    "suggestedPath": "/images/placeholders/placeholder.svg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4841
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6829
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4645
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Fiche technique/FT_rosé_Domeni_2024.pdf",
+    "suggestedPath": "/Fiche technique/FT_rosé_Domeni_2024.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4860
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6877
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4663
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/fiche-technique/FT_rouge_Domeni_2022.pdf",
+    "suggestedPath": "/FT_rouge_Domeni_2022.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4879
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6918
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4681
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/fiche-technique/FT_blanc_Opus_2023.pdf",
+    "suggestedPath": "/FT_blanc_Opus_2023.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4898
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6958
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4699
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/fiche-technique/FT_rouge_opus_2021.pdf",
+    "suggestedPath": "/FT_rouge_opus_2021.pdf",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4917
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6998
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4717
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/BOUTEILLES/par-gamme/Gamme Domeni.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/par-gamme/Gamme Domeni.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4936
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7038
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4735
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/BOUTEILLES/par-gamme/Gamme Opus.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/par-gamme/Gamme Opus.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4955
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7082
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4753
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/BOUTEILLES/par-gamme/Gamme M‚thode.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/par-gamme/Gamme M‚thode.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4974
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7126
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4771
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/BOUTEILLES/par-gamme/Gamme Poussin.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/par-gamme/Gamme Poussin.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 4993
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7170
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4789
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/BOUTEILLES/par-gamme/Gamme Confidentielle.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/BOUTEILLES/par-gamme/Gamme Confidentielle.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5012
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7214
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4807
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/heroes/chateau-lastours-hero.jpg",
+    "suggestedPath": "/images/heroes/chateau-lastours-hero.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5031
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7258
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4825
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/wines/wine-bottle-default.png",
+    "suggestedPath": "/images/wines/wine-bottle-default.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5050
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7350
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4843
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/LOGO/logo-chateau-lastours.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/LOGO/logo-chateau-lastours.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5069
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7438
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4861
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/wines/wine-estate-owner-portrait.png",
+    "suggestedPath": "/images/wines/wine-estate-owner-portrait.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5088
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7502
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4879
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/wines/french-wine-chateau-evening-event.png",
+    "suggestedPath": "/images/wines/french-wine-chateau-evening-event.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5107
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7538
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4897
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/wines/gamme-confidentielle.jpg",
+    "suggestedPath": "/images/wines/gamme-confidentielle.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5126
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7570
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4915
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/wines/gamme-domeni.jpg",
+    "suggestedPath": "/images/wines/gamme-domeni.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5145
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7602
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4933
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/wines/french-chateau-wine-cellar.png",
+    "suggestedPath": "/images/wines/french-chateau-wine-cellar.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5164
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7634
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4951
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/wines/wine-education-workshop.png",
+    "suggestedPath": "/images/wines/wine-education-workshop.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5183
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7686
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4969
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/VINIFICATION/barriques et cuves.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VINIFICATION/barriques et cuves.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5202
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7730
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 4987
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/VINIFICATION/barriques et barboteurs.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VINIFICATION/barriques et barboteurs.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5221
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7770
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5005
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/VINIFICATION/barriques et rails.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VINIFICATION/barriques et rails.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5240
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7818
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5023
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/VINIFICATION/futs de chene CP Gerard Negrier.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VINIFICATION/futs de chene CP Gerard Negrier.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5259
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7858
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5041
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/VINIFICATION/verres barriques logo.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VINIFICATION/verres barriques logo.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5278
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7898
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5059
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/Photos-GENERAL/pour page d accueil louis bouteille.JPG",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/Photos-GENERAL/pour page d accueil louis bouteille.JPG",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5297
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7938
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5077
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/VINIFICATION/IMG_20230805_113440.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VINIFICATION/IMG_20230805_113440.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5316
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 7978
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5095
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/placeholders/placeholder.jpg",
+    "suggestedPath": "/images/placeholders/placeholder.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5335
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 8018
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5113
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/logos/logo-chateau-lastours.png",
+    "suggestedPath": "/images/logos/logo-chateau-lastours.png",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5354
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 8058
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5131
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/photos/allée-platane-tente.jpg",
+    "suggestedPath": "/photos/allée-platane-tente.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5373
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 8102
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5149
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Page/Asset page la vigne/La vigne.docx",
+    "suggestedPath": "/Page/Asset page la vigne/La vigne.docx",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5392
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 8142
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5167
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Page/Asset page la vigne/Page la vigne EN.docx",
+    "suggestedPath": "/Page/Asset page la vigne/Page la vigne EN.docx",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5411
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5185
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Page/Asset page Notre Chai/Le chai.docx",
+    "suggestedPath": "/Page/Asset page Notre Chai/Le chai.docx",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5426
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5199
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Page/Asset page Notre Chai/Notre chai En.docx",
+    "suggestedPath": "/Page/Asset page Notre Chai/Notre chai En.docx",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5441
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5213
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Page/Asset page Notre Chai/Notre chai.html",
+    "suggestedPath": "/Page/Asset page Notre Chai/Notre chai.html",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5456
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5227
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Page/Asset page Notre vignoble/Notre vignoble En.docx",
+    "suggestedPath": "/Page/Asset page Notre vignoble/Notre vignoble En.docx",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5471
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5241
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Page/Asset page Notre vignoble/Notre vignoble Fr.html",
+    "suggestedPath": "/Page/Asset page Notre vignoble/Notre vignoble Fr.html",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5486
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5255
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Page/Page Notre histoire/Notre Histoire En.docx",
+    "suggestedPath": "/Page/Notre histoire - ok/Notre Histoire En.docx",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5501
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5269
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Page/Page Notre histoire/Notre histoire Fr.docx",
+    "suggestedPath": "/Page/Notre histoire - ok/Notre histoire Fr.docx",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5516
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5283
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Page/Page visite/Page visite.html",
+    "suggestedPath": "/Page/Page visite/Page visite.html",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5531
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5297
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/images/wines/wine-domeni-blanc.jpg",
+    "suggestedPath": "/images/wines/wine-domeni-blanc.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5546
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5311
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Page/La vigne - ok/grappe-de-raisins-en-veraison-chateau-lastours-gaillac-france.jpg",
+    "suggestedPath": "/Page/La vigne - ok/grappe-de-raisins-en-veraison-chateau-lastours-gaillac-france.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5561
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5717
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5325
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Page/Club - ok/vintotheque-anciennes-cuvees-prestiges-chateau-lastours-gaillac-france.jpg",
+    "suggestedPath": "/Page/Club - ok/vintotheque-anciennes-cuvees-prestiges-chateau-lastours-gaillac-france.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5572
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5801
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5335
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/VIGNES/1682596442650.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VIGNES/1682596442650.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5583
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5981
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5345
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/Page/Nos Engagement - ok/nos-engagements-agriculture-raisonnee-chateau-lastours-aop-aoc-gaillac-france.jpg",
+    "suggestedPath": "/Page/Nos Engagement - ok/nos-engagements-agriculture-raisonnee-chateau-lastours-aop-aoc-gaillac-france.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5594
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6033
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5355
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/VIGNES/vignes.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VIGNES/vignes.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5605
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6073
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5365
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/photos/bulle-de-jazz-2021-chazo-087.jpg",
+    "suggestedPath": "/photos/bulle-de-jazz-2021-chazo-087.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5616
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6157
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5375
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/VIGNES/IMG_20230809_124834.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VIGNES/IMG_20230809_124834.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5627
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6453
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5385
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/PHOTOS-WEB-LASTOURS/VIGNES/vieille vigne.jpg",
+    "suggestedPath": "/PHOTOS-WEB-LASTOURS/VIGNES/vieille vigne.jpg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5638
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6529
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5395
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/photos/image00005.jpeg",
+    "suggestedPath": "/photos/image00005.jpeg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5649
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6573
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5405
+      }
+    ]
+  },
+  {
+    "reference": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/photos/image00036.jpeg",
+    "suggestedPath": "/photos/image00036.jpeg",
+    "files": [
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 5660
+      },
+      {
+        "file": "ASSETS_ANALYSIS_REPORT.json",
+        "line": 6645
+      },
+      {
+        "file": "ASSETS_SUGGESTIONS.json",
+        "line": 5415
+      }
+    ]
+  },
+  {
+    "reference": "/%23grainFilter",
+    "files": [
+      {
+        "file": "styles/grain.css",
+        "line": 20
+      }
+    ]
+  },
+  {
+    "reference": "/%23heavyGrainFilter",
+    "files": [
+      {
+        "file": "styles/grain.css",
+        "line": 40
+      }
+    ]
+  },
+  {
+    "reference": "/%23subtleGrainFilter",
+    "files": [
+      {
+        "file": "styles/grain.css",
+        "line": 60
+      }
+    ]
+  },
+  {
+    "reference": "/%23paperFilter",
+    "files": [
+      {
+        "file": "styles/grain.css",
+        "line": 80
+      }
+    ]
+  }
+]
