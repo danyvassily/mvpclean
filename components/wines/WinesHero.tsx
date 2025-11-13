@@ -28,11 +28,10 @@ export function WinesHero() {
       {/* Titre sous l'image - épuré */}
       <div className="container mx-auto px-4 lg:px-8 py-12 md:py-16 text-center">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-light text-slate-900 tracking-tight mb-6">
-          Nos Cuvées
+          Nos Vins
         </h1>
         <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto font-light leading-relaxed">
-          Découvrez notre gamme de vins d'exception, 
-          fruit de notre terroir gaillacois et de notre savoir-faire ancestral.
+          Vivez l'émotion Lastours : des arômes captivants, des instants à partager, l'expression pure de notre art du vin
         </p>
       </div>
     </section>

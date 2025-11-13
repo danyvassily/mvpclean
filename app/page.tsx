@@ -153,7 +153,7 @@ export default function HomePage() {
   return (
     <div ref={container} className="min-h-screen">
       {/* Hero Section - Style Ruinart minimaliste */}
-      <section className="relative" style={{ marginTop: '-80px', paddingTop: '80px' }}>
+      <section className="relative hero-offset">
         {/* Image Hero - Full width sans texte */}
         <div className="relative h-[70vh] sm:h-[75vh] lg:h-[85vh] max-h-[800px] overflow-hidden">
           <div

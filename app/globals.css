@@ -159,6 +159,32 @@
     scroll-margin-top: 80px;
   }
 
+  /* Classe spéciale pour le hero de la page d'accueil qui doit remonter sous le header */
+  .hero-offset {
+    margin-top: -80px;
+    padding-top: 80px;
+  }
+
+  /* Alternance de fond pour les sections (gammes de vins) */
+  .bg-alternating-white {
+    background-color: #ffffff;
+  }
+
+  .bg-alternating-stone {
+    background-color: #fafaf9;
+  }
+
+  /* Classes pour les accents de couleur des gammes (utilisant CSS custom properties) */
+  .gamme-badge-border {
+    border: 1px solid var(--gamme-accent, #c6a869);
+    color: var(--gamme-accent, #c6a869);
+  }
+
+  .gamme-badge-bg {
+    background-color: color-mix(in srgb, var(--gamme-accent, #c6a869) 15%, transparent);
+    color: var(--gamme-accent, #c6a869);
+  }
+
   /* ============================================================================
      CLASSES DE RYTHME VERTICAL UNIFIÉES
      ============================================================================ */
