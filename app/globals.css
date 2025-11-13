@@ -537,3 +537,81 @@ img[data-nimg] {
   height: 100%;
   object-fit: cover;
 }
+
+/* ============================================================================
+   TEXTES SUR IMAGES - LISIBILITÉ MAXIMALE
+   ============================================================================ */
+
+/* Classe pour les textes superposés sur des images */
+.text-on-image {
+  color: white !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5), 0 4px 16px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Titres sur images - Toujours blancs avec ombre portée forte */
+.text-on-image h1,
+.text-on-image h2,
+.text-on-image h3,
+.text-on-image h4 {
+  color: white !important;
+  text-align: center !important;
+  text-shadow: 0 3px 12px rgba(0, 0, 0, 0.7), 0 6px 24px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Textes de corps sur images */
+.text-on-image p,
+.text-on-image span {
+  color: rgba(255, 255, 255, 0.95) !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5), 0 4px 16px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Overlay sombre renforcé pour meilleure lisibilité */
+.image-overlay-dark {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%) !important;
+}
+
+.image-overlay-medium {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 50%, transparent 100%) !important;
+}
+
+/* Responsive : Réduction tailles de police sur mobile pour textes sur images */
+@media (max-width: 640px) {
+  .text-on-image h1 {
+    font-size: 2rem !important; /* 32px au lieu de text-4xl */
+    line-height: 1.1 !important;
+  }
+  
+  .text-on-image h2 {
+    font-size: 1.75rem !important; /* 28px au lieu de text-3xl */
+    line-height: 1.15 !important;
+  }
+  
+  .text-on-image h3 {
+    font-size: 1.5rem !important; /* 24px */
+    line-height: 1.2 !important;
+  }
+  
+  .text-on-image p {
+    font-size: 0.875rem !important; /* 14px */
+    line-height: 1.5 !important;
+  }
+  
+  .text-on-image span {
+    font-size: 0.75rem !important; /* 12px */
+  }
+}
+
+/* Tablette */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .text-on-image h1 {
+    font-size: 2.5rem !important; /* 40px */
+  }
+  
+  .text-on-image h2 {
+    font-size: 2rem !important; /* 32px */
+  }
+  
+  .text-on-image p {
+    font-size: 1rem !important; /* 16px */
+  }
+}

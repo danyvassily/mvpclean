@@ -116,22 +116,22 @@ export default function DeLaVigneALaBouteillePage() {
               sizes="(max-width: 768px) 100vw, 100vw"
             />
             
-            {/* Overlay gradient subtil */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+            {/* Overlay gradient renforcé */}
+            <div className="absolute inset-0 image-overlay-dark" />
             
             {/* Grain texture */}
             <div className="absolute inset-0 opacity-[0.03] texture-grain-fine" />
 
-            {/* Texte en overlay - Position selon align */}
-            <div className={`absolute inset-0 flex items-end ${section.align === "left" ? "justify-start" : "justify-end"}`}>
-              <div className={`p-8 lg:p-16 xl:p-20 max-w-2xl ${section.align === "left" ? "text-left" : "text-right"}`}>
+            {/* Texte en overlay - Centré */}
+            <div className="absolute inset-0 flex items-end justify-center">
+              <div className="text-on-image p-6 sm:p-8 lg:p-12 xl:p-16 max-w-3xl mx-auto text-center w-full">
                 {/* Titre */}
-                <h2 className="text-4xl lg:text-5xl xl:text-6xl font-serif font-light text-white tracking-[0.02em] leading-[1.1] mb-8">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-serif font-light text-white tracking-[0.02em] leading-[1.1] mb-6 sm:mb-8">
                   {section.title}
                 </h2>
                 
                 {/* Corps de texte */}
-                <p className="text-lg lg:text-xl leading-relaxed text-white/90 font-light tracking-wide max-w-xl">
+                <p className="text-base sm:text-lg lg:text-xl leading-relaxed text-white/95 font-light tracking-wide max-w-2xl mx-auto">
                   {section.content}
                 </p>
               </div>

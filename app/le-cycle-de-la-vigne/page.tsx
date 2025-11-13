@@ -124,24 +124,24 @@ export default function LeCycleDeLaVignePage() {
             className="w-full h-full object-cover object-center"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
+          <div className="absolute inset-0 image-overlay-dark" />
           <div className="absolute inset-0 opacity-[0.12] pointer-events-none grain" />
         </div>
 
-        {/* Texte superposé - Position BAS */}
+        {/* Texte superposé - Centré */}
         <div className="relative h-full flex items-end pb-12 lg:pb-20">
           <div className={cn(SPACING.container, "w-full")}>
-            <div className="max-w-4xl">
-              <div className="inline-block mb-6">
+            <div className="max-w-4xl mx-auto text-center text-on-image">
+              <div className="flex justify-center mb-6">
                 <span className="text-xs sm:text-sm font-light tracking-[0.3em] uppercase text-[#D4AF37] border border-[#D4AF37]/40 px-4 py-2 rounded-sm bg-black/30 backdrop-blur-sm">
                   Savoir-Faire
                 </span>
               </div>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-serif font-light leading-[1.05] tracking-tight text-white mb-6 lg:mb-8">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-light leading-[1.05] tracking-tight text-white mb-6 lg:mb-8">
                 Le cycle de la vigne
               </h1>
-              <div className="space-y-5 text-white/90 mb-8">
-                <p className="text-base lg:text-lg xl:text-xl leading-relaxed font-light">
+              <div className="space-y-5 text-white/95 mb-8 max-w-2xl mx-auto">
+                <p className="text-sm sm:text-base lg:text-lg xl:text-xl leading-relaxed font-light">
                   Découvrez les saisons qui rythment notre travail viticole, du débourrement aux vendanges. Un voyage à travers les moments essentiels qui façonnent nos vins d'exception.
                 </p>
               </div>
@@ -166,29 +166,29 @@ export default function LeCycleDeLaVignePage() {
               sizes="(max-width: 768px) 100vw, 50vw"
             />
             
-            {/* Overlay gradient subtil */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+            {/* Overlay gradient renforcé */}
+            <div className="absolute inset-0 image-overlay-dark" />
             
             {/* Grain texture */}
             <div className="absolute inset-0 opacity-[0.03] texture-grain-fine" />
 
-            {/* Texte en overlay - Position selon layout */}
-            <div className={`absolute inset-0 flex items-end ${section.layout === "text-first" ? "justify-start" : "justify-end"}`}>
-              <div className={`p-8 lg:p-16 xl:p-20 max-w-2xl ${section.layout === "text-first" ? "text-left" : "text-right"}`}>
+            {/* Texte en overlay - Centré */}
+            <div className="absolute inset-0 flex items-end justify-center">
+              <div className="text-on-image p-6 sm:p-8 lg:p-12 xl:p-16 max-w-3xl mx-auto text-center w-full">
                 {/* Kicker */}
-                <div className="mb-6">
-                  <span className="inline-block px-6 py-3 bg-white/10 backdrop-blur-md text-white text-xs font-bold tracking-[0.2em] uppercase border border-white/20">
+                <div className="mb-4 sm:mb-6 flex justify-center">
+                  <span className="inline-block px-4 sm:px-6 py-2 sm:py-3 bg-white/10 backdrop-blur-md text-white text-xs sm:text-sm font-bold tracking-[0.2em] uppercase border border-white/20">
                     {section.text.kicker}
                   </span>
                 </div>
                 
                 {/* Titre */}
-                <h2 className="text-4xl lg:text-5xl xl:text-6xl font-serif font-light text-white tracking-[0.02em] leading-[1.1] mb-8">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-serif font-light text-white tracking-[0.02em] leading-[1.1] mb-6 sm:mb-8">
                   {section.text.title}
                 </h2>
                 
                 {/* Corps de texte */}
-                <p className="text-lg lg:text-xl leading-relaxed text-white/90 font-light tracking-wide max-w-xl">
+                <p className="text-base sm:text-lg lg:text-xl leading-relaxed text-white/95 font-light tracking-wide max-w-2xl mx-auto">
                   {section.text.body}
                 </p>
               </div>

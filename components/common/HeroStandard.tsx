@@ -89,26 +89,26 @@ export function HeroStandard({
         />
       </div>
 
-      {/* Overlay gradient sombre pour lisibilité luxueuse */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
+      {/* Overlay gradient renforcé */}
+      <div className="absolute inset-0 image-overlay-dark" />
       
       {/* Grain texture subtile */}
       <div className="absolute inset-0 opacity-[0.08] texture-grain-fine" />
       
-      {/* Contenu texte adossé - Style luxueux */}
+      {/* Contenu texte centré - Style lisible */}
       <div className="relative z-10 h-full flex items-end">
-        <div className="w-full px-4 md:px-8 lg:px-16 pb-12 md:pb-16 lg:pb-20">
-          <div className="max-w-4xl">
+        <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 pb-12 md:pb-16 lg:pb-20">
+          <div className="max-w-4xl mx-auto text-center text-on-image">
             <h1
               ref={titleRef}
-              className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-light text-white tracking-[0.02em] leading-[1.1] mb-4 md:mb-6 drop-shadow-lg"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-light text-white tracking-[0.02em] leading-[1.1] mb-4 md:mb-6"
             >
               {title}
             </h1>
             {subtitle && (
               <p
                 ref={subtitleRef}
-                className="text-lg md:text-xl lg:text-2xl leading-relaxed text-white/90 font-light tracking-wide max-w-3xl drop-shadow-md"
+                className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-white/95 font-light tracking-wide max-w-2xl mx-auto"
               >
                 {subtitle}
               </p>
