@@ -881,34 +881,24 @@ export function Header() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {/* Le cycle de la vigne */}
               <div className="space-y-2">
-                <h3 className="text-sm font-semibold tracking-wide mb-3 text-slate-900 font-heading">
+                <Link 
+                  href="/le-cycle-de-la-vigne" 
+                  className="block text-base font-semibold tracking-wide transition-colors text-slate-900 hover:text-wine-gold py-2 px-2 rounded focus:outline-none focus:ring-2 focus:ring-wine-gold min-h-[44px] flex items-center"
+                  onClick={() => closeMenuImmediately()}
+                >
                   Le cycle de la vigne
-                </h3>
-                <div className="space-y-1">
-                  <Link 
-                    href="/le-cycle-de-la-vigne" 
-                    className="block text-sm font-medium tracking-wide transition-colors text-slate-600 hover:text-slate-900 py-2 px-2 rounded focus:outline-none focus:ring-2 focus:ring-wine-gold focus:text-wine-gold min-h-[44px] flex items-center"
-                    onClick={() => closeMenuImmediately()}
-                  >
-                    Le cycle de la vigne
-                  </Link>
-                </div>
+                </Link>
               </div>
 
               {/* De la vigne à la bouteille */}
               <div className="space-y-2">
-                <h3 className="text-sm font-semibold tracking-wide mb-3 text-slate-900 font-heading">
+                <Link 
+                  href="/de-la-vigne-a-la-bouteille" 
+                  className="block text-base font-semibold tracking-wide transition-colors text-slate-900 hover:text-wine-gold py-2 px-2 rounded focus:outline-none focus:ring-2 focus:ring-wine-gold min-h-[44px] flex items-center"
+                  onClick={() => closeMenuImmediately()}
+                >
                   De la vigne à la bouteille
-                </h3>
-                <div className="space-y-1">
-                  <Link 
-                    href="/de-la-vigne-a-la-bouteille" 
-                    className="block text-sm font-medium tracking-wide transition-colors text-slate-600 hover:text-slate-900 py-2 px-2 rounded focus:outline-none focus:ring-2 focus:ring-wine-gold focus:text-wine-gold min-h-[44px] flex items-center"
-                    onClick={() => closeMenuImmediately()}
-                  >
-                    De la vigne à la bouteille
-                  </Link>
-                </div>
+                </Link>
               </div>
 
               {/* Photo de fin de section - SANS transparence */}
