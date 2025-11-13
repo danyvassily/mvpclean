@@ -539,79 +539,119 @@ img[data-nimg] {
 }
 
 /* ============================================================================
-   TEXTES SUR IMAGES - LISIBILITÉ MAXIMALE
+   SECTIONS IMAGE + TEXTE - RESPONSIVE
+   Structure: Sur mobile/tablette → Image puis texte en dessous
+             Sur desktop → Image + texte côte à côte ou superposé
    ============================================================================ */
 
-/* Classe pour les textes superposés sur des images */
-.text-on-image {
-  color: white !important;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5), 0 4px 16px rgba(0, 0, 0, 0.3) !important;
+/* Container pour sections image/texte */
+.image-text-section {
+  width: 100%;
+  margin-bottom: 0;
 }
 
-/* Titres sur images - Toujours blancs avec ombre portée forte */
-.text-on-image h1,
-.text-on-image h2,
-.text-on-image h3,
-.text-on-image h4 {
-  color: white !important;
+/* Image pleine largeur */
+.image-text-section .section-image {
+  width: 100%;
+  height: 50vh; /* Mobile : 50vh */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Texte EN DESSOUS sur mobile/tablette */
+.image-text-section .section-text {
+  background-color: white;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.image-text-section .section-text h1,
+.image-text-section .section-text h2,
+.image-text-section .section-text h3 {
+  color: #1f2937 !important;
+  font-size: 1.5rem !important; /* 24px */
+  line-height: 1.2 !important;
+  margin-bottom: 1rem !important;
   text-align: center !important;
-  text-shadow: 0 3px 12px rgba(0, 0, 0, 0.7), 0 6px 24px rgba(0, 0, 0, 0.5) !important;
+  font-weight: 600 !important;
 }
 
-/* Textes de corps sur images */
-.text-on-image p,
-.text-on-image span {
-  color: rgba(255, 255, 255, 0.95) !important;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5), 0 4px 16px rgba(0, 0, 0, 0.3) !important;
+.image-text-section .section-text p {
+  color: #4b5563 !important;
+  font-size: 0.875rem !important; /* 14px */
+  line-height: 1.6 !important;
+  text-align: center !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
 }
 
-/* Overlay sombre renforcé pour meilleure lisibilité */
-.image-overlay-dark {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%) !important;
+.image-text-section .section-text .kicker {
+  color: #c6a869 !important;
+  font-size: 0.75rem !important; /* 12px */
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  display: inline-block;
+  border: 1px solid #c6a869;
+  padding: 0.25rem 0.75rem;
 }
 
-.image-overlay-medium {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 50%, transparent 100%) !important;
-}
-
-/* Responsive : Réduction tailles de police sur mobile pour textes sur images */
-@media (max-width: 640px) {
-  .text-on-image h1 {
-    font-size: 2rem !important; /* 32px au lieu de text-4xl */
-    line-height: 1.1 !important;
-  }
-  
-  .text-on-image h2 {
-    font-size: 1.75rem !important; /* 28px au lieu de text-3xl */
-    line-height: 1.15 !important;
-  }
-  
-  .text-on-image h3 {
-    font-size: 1.5rem !important; /* 24px */
-    line-height: 1.2 !important;
-  }
-  
-  .text-on-image p {
-    font-size: 0.875rem !important; /* 14px */
-    line-height: 1.5 !important;
-  }
-  
-  .text-on-image span {
-    font-size: 0.75rem !important; /* 12px */
-  }
-}
-
-/* Tablette */
+/* Tablette : Augmenter légèrement */
 @media (min-width: 641px) and (max-width: 1024px) {
-  .text-on-image h1 {
-    font-size: 2.5rem !important; /* 40px */
+  .image-text-section .section-image {
+    height: 60vh;
   }
   
-  .text-on-image h2 {
-    font-size: 2rem !important; /* 32px */
+  .image-text-section .section-text {
+    padding: 3rem 2rem;
   }
   
-  .text-on-image p {
+  .image-text-section .section-text h1,
+  .image-text-section .section-text h2,
+  .image-text-section .section-text h3 {
+    font-size: 1.875rem !important; /* 30px */
+  }
+  
+  .image-text-section .section-text p {
     font-size: 1rem !important; /* 16px */
+    max-width: 90% !important;
+  }
+}
+
+/* Desktop : Image plus grande, texte superposé OU à côté */
+@media (min-width: 1025px) {
+  .image-text-section .section-image {
+    height: 70vh;
+  }
+  
+  /* Option 1: Texte superposé sur desktop */
+  .image-text-section.overlay-desktop .section-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.4) 70%, transparent 100%);
+    padding: 4rem 3rem;
+  }
+  
+  .image-text-section.overlay-desktop .section-text h1,
+  .image-text-section.overlay-desktop .section-text h2,
+  .image-text-section.overlay-desktop .section-text h3 {
+    color: white !important;
+    font-size: 2.5rem !important; /* 40px */
+    text-shadow: 0 3px 12px rgba(0, 0, 0, 0.7);
+  }
+  
+  .image-text-section.overlay-desktop .section-text p {
+    color: rgba(255, 255, 255, 0.95) !important;
+    font-size: 1.125rem !important; /* 18px */
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .image-text-section.overlay-desktop .section-text .kicker {
+    color: #D4AF37 !important;
+    border-color: #D4AF37 !important;
+    background: rgba(0, 0, 0, 0.3);
   }
 }

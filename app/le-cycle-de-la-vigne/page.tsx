@@ -113,86 +113,61 @@ export default function LeCycleDeLaVignePage() {
       <div className="fixed inset-0 opacity-[0.03] pointer-events-none texture-paper" />
       <div className="fixed inset-0 opacity-[0.02] pointer-events-none texture-grain" />
 
-      {/* Hero Section - Style Histoire */}
-      <section className="relative h-[70vh] lg:h-[85vh] overflow-hidden mt-6 lg:mt-8 mb-6 lg:mb-8">
-        <div className="absolute inset-0">
+      {/* Hero Section - Responsive */}
+      <section className="image-text-section overlay-desktop relative mt-6 lg:mt-8">
+        {/* Image Hero */}
+        <div className="section-image" style={{height: '70vh'}}>
           <Image
             src="/images/vineyard/jardins-a-la-francaise-lever-de-soleil.jpeg"
             alt="Jardins à la française au lever du soleil au Château Lastours"
             fill
             priority
-            className="w-full h-full object-cover object-center"
+            className="object-cover object-center"
             sizes="100vw"
           />
-          <div className="absolute inset-0 image-overlay-dark" />
-          <div className="absolute inset-0 opacity-[0.12] pointer-events-none grain" />
         </div>
 
-        {/* Texte superposé - Centré */}
-        <div className="relative h-full flex items-end pb-12 lg:pb-20">
-          <div className={cn(SPACING.container, "w-full")}>
-            <div className="max-w-4xl mx-auto text-center text-on-image">
-              <div className="flex justify-center mb-6">
-                <span className="text-xs sm:text-sm font-light tracking-[0.3em] uppercase text-[#D4AF37] border border-[#D4AF37]/40 px-4 py-2 rounded-sm bg-black/30 backdrop-blur-sm">
-                  Savoir-Faire
-                </span>
-              </div>
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-light leading-[1.05] tracking-tight text-white mb-6 lg:mb-8">
-                Le cycle de la vigne
-              </h1>
-              <div className="space-y-5 text-white/95 mb-8 max-w-2xl mx-auto">
-                <p className="text-sm sm:text-base lg:text-lg xl:text-xl leading-relaxed font-light">
-                  Découvrez les saisons qui rythment notre travail viticole, du débourrement aux vendanges. Un voyage à travers les moments essentiels qui façonnent nos vins d'exception.
-                </p>
-              </div>
-            </div>
-          </div>
+        {/* Texte Hero */}
+        <div className="section-text">
+          <div className="kicker">Savoir-Faire</div>
+          <h1 style={{fontSize: '2rem', fontFamily: 'var(--font-serif)', fontWeight: 300, lineHeight: 1.1, marginBottom: '1rem'}}>
+            Le cycle de la vigne
+          </h1>
+          <p style={{maxWidth: '600px', margin: '0 auto'}}>
+            Découvrez les saisons qui rythment notre travail viticole, du débourrement aux vendanges. Un voyage à travers les moments essentiels qui façonnent nos vins d'exception.
+          </p>
         </div>
       </section>
 
-      {/* Sections panoramiques - Style Histoire */}
+      {/* Sections image + texte - Responsive */}
       {cycleSections.map((section) => (
         <section 
           key={section.id}
-          className="relative z-10 mb-6 lg:mb-8"
+          className="image-text-section overlay-desktop relative"
         >
-          {/* Image panoramique pleine largeur */}
-          <div className="relative h-[65vh] lg:h-[75vh] xl:h-[85vh] overflow-hidden">
+          {/* Image */}
+          <div className="section-image">
             <Image
               src={section.image.src}
               alt={section.image.alt}
               fill
-              className="w-full h-full object-cover object-center"
-              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover object-center"
+              sizes="100vw"
             />
-            
-            {/* Overlay gradient renforcé */}
-            <div className="absolute inset-0 image-overlay-dark" />
-            
-            {/* Grain texture */}
-            <div className="absolute inset-0 opacity-[0.03] texture-grain-fine" />
+          </div>
 
-            {/* Texte en overlay - Centré */}
-            <div className="absolute inset-0 flex items-end justify-center">
-              <div className="text-on-image p-6 sm:p-8 lg:p-12 xl:p-16 max-w-3xl mx-auto text-center w-full">
-                {/* Kicker */}
-                <div className="mb-4 sm:mb-6 flex justify-center">
-                  <span className="inline-block px-4 sm:px-6 py-2 sm:py-3 bg-white/10 backdrop-blur-md text-white text-xs sm:text-sm font-bold tracking-[0.2em] uppercase border border-white/20">
-                    {section.text.kicker}
-                  </span>
-                </div>
-                
-                {/* Titre */}
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-serif font-light text-white tracking-[0.02em] leading-[1.1] mb-6 sm:mb-8">
-                  {section.text.title}
-                </h2>
-                
-                {/* Corps de texte */}
-                <p className="text-base sm:text-lg lg:text-xl leading-relaxed text-white/95 font-light tracking-wide max-w-2xl mx-auto">
-                  {section.text.body}
-                </p>
-              </div>
+          {/* Texte */}
+          <div className="section-text">
+            {/* Kicker */}
+            <div className="kicker">
+              {section.text.kicker}
             </div>
+            
+            {/* Titre */}
+            <h2>{section.text.title}</h2>
+            
+            {/* Corps */}
+            <p>{section.text.body}</p>
           </div>
         </section>
       ))}

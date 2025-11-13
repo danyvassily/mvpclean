@@ -100,42 +100,30 @@ export default function DeLaVigneALaBouteillePage() {
       {/* Espace aéré après le hero */}
       <div className="h-16 lg:h-24"></div>
 
-      {/* Sections panoramiques - Style cohérent avec les autres pages */}
+      {/* Sections image + texte - Responsive */}
       {sections.map((section, index) => (
         <section 
           key={section.id}
-          className="relative z-10 mb-12 lg:mb-16 xl:mb-20"
+          className="image-text-section overlay-desktop relative"
         >
-          {/* Image panoramique pleine largeur */}
-          <div className="relative h-[60vh] lg:h-[70vh] xl:h-[80vh] overflow-hidden">
+          {/* Image */}
+          <div className="section-image">
             <Image
               src={section.imageSrc}
               alt={section.imageAlt}
               fill
-              className="object-cover object-center hover:scale-105 transition-transform duration-500"
-              sizes="(max-width: 768px) 100vw, 100vw"
+              className="object-cover object-center"
+              sizes="100vw"
             />
-            
-            {/* Overlay gradient renforcé */}
-            <div className="absolute inset-0 image-overlay-dark" />
-            
-            {/* Grain texture */}
-            <div className="absolute inset-0 opacity-[0.03] texture-grain-fine" />
+          </div>
 
-            {/* Texte en overlay - Centré */}
-            <div className="absolute inset-0 flex items-end justify-center">
-              <div className="text-on-image p-6 sm:p-8 lg:p-12 xl:p-16 max-w-3xl mx-auto text-center w-full">
-                {/* Titre */}
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-serif font-light text-white tracking-[0.02em] leading-[1.1] mb-6 sm:mb-8">
-                  {section.title}
-                </h2>
-                
-                {/* Corps de texte */}
-                <p className="text-base sm:text-lg lg:text-xl leading-relaxed text-white/95 font-light tracking-wide max-w-2xl mx-auto">
-                  {section.content}
-                </p>
-              </div>
-            </div>
+          {/* Texte */}
+          <div className="section-text">
+            {/* Titre */}
+            <h2>{section.title}</h2>
+            
+            {/* Corps */}
+            <p>{section.content}</p>
           </div>
         </section>
       ))}

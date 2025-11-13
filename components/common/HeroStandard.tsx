@@ -71,14 +71,14 @@ export function HeroStandard({
 
   return (
     <section
+      ref={containerRef}
       className={cn(
-        "relative overflow-hidden",
-        "h-[60vh] md:h-[70vh] lg:h-[80vh]",
+        "image-text-section overlay-desktop relative",
         className
       )}
     >
       {/* Image de fond */}
-      <div className="absolute inset-0">
+      <div className="section-image" style={{height: '70vh'}}>
         <Image
           src={imageSrc}
           alt={title}
@@ -86,35 +86,26 @@ export function HeroStandard({
           className="object-cover"
           priority
           quality={90}
+          sizes="100vw"
         />
       </div>
-
-      {/* Overlay gradient renforcé */}
-      <div className="absolute inset-0 image-overlay-dark" />
       
-      {/* Grain texture subtile */}
-      <div className="absolute inset-0 opacity-[0.08] texture-grain-fine" />
-      
-      {/* Contenu texte centré - Style lisible */}
-      <div className="relative z-10 h-full flex items-end">
-        <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 pb-12 md:pb-16 lg:pb-20">
-          <div className="max-w-4xl mx-auto text-center text-on-image">
-            <h1
-              ref={titleRef}
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-light text-white tracking-[0.02em] leading-[1.1] mb-4 md:mb-6"
-            >
-              {title}
-            </h1>
-            {subtitle && (
-              <p
-                ref={subtitleRef}
-                className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-white/95 font-light tracking-wide max-w-2xl mx-auto"
-              >
-                {subtitle}
-              </p>
-            )}
-          </div>
-        </div>
+      {/* Texte */}
+      <div className="section-text">
+        <h1
+          ref={titleRef}
+          style={{fontSize: '2rem', fontFamily: 'var(--font-serif)', fontWeight: 300, lineHeight: 1.1, marginBottom: '1rem'}}
+        >
+          {title}
+        </h1>
+        {subtitle && (
+          <p
+            ref={subtitleRef}
+            style={{maxWidth: '700px', margin: '0 auto'}}
+          >
+            {subtitle}
+          </p>
+        )}
       </div>
     </section>
   )
