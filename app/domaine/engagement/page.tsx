@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { HeroStandard } from "@/components/common/HeroStandard";
+import { HeroMinimal } from "@/components/common/HeroMinimal";
 import { EngagementCard } from "@/components/engagements/EngagementCard";
 import { CTAGroup } from "@/components/vignoble/CTAGroup";
 
@@ -70,11 +70,11 @@ const engagementSections = [
 export default function EngagementPage() {
   return (
     <div className="min-h-screen bg-white" data-page="engagement">
-      {/* Hero Section - Style Ruinart épuré */}
-      <HeroStandard
+      {/* Hero Section - Style Ruinart minimaliste */}
+      <HeroMinimal
         imageSrc="/images/vineyard/coucher-de-soleil-vignes-chateau-lastours-aop-aoc-gaillac-france.jpeg"
         title="Nos Engagements"
-        subtitle="Engagés pour la nature, enracinés dans l'excellence. Découvrez notre démarche pour une viticulture durable en plein cœur du Sud-Ouest."
+        subtitle="Découvrez notre démarche pour une viticulture durable et respectueuse de l'environnement."
       />
 
       {/* Introduction centrée */}
