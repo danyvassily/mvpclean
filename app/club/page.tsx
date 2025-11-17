@@ -488,7 +488,7 @@ export default function ClubPage() {
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-black px-8 py-4 text-lg">
-                  <Link href="/reservation">Découvrir le Domaine</Link>
+                  <Link href="/evenements/organiser">Découvrir le Domaine</Link>
                 </Button>
               </div>
               

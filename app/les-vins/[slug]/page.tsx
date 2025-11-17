@@ -1,8 +1,6 @@
 import { notFound } from "next/navigation"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
-import { getWineBySlug, wines } from "@/lib/wines-data"
-import { WinePageClient } from "./wine-page-client"
+import { winesDetails, getAvailableYears } from "@/lib/wines-details"
+import { WinePageClient } from "@/components/wines/WinePageClient"
 
 interface WinePageProps {
   params: Promise<{
@@ -10,25 +8,16 @@ interface WinePageProps {
   }>
 }
 
-// Génération des pages statiques pour l'export
-export async function generateStaticParams() {
-  return wines.map((wine) => ({
-    slug: wine.id,
-  }))
-}
-
-export default async function WinePage({ params }: WinePageProps) {
-  const { slug } = await params
-  const wine = getWineBySlug(slug)
-
+export default async function WinePage(props: WinePageProps) {
+  const params = await props.params
+  const wine = winesDetails[params.slug]
+  
   if (!wine) {
     notFound()
   }
 
-  return (
-    <div className="min-h-screen">
-      <Header />
-      <WinePageClient wine={wine} />
-    </div>
-  )
+  const availableYears = getAvailableYears(params.slug)
+
+  return <WinePageClient wine={wine} availableYears={availableYears} />
 }
+

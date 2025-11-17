@@ -58,9 +58,9 @@ export default function SitemapPage() {
       title: "Expériences",
       url: "/experiences",
       children: [
-        { title: "Réservation", url: "/reservation" },
+        { title: "Organiser votre événement", url: "/evenements/organiser" },
+        { title: "Simuler votre devis", url: "/evenements/simuler-votre-devis" },
         { title: "Événements", url: "/evenements" },
-        { title: "Organiser un Événement", url: "/evenements/organiser" },
         { title: "Club Lastours", url: "/club" },
         { title: "Inscription Club", url: "/club/inscription" },
       ],

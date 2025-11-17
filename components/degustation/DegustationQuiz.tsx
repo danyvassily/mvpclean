@@ -136,7 +136,7 @@ export function DegustationQuiz() {
                     size="lg"
                     className="bg-accent-600 hover:bg-accent-700 text-white min-h-[44px] focus-visible:ring-2 focus-visible:ring-accent-600 focus-visible:outline-none"
                   >
-                    <Link href="/reservation">Réserver votre dégustation</Link>
+                    <Link href="/evenements/organiser">Réserver votre dégustation</Link>
                   </Button>
                   <Button
                     variant="outline"

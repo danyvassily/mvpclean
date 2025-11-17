@@ -23,6 +23,18 @@ const nextConfig = {
 
   // Les headers et redirections sont gérés via vercel.json pour une meilleure 
   // performance sur l'edge.
+
+  // Configuration webpack pour résoudre les problèmes de loaders
+  webpack: (config, { isServer }) => {
+    // Résoudre les problèmes avec les loaders Next.js
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+      };
+    }
+    return config;
+  },
 };
 
 export default nextConfig;

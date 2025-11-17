@@ -173,7 +173,7 @@ export default function DegustationPage() {
                 size="lg"
                 className="bg-accent-600 hover:bg-accent-700 text-white min-h-[44px] px-8 py-4 text-lg font-semibold focus-visible:ring-2 focus-visible:ring-accent-600 focus-visible:outline-none"
               >
-                <Link href="/reservation">Réserver votre visite</Link>
+                <Link href="/evenements/organiser">Réserver votre visite</Link>
               </Button>
               <Button
                 asChild
@@ -181,7 +181,7 @@ export default function DegustationPage() {
                 size="lg"
                 className="border-2 border-[#221] text-[#221] hover:bg-[#221] hover:text-[#F3EEE8] min-h-[44px] px-8 py-4 text-lg font-semibold focus-visible:ring-2 focus-visible:ring-[#221] focus-visible:outline-none"
               >
-                <Link href="/reservation">Réserver votre dégustation</Link>
+                <Link href="/evenements/organiser">Réserver votre dégustation</Link>
               </Button>
             </div>
           </div>

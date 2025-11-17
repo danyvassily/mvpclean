@@ -326,7 +326,7 @@ export default function NotreChai() {
               {/* CTA button */}
               <div className="lg:col-span-5 text-center lg:text-right">
                 <TransitionLink 
-                  href="/reservation"
+                  href="/evenements/organiser"
                   className="inline-flex items-center px-16 py-6 bg-slate-900 hover:bg-slate-800 border border-slate-700 hover:border-slate-600 text-white font-light text-lg tracking-wide transition-all duration-700 backdrop-blur-sm hover:scale-[1.02] shadow-2xl group"
                 >
                   Planifiez votre visite

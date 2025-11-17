@@ -203,7 +203,7 @@ export default function TerroirPage() {
           {/* Call-to-action avec flèche de défilement */}
           <div className="mt-12 space-y-6">
             <TransitionLink
-              href="/reservation"
+              href="/evenements/organiser"
               className="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 shadow-2xl hover:shadow-green-500/20 hover:scale-105"
             >
               Découvrir le Vignoble
@@ -426,7 +426,7 @@ export default function TerroirPage() {
               {/* CTA buttons */}
               <div className="lg:col-span-5 text-center lg:text-right space-y-4">
                 <TransitionLink 
-                  href="/reservation"
+                  href="/evenements/organiser"
                   className="inline-flex items-center px-16 py-6 bg-slate-900 hover:bg-slate-800 border border-slate-700 hover:border-slate-600 text-white font-light text-lg tracking-wide transition-all duration-700 backdrop-blur-sm hover:scale-[1.02] shadow-2xl group w-full lg:w-auto justify-center lg:justify-start"
                 >
                   Réserver une Visite

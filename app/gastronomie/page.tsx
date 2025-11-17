@@ -350,7 +350,7 @@ export default function GastronomiePage() {
                   asChild 
                   className="bg-white text-accent-900 hover:bg-accent-50 px-8 py-4 text-lg font-semibold shadow-xl min-h-[44px] focus-visible:ring-2 focus-visible:ring-white focus-visible:outline-none"
                 >
-                  <Link href="/reservation">
+                  <Link href="/evenements/organiser">
                     Réserver une visite
                   </Link>
                 </Button>

@@ -153,7 +153,7 @@ export default function HomePage() {
   return (
     <div ref={container} className="min-h-screen">
       {/* Hero Section - Style Ruinart minimaliste */}
-      <section className="relative" style={{ marginTop: '-80px', paddingTop: '80px' }}>
+      <section className="relative hero-offset">
         {/* Image Hero - Full width sans texte */}
         <div className="relative h-[70vh] sm:h-[75vh] lg:h-[85vh] max-h-[800px] overflow-hidden">
           <div
@@ -161,7 +161,7 @@ export default function HomePage() {
             className="absolute inset-0 will-change-transform"
           >
             <Image
-              src="/chateau-lastours-hero.jpg"
+              src="/images/heroes/chateau-lastours-hero.jpg"
               alt="Façade du Château Lastours et jardins à la française"
               fill
               priority
@@ -300,7 +300,7 @@ export default function HomePage() {
                 asChild
                 className="group border-slate-900 hover:bg-slate-900 hover:text-white transition-all duration-300 px-8 py-4 text-sm tracking-[0.2em] uppercase font-light"
               >
-                <Link href="/reservation">
+                <Link href="/evenements/organiser">
                   Réserver une visite
                   <MoveRight className="ml-3 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
