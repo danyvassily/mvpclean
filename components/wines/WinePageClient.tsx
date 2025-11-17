@@ -10,6 +10,8 @@ import type { WineDetails, WineMillesime } from "@/lib/wines-details"
 
 gsap.registerPlugin(ScrollTrigger)
 
+// Style Ruinart épuré - Fond blanc, design minimaliste
+
 // Composant pour les onglets d'informations dynamiques
 function WineInfoTabs({ wine, currentMillesime }: { wine: WineDetails; currentMillesime: WineMillesime }) {
   const [activeTab, setActiveTab] = useState<string>("degustation")
