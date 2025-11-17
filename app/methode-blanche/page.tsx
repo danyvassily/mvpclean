@@ -139,7 +139,7 @@ export default function MethodeBlanchePage() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/reservation"
+                href="/evenements/organiser"
                 className="inline-block bg-white text-gray-900 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-100 transition-colors duration-300 shadow-xl"
               >
                 Réserver une dégustation

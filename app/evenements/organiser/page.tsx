@@ -27,7 +27,7 @@ export default function OrganiserEvenementPage() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <HeroEvent
-        imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/concert-sous-tente-nomade-safari-gaillac-france-chateau-lastours.png"
+        imageSrc="/page/organiser-votre-evenement-ok/concert-sous-tente-nomade-safari-gaillac-france-chateau-lastours.png"
         title="Votre moment à Lastours"
         primaryCtaLabel="Simuler votre devis"
         primaryCtaHref="/evenements/simuler-votre-devis"
@@ -67,7 +67,7 @@ export default function OrganiserEvenementPage() {
 
         {/* La Tente Nomade - Image gauche / Texte droite */}
         <EspaceSection
-          imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/recpetion-mariage-tente-nomade-chateau-lastours-gaillac.jpg"
+          imageSrc="/page/organiser-votre-evenement-ok/recpetion-mariage-tente-nomade-chateau-lastours-gaillac.jpg"
           title="La Tente Nomade"
           subtitle="Un écrin champêtre de 375m²"
           description="Au cœur des jardins à la française et des vignes centenaires, cet espace éphémère, élégamment éclairé et sonorisé, offre une ambiance bucolique et sophistiquée. Parfait pour des mariages romantiques, des team building inspirants ou des soirées estivales conviviales baignées de lumière naturelle."
@@ -78,7 +78,7 @@ export default function OrganiserEvenementPage() {
 
         {/* Salle de Réception - Image droite / Texte gauche */}
         <EspaceSection
-          imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/salle-de-reception-evenements-familials-professionnels.jpg"
+          imageSrc="/page/organiser-votre-evenement-ok/salle-de-reception-evenements-familials-professionnels.jpg"
           title="La Salle de Réception"
           subtitle="Charme historique et confort moderne"
           description="Située dans l'ancien chai à barriques, cette salle climatisée de 100m² allie charme intemporel et élégance contemporaine. Idéale pour galas, réceptions privées et cocktails professionnels, avec un service sur mesure."
@@ -89,7 +89,7 @@ export default function OrganiserEvenementPage() {
 
         {/* Salle de Réunion - Image gauche / Texte droite */}
         <EspaceSection
-          imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/salle-seminaire-reunion-video-projecteur.jpg"
+          imageSrc="/page/organiser-votre-evenement-ok/salle-seminaire-reunion-video-projecteur.jpg"
           title="La Salle de Réunion"
           subtitle="Un havre lumineux pour la créativité"
           description="À l'étage, équipée d'un vidéoprojecteur et d'un éclairage modulable, cet espace raffiné invite à la concentration et à la collaboration, parfait pour séminaires, conférences et ateliers."
@@ -130,7 +130,7 @@ export default function OrganiserEvenementPage() {
 
         {/* Yoga & Vins */}
         <EspaceSection
-          imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/cours-de-yoga-plein-air.jpg"
+          imageSrc="/page/organiser-votre-evenement-ok/cours-de-yoga-plein-air.jpg"
           title="Yoga & Vins"
           description="Éveillez corps et esprit dans une expérience unique alliant yoga et dégustation."
           reverse={false}
@@ -169,7 +169,7 @@ export default function OrganiserEvenementPage() {
 
         {/* Atelier Œnologique */}
         <EspaceSection
-          imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/carte-de-menu-mariage-chateau-lastours-gaillac-france.jpg"
+          imageSrc="/page/organiser-votre-evenement-ok/carte-de-menu-mariage-chateau-lastours-gaillac-france.jpg"
           title="Atelier Œnologique"
           description="Une exploration guidée de l'art de la dégustation, menée par des œnologues passionnés."
           reverse={false}
@@ -180,7 +180,7 @@ export default function OrganiserEvenementPage() {
 
       {/* Apéro-concerts d'été - Section pleine largeur */}
       <EspaceSection
-        imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/festival-de-jazz-chateau-lastours-gaillac-france.jpg"
+        imageSrc="/page/organiser-votre-evenement-ok/festival-de-jazz-chateau-lastours-gaillac-france.jpg"
         title="Apéro-concerts d'Été"
         subtitle="Célébrez avec Élégance"
         description="Chaque été, le domaine s'anime pour deux soirées festives mêlant musique live, gastronomie locale et vins d'exception. Réservez vos dates pour juin [à confirmer] et août [à confirmer] 2025 et partagez des moments authentiques dans un cadre enchanteur."
@@ -192,7 +192,7 @@ export default function OrganiserEvenementPage() {
         <section className="py-24 relative overflow-hidden">
           <div className="absolute inset-0 overflow-hidden rounded-[11px] lg:rounded-[18px]">
             <Image
-              src="/chateau-lastours-hero.jpg"
+              src="/images/heroes/chateau-lastours-hero.jpg"
               alt="Contactez Château Lastours"
               fill
               className="object-cover object-center rounded-[11px] lg:rounded-[18px]"
@@ -210,13 +210,18 @@ export default function OrganiserEvenementPage() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-                <Button size="lg" asChild className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-4 text-lg">
+                <Button size="lg" asChild className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-4 text-lg min-h-[44px] focus:ring-2 focus:ring-accent focus:ring-offset-2">
+                  <Link href="/evenements/simuler-votre-devis">
+                    Simuler votre devis
+                  </Link>
+                </Button>
+                <Button size="lg" asChild className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-4 text-lg min-h-[44px] focus:ring-2 focus:ring-accent focus:ring-offset-2">
                   <Link href="mailto:contact@chateau-lastours.com">
                     <Mail className="mr-2 w-6 h-6" />
                     contact@chateau-lastours.com
                   </Link>
                 </Button>
-                <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-black px-8 py-4 text-lg">
+                <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-black px-8 py-4 text-lg min-h-[44px] focus:ring-2 focus:ring-white focus:ring-offset-2">
                   <Link href="tel:+33563570709">
                     <Phone className="mr-2 w-6 h-6" />
                     +33 (0)5 63 57 07 09

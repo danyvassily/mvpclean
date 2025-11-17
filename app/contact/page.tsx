@@ -10,7 +10,7 @@ export default function ContactPage() {
       <section className="py-24 bg-wine-dark text-white relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/chateau-lastours-hero.jpg"
+            src="/images/heroes/chateau-lastours-hero.jpg"
             alt="Château Lastours"
             fill
             className="object-cover opacity-20"

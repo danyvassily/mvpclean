@@ -357,7 +357,7 @@ export default function TeamPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
-                <Link href="/reservation">
+                <Link href="/evenements/organiser">
                   Réserver une Visite
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>

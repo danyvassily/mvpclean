@@ -161,7 +161,7 @@ export default function HomePage() {
             className="absolute inset-0 will-change-transform"
           >
             <Image
-              src="/chateau-lastours-hero.jpg"
+              src="/images/heroes/chateau-lastours-hero.jpg"
               alt="Façade du Château Lastours et jardins à la française"
               fill
               priority
@@ -300,7 +300,7 @@ export default function HomePage() {
                 asChild
                 className="group border-slate-900 hover:bg-slate-900 hover:text-white transition-all duration-300 px-8 py-4 text-sm tracking-[0.2em] uppercase font-light"
               >
-                <Link href="/reservation">
+                <Link href="/evenements/organiser">
                   Réserver une visite
                   <MoveRight className="ml-3 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Link>

@@ -439,13 +439,17 @@ export function Header() {
           </div>
 
           {/* Burger Menu Button - Mobile et Tablette */}
-          <div className="xl:hidden flex items-center">
+          <div className="xl:hidden flex items-center z-[1001] relative">
             <button
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className={`p-2 ${navTextColor} hover:bg-black/10 rounded-md transition-colors focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2`}
+              onClick={(e) => {
+                e.stopPropagation()
+                setIsMenuOpen(!isMenuOpen)
+              }}
+              className={`p-2 ${navTextColor} hover:bg-black/10 rounded-md transition-colors focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2 relative z-[1001]`}
               aria-label={isMenuOpen ? "Fermer le menu" : "Ouvrir le menu"}
               {...(isMenuOpen ? { "aria-expanded": "true" } : { "aria-expanded": "false" })}
               aria-controls="mobile-menu"
+              type="button"
             >
               {isMenuOpen ? <X className={`w-6 h-6 ${iconColor}`} /> : <Menu className={`w-6 h-6 ${iconColor}`} />}
             </button>
@@ -457,9 +461,10 @@ export function Header() {
           <div 
             id="mobile-menu"
             ref={mobileMenuRef}
-            className="xl:hidden py-4 border-t border-gray-200 bg-white/98 backdrop-blur-md max-h-[85vh] overflow-y-auto animate-in slide-in-from-top-2 duration-300"
+            className="xl:hidden py-4 border-t border-gray-200 bg-white/98 backdrop-blur-md max-h-[85vh] overflow-y-auto transition-all duration-300 ease-in-out"
             role="navigation"
             aria-label="Menu de navigation mobile"
+            style={{ zIndex: 1000 }}
           >
             <nav className="flex flex-col space-y-2">
               {/* Le Domaine */}
@@ -610,7 +615,7 @@ export function Header() {
                 {mobileSubmenu === 'experiences' && (
                   <div className="ml-4 mt-2 space-y-1">
                     <div className="px-4 py-2 text-xs font-semibold text-slate-500 uppercase tracking-wide">Visites</div>
-                    <Link href="/reservation" className="block px-6 py-2 text-sm text-slate-600 hover:text-wine-gold hover:bg-gray-50 rounded-md transition-colors min-h-[44px] flex items-center" onClick={closeMobileMenu}>
+                    <Link href="/evenements/organiser" className="block px-6 py-2 text-sm text-slate-600 hover:text-wine-gold hover:bg-gray-50 rounded-md transition-colors min-h-[44px] flex items-center" onClick={closeMobileMenu}>
                       Réservez votre instant
                     </Link>
                     <div className="px-4 py-2 text-xs font-semibold text-slate-500 uppercase tracking-wide mt-2">Evènements</div>
@@ -619,6 +624,9 @@ export function Header() {
                     </Link>
                     <Link href="/evenements/organiser" className="block px-6 py-2 text-sm text-slate-600 hover:text-wine-gold hover:bg-gray-50 rounded-md transition-colors min-h-[44px] flex items-center" onClick={closeMobileMenu}>
                       Organisez votre évènement
+                    </Link>
+                    <Link href="/evenements/simuler-votre-devis" className="block px-6 py-2 text-sm text-slate-600 hover:text-wine-gold hover:bg-gray-50 rounded-md transition-colors min-h-[44px] flex items-center" onClick={closeMobileMenu}>
+                      Simuler votre devis
                     </Link>
                   </div>
                 )}
@@ -915,7 +923,7 @@ export function Header() {
                 </h3>
                 <div className="space-y-1">
                   <Link 
-                    href="/reservation" 
+                    href="/evenements/organiser" 
                     className="block text-sm font-medium tracking-wide transition-colors text-slate-600 hover:text-slate-900 py-2 px-2 rounded focus:outline-none focus:ring-2 focus:ring-wine-gold focus:text-wine-gold min-h-[44px] flex items-center"
                     onClick={() => closeMenuImmediately()}
                   >
@@ -933,16 +941,32 @@ export function Header() {
                   <Link 
                     href="/evenements" 
                     className="block text-sm font-medium tracking-wide transition-colors text-slate-600 hover:text-slate-900 py-2 px-2 rounded focus:outline-none focus:ring-2 focus:ring-wine-gold focus:text-wine-gold min-h-[44px] flex items-center"
-                    onClick={() => closeMenuImmediately()}
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      closeMenuImmediately()
+                    }}
                   >
                     Nos évènements
                   </Link>
                   <Link 
                     href="/evenements/organiser" 
                     className="block text-sm font-medium tracking-wide transition-colors text-slate-600 hover:text-slate-900 py-2 px-2 rounded focus:outline-none focus:ring-2 focus:ring-wine-gold focus:text-wine-gold min-h-[44px] flex items-center"
-                    onClick={() => closeMenuImmediately()}
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      closeMenuImmediately()
+                    }}
                   >
                     Organisez votre évènement
+                  </Link>
+                  <Link 
+                    href="/evenements/simuler-votre-devis" 
+                    className="block text-sm font-medium tracking-wide transition-colors text-slate-600 hover:text-slate-900 py-2 px-2 rounded focus:outline-none focus:ring-2 focus:ring-wine-gold focus:text-wine-gold min-h-[44px] flex items-center"
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      closeMenuImmediately()
+                    }}
+                  >
+                    Simuler votre devis
                   </Link>
                 </div>
               </div>

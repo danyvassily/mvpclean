@@ -229,7 +229,7 @@ export default function NotreVignoblePage() {
         items={[
           {
             text: "Réservez votre visite maintenant",
-            href: "/reservation",
+            href: "/evenements/organiser",
             variant: "primary",
           },
           {

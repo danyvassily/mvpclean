@@ -33,9 +33,10 @@ export function HeroEvent({
   return (
     <section 
       className={cn(
-        "relative min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center justify-center overflow-hidden"
+        "relative min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center justify-center overflow-hidden",
+        "mt-0 pt-0"
       )}
-      style={{ marginTop: 0 }}
+      style={{ marginTop: 0, paddingTop: 0 }}
     >
       {/* Image de fond */}
       <div className="absolute inset-0">

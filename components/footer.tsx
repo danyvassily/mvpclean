@@ -93,7 +93,7 @@ const footerColumns = [
   {
     title: "Expériences",
     links: [
-      { label: "Réserver une visite", href: "/reservation" },
+      { label: "Réserver une visite", href: "/evenements/organiser" },
       { label: "Événements", href: "/evenements" },
       { label: "Club Lastours", href: "/club" },
     ],
