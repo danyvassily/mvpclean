@@ -148,14 +148,14 @@ export default function DegustationPage() {
       <DegustationQuiz />
 
       {/* CTA Final */}
-      <section className="py-[calc(var(--rhythm)*3)] lg:py-[calc(var(--rhythm)*4)] bg-[#F3EEE8] relative scroll-mt-[var(--header-height)]">
+      <section className="py-[calc(var(--rhythm)*3)] lg:py-[calc(var(--rhythm)*4)] bg-[#2a2623] relative scroll-mt-[var(--header-height)]">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-4xl mx-auto text-center space-y-[calc(var(--rhythm)*1.5)]">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-[#221] tracking-wide leading-tight text-balance">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-[#F3EEE8] tracking-wide leading-tight text-balance">
               Réserver votre visite et dégustation
             </h2>
             
-            <div className="grid md:grid-cols-3 gap-6 text-[#221]">
+            <div className="grid md:grid-cols-3 gap-6 text-[#F3EEE8]">
               <div className="space-y-2">
                 <p className="text-lg leading-relaxed">Découvrez nos secrets de vinification</p>
               </div>
@@ -171,17 +171,17 @@ export default function DegustationPage() {
               <Button
                 asChild
                 size="lg"
-                className="bg-accent-600 hover:bg-accent-700 text-white min-h-[44px] px-8 py-4 text-lg font-semibold focus-visible:ring-2 focus-visible:ring-accent-600 focus-visible:outline-none"
+                className="bg-[#C9AE71] hover:bg-[#B89D60] text-[#1e1b19] min-h-[44px] px-8 py-4 text-lg font-semibold focus-visible:ring-2 focus-visible:ring-[#C9AE71] focus-visible:outline-none"
               >
-                <Link href="/evenements/organiser">Réserver votre visite</Link>
+                <Link href="/reservation">Réserver votre visite</Link>
               </Button>
               <Button
                 asChild
                 variant="outline"
                 size="lg"
-                className="border-2 border-[#221] text-[#221] hover:bg-[#221] hover:text-[#F3EEE8] min-h-[44px] px-8 py-4 text-lg font-semibold focus-visible:ring-2 focus-visible:ring-[#221] focus-visible:outline-none"
+                className="border-2 border-[#F3EEE8] text-[#F3EEE8] hover:bg-[#F3EEE8] hover:text-[#1e1b19] min-h-[44px] px-8 py-4 text-lg font-semibold focus-visible:ring-2 focus-visible:ring-[#F3EEE8] focus-visible:outline-none"
               >
-                <Link href="/evenements/organiser">Réserver votre dégustation</Link>
+                <Link href="/reservation">Réserver votre dégustation</Link>
               </Button>
             </div>
           </div>

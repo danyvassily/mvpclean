@@ -104,25 +104,25 @@ const footerColumns = [
 const socialLinks = [
   {
     name: "Facebook",
-    href: "#", // TODO: Remplacer par l'URL réelle
+    href: "https://www.facebook.com/chateaulastoursgaillac",
     icon: FacebookIcon,
     ariaLabel: "Facebook Château Lastours",
   },
   {
     name: "Instagram",
-    href: "#", // TODO: Remplacer par l'URL réelle
+    href: "https://www.instagram.com/chateaulastoursgaillac",
     icon: InstagramIcon,
     ariaLabel: "Instagram Château Lastours",
   },
   {
     name: "Twitter",
-    href: "#", // TODO: Remplacer par l'URL réelle
+    href: "https://x.com/lastoursgaillac",
     icon: TwitterIcon,
     ariaLabel: "Twitter Château Lastours",
   },
   {
     name: "Youtube",
-    href: "#", // TODO: Remplacer par l'URL réelle
+    href: "https://www.youtube.com/@chateaulastoursgaillac",
     icon: YoutubeIcon,
     ariaLabel: "Youtube Château Lastours",
   },
@@ -159,7 +159,7 @@ export function Footer() {
 function FooterTop() {
   return (
     <div className="py-6">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 items-start">
         {/* Colonne Logo */}
         <FooterBrand />
 
@@ -181,7 +181,7 @@ function FooterBrand() {
         className="inline-block mb-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C9AE71] focus-visible:ring-offset-2 focus-visible:ring-offset-[#1e1b19] rounded"
       >
         <Image
-          src="/images/logos/logo-chateau-lastours.jpg"
+          src="/images/logos/logo-chateau-lastours.png"
           alt="Château Lastours"
           width={150}
           height={125}
@@ -206,8 +206,8 @@ function FooterLinks({
   items: Array<{ label: string; href: string }>
 }) {
   return (
-    <div>
-      <h4 className="text-[12.5px] font-semibold tracking-[0.04em] mb-2 text-[#F3EEE8] uppercase">
+    <div className="flex flex-col">
+      <h4 className="text-[12.5px] font-semibold tracking-[0.04em] mb-3 text-[#F3EEE8] uppercase leading-tight">
         {title}
       </h4>
       <nav className="flex flex-col gap-1.5" aria-label={title}>

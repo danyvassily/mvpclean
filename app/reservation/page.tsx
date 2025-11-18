@@ -77,12 +77,12 @@ export default function ReservationPage() {
             <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12">
               <div className="max-w-4xl mx-auto text-center">
                 {/* Titre unique */}
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-light text-white tracking-tight mb-6 leading-tight">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-light !text-white tracking-tight mb-6 leading-tight">
                   Réserver votre visite
                 </h1>
                 
                 {/* Texte descriptif */}
-                <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/95 font-light leading-relaxed max-w-3xl mx-auto mb-8">
+                <p className="text-base sm:text-lg md:text-xl lg:text-2xl !text-white font-light leading-relaxed max-w-3xl mx-auto mb-8">
                   Savourez l'instant Lastours : un voyage, une découverte, une dégustation où le plaisir et l'élégance se rencontrent
                 </p>
                 

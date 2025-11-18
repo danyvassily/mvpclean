@@ -35,6 +35,8 @@ const PAGES_WITH_HERO = [
   "/notre-vignoble",
   "/gastronomie",
   "/degustation",
+  "/club",
+  "/mecenat",
 ]
 
 export function Header() {

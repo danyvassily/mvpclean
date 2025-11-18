@@ -170,69 +170,75 @@ export default function GastronomiePage() {
         </section>
 
         {/* Section Accords Mets & Vins */}
-        <section className="py-[calc(var(--rhythm)*2)] lg:py-[calc(var(--rhythm)*3)] bg-gray-50 relative scroll-mt-[var(--header-height)]" id="accords-mets-vins">
+        <section className="py-[calc(var(--rhythm)*2)] lg:py-[calc(var(--rhythm)*3)] bg-white relative scroll-mt-[var(--header-height)]" id="accords-mets-vins">
           <div className="container mx-auto px-4 lg:px-8">
             {/* En-tête de section */}
-            <div className="text-center space-y-6 mb-[calc(var(--rhythm)*2.5)]">
+            <div className="text-center space-y-6 mb-[calc(var(--rhythm)*3)]">
               <h2 className="text-4xl md:text-5xl font-serif font-light text-gray-900 tracking-wide text-balance">
-                Accord Mets & Vins
+                Accords Mets & Vins
               </h2>
             </div>
 
-            {/* Grille des accords */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-              {accordsData.map((accord, index) => (
-                <div 
-                  key={index} 
-                  className="group relative bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:shadow-[0_20px_60px_rgba(0,0,0,0.15)] transition-all duration-500 ease-out"
-                >
-                  {/* Image */}
-                  <div className="relative h-[280px] overflow-hidden rounded-t-3xl">
-                    <Image
-                      src={accord.image}
-                      alt={accord.alt}
-                      fill
-                      className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
-                      sizes="(max-width: 1024px) 100vw, 33vw"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
-                  </div>
-                  
-                  {/* Contenu */}
-                  <div className="p-8 space-y-6">
-                    <div className="space-y-3">
-                      <h3 className="text-2xl font-serif font-semibold text-gray-900 group-hover:text-accent-600 transition-colors duration-300">
-                        {accord.type}
-                      </h3>
-                      <p className="text-gray-600 leading-relaxed break-words text-[15px]">
-                        {accord.description}
-                      </p>
+            {/* Sections éditoriales alternées */}
+            <div className="max-w-7xl mx-auto space-y-[calc(var(--rhythm)*3)]">
+              {accordsData.map((accord, index) => {
+                const isEven = index % 2 === 0
+                return (
+                  <div 
+                    key={index}
+                    className="grid lg:grid-cols-2 gap-[calc(var(--rhythm)*2)] items-center"
+                  >
+                    {/* Image - alternance gauche/droite sur desktop */}
+                    <div className={`relative h-[400px] lg:h-[500px] ${isEven ? 'lg:order-1' : 'lg:order-2'}`}>
+                      <Image
+                        src={accord.image}
+                        alt={accord.alt}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 1024px) 100vw, 50vw"
+                      />
                     </div>
                     
-                    {/* Liste des accords */}
-                    <ul className="space-y-3">
-                      {accord.accords.map((item, i) => (
-                        <li key={i} className="flex items-start space-x-3 text-gray-700">
-                          <span className="w-1.5 h-1.5 bg-accent-500 rounded-full mt-2.5 flex-shrink-0"></span>
-                          <span className="leading-relaxed break-words text-[15px]">{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                    
-                    {/* Bouton */}
-                    <Button 
-                      variant="outline" 
-                      size="lg" 
-                      asChild 
-                      className="w-full group-hover:bg-accent-600 group-hover:text-white group-hover:border-accent-600 transition-all duration-300 min-h-[44px] focus-visible:ring-2 focus-visible:ring-accent-600 focus-visible:outline-none rounded-xl border-2"
-                    >
-                      <Link href={accord.link}>
-                        Découvrir nos {accord.type.split(' ')[1]}
-                      </Link>
-                    </Button>
+                    {/* Contenu texte */}
+                    <div className={`space-y-6 ${isEven ? 'lg:order-2' : 'lg:order-1'}`}>
+                      <div className="space-y-4">
+                        <h3 className="text-3xl md:text-4xl font-serif font-light text-gray-900 tracking-wide">
+                          {accord.type}
+                        </h3>
+                        <p className="text-base md:text-lg leading-relaxed break-words text-gray-700">
+                          {accord.description}
+                        </p>
+                      </div>
+                      
+                      {/* Liste des accords */}
+                      <div className="space-y-3">
+                        <ul className="space-y-3">
+                          {accord.accords.map((item, i) => (
+                            <li key={i} className="flex items-start gap-3 text-gray-700">
+                              <span className="w-1.5 h-1.5 bg-accent-500 rounded-full mt-2.5 flex-shrink-0"></span>
+                              <span className="leading-relaxed break-words text-base">{item}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                      
+                      {/* Bouton */}
+                      <div className="pt-4">
+                        <Button 
+                          variant="outline" 
+                          size="lg" 
+                          asChild 
+                          className="min-h-[44px] focus-visible:ring-2 focus-visible:ring-accent-600 focus-visible:outline-none border-2"
+                        >
+                          <Link href={accord.link}>
+                            Découvrir nos {accord.type.split(' ')[1]}
+                          </Link>
+                        </Button>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              ))}
+                )
+              })}
             </div>
           </div>
         </section>
@@ -350,7 +356,7 @@ export default function GastronomiePage() {
                   asChild 
                   className="bg-white text-accent-900 hover:bg-accent-50 px-8 py-4 text-lg font-semibold shadow-xl min-h-[44px] focus-visible:ring-2 focus-visible:ring-white focus-visible:outline-none"
                 >
-                  <Link href="/evenements/organiser">
+                  <Link href="/reservation">
                     Réserver une visite
                   </Link>
                 </Button>
