@@ -111,13 +111,13 @@ export default function WinesPage() {
 
             {/* Grille de cuvées - Responsive */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-12">
-              {gamme.cuvees.map((cuvee) => (
+              {gamme.cuvees.map((cuvee, cuveeIndex) => (
                 <Link
                   key={cuvee.slug}
                   href={cuvee.route}
                   className="group flex flex-col items-center text-center w-full transition-all duration-300 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-slate-300 focus:ring-offset-2 rounded-lg"
                 >
-                  {/* Image bouteille - PNG transparent */}
+                  {/* Image bouteille - PNG transparent avec lazy loading optimisé */}
                   <div className="relative w-full mb-6 flex items-center justify-center">
                     <div className="relative h-[280px] sm:h-[320px] lg:h-[360px] w-full max-w-[180px] sm:max-w-[200px] lg:max-w-[220px] mx-auto">
                       <Image
@@ -126,6 +126,8 @@ export default function WinesPage() {
                         fill
                         className="object-contain transition-transform duration-300 group-hover:scale-105"
                         sizes="(max-width: 640px) 180px, (max-width: 1024px) 200px, 220px"
+                        loading={index === 0 && cuveeIndex < 4 ? "eager" : "lazy"}
+                        quality={80}
                       />
                     </div>
                   </div>
