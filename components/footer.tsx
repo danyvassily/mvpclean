@@ -181,10 +181,10 @@ function FooterBrand() {
         className="inline-block mb-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C9AE71] focus-visible:ring-offset-2 focus-visible:ring-offset-[#1e1b19] rounded"
       >
         <Image
-          src="/images/logos/logo-chateau-lastours.png"
+          src="/asset/espace-presse/logo-chateau-lastours-blason.png"
           alt="Château Lastours"
           width={150}
-          height={125}
+          height={150}
           className="w-[140px] md:w-[150px] h-auto object-contain"
           priority={false}
           loading="lazy"

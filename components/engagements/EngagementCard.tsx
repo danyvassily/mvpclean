@@ -85,7 +85,7 @@ export function EngagementCard({
             {/* Logo optionnel (ex: HVE) */}
             {logo && (
               <div className="pt-4">
-                <div className="relative w-24 h-24">
+                <div className="relative w-32 h-32 md:w-40 md:h-40">
                   <Image
                     src={logo}
                     alt="Logo certification"
