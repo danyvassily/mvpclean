@@ -79,11 +79,11 @@ export default function TeamPage() {
             sizes="100vw"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60" />
+        <div className="absolute inset-0 bg-black/40 z-10" />
         <div className="relative z-10 text-center text-white max-w-3xl mx-auto px-8 flex flex-col items-center justify-center space-y-2">
           <div className="team-hero-title">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-display mb-2 leading-tight tracking-tight">Notre Équipe</h1>
-            <p className="team-hero-subtitle text-sm sm:text-base md:text-lg lg:text-2xl opacity-90 font-light leading-relaxed">Passion et expertise au service de l'excellence</p>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-display mb-2 leading-tight tracking-tight !text-white drop-shadow-md">Notre Équipe</h1>
+            <p className="team-hero-subtitle text-sm sm:text-base md:text-lg lg:text-2xl opacity-90 font-light leading-relaxed !text-white drop-shadow-md">Passion et expertise au service de l'excellence</p>
           </div>
         </div>
       </section>

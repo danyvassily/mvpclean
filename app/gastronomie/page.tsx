@@ -118,13 +118,13 @@ export default function GastronomiePage() {
           
           <div className="relative z-10 text-center text-white max-w-6xl mx-auto px-4 space-y-8">
             {/* Titre principal */}
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-light text-white tracking-[0.02em] leading-[0.9] mb-8 text-balance">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-light !text-white tracking-[0.02em] leading-[0.9] mb-8 text-balance drop-shadow-md">
               L'Art des
               <span className="block italic font-normal">Accords</span>
             </h1>
             
             {/* Sous-titre */}
-            <p className="text-xl md:text-2xl lg:text-3xl text-white/90 font-light leading-relaxed max-w-4xl mx-auto tracking-wide text-balance">
+            <p className="text-xl md:text-2xl lg:text-3xl !text-white/90 font-light leading-relaxed max-w-4xl mx-auto tracking-wide text-balance drop-shadow-md">
               Découvre comment nos cépages subliment la gastronomie
             </p>
 

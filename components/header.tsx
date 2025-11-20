@@ -253,25 +253,16 @@ export function Header() {
 
   // Déterminer le style du header selon si la page a un hero
   const getHeaderStyles = () => {
-    if (hasHeroVisual) {
-      // Header transparent sur pages avec hero (style Ruinart)
-      if (scrolled) {
-        return "bg-white/90 backdrop-blur-md border-b border-gray-200/50 shadow-lg"
-      }
-      return "bg-black/40 backdrop-blur-sm border-b border-white/10"
-    }
-    // Header opaque sur pages sans hero
+    // Header toujours blanc opaque, légère ombre au scroll
     if (scrolled) {
-      return "bg-white/98 backdrop-blur-md border-b border-gray-200/50 shadow-lg"
+      return "bg-white/98 backdrop-blur-md shadow-sm"
     }
-    return "bg-white/95 backdrop-blur-sm border-b border-gray-200/30 shadow-sm"
+    // Header blanc sans ombre par défaut
+    return "bg-white"
   }
 
-  // Couleur du texte selon le contexte
+  // Couleur du texte - Toujours sombre
   const getTextColor = () => {
-    if (hasHeroVisual && !scrolled) {
-      return "text-white"
-    }
     return "text-slate-800"
   }
 

@@ -36,18 +36,18 @@ export function HeroVignoble({
       
       <div className="relative z-10 text-center text-white max-w-6xl mx-auto px-4 space-y-6">
         <div className="space-y-4">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-light tracking-tight text-white drop-shadow-lg">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-light tracking-tight !text-white drop-shadow-md">
             {title}
           </h1>
           {subtitle && (
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-light italic text-white/95 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-light italic !text-white/95 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
               {subtitle}
             </h2>
           )}
         </div>
         
         {description && (
-          <p className="text-lg md:text-xl leading-relaxed text-white/90 max-w-5xl mx-auto drop-shadow-md">
+          <p className="text-lg md:text-xl leading-relaxed !text-white/90 max-w-5xl mx-auto drop-shadow-md">
             {description}
           </p>
         )}

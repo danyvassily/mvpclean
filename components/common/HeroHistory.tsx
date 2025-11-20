@@ -48,26 +48,23 @@ export function HeroHistory({
       {/* Grain texture subtile */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none grain"></div>
 
-      {/* Contenu texte - Position BAS comme la home */}
-      <div className="relative z-10 h-full flex items-end">
-        <div className="w-full px-4 md:px-8 lg:px-16 pb-12 md:pb-16 lg:pb-20">
-          <div className="max-w-4xl">
-            {/* Backplate clair discret si nécessaire pour lisibilité */}
-            <div className="bg-[rgba(255,255,255,0.85)] backdrop-blur-sm rounded-lg p-6 md:p-8 lg:p-10 max-w-4xl">
-              <h1
-                className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-serif font-light text-slate-900 tracking-[0.02em] leading-[1.05] mb-4 md:mb-6"
-                style={{ textWrap: "balance" }}
+      {/* Contenu texte - Centré comme les autres pages */}
+      <div className="relative z-10 h-full flex items-center justify-center">
+        <div className="w-full px-4 md:px-8 lg:px-16">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1
+              className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-serif font-light !text-white tracking-[0.02em] leading-[1.05] mb-4 md:mb-6 drop-shadow-md"
+              style={{ textWrap: "balance" }}
+            >
+              {title}
+            </h1>
+            {subtitle && (
+              <p
+                className="text-base lg:text-lg xl:text-xl leading-relaxed !text-white/95 font-light tracking-wide max-w-3xl mx-auto drop-shadow-md"
               >
-                {title}
-              </h1>
-              {subtitle && (
-                <p
-                  className="text-base lg:text-lg xl:text-xl leading-relaxed text-slate-700 font-light tracking-wide max-w-3xl"
-                >
-                  {subtitle}
-                </p>
-              )}
-            </div>
+                {subtitle}
+              </p>
+            )}
           </div>
         </div>
       </div>

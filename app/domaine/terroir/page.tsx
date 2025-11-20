@@ -145,29 +145,29 @@ export default function TerroirPage() {
           {/* Titre principal amélioré */}
           <div className="space-y-6">
             <div className="space-y-2">
-              <p className="text-lg md:text-xl font-light tracking-wider uppercase opacity-80 text-green-200">
+              <p className="text-lg md:text-xl font-light tracking-wider uppercase opacity-80 text-green-200 drop-shadow-md">
                 Le Domaine
               </p>
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold tracking-tight">
+              <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold tracking-tight drop-shadow-md">
                 Notre{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 to-lime-400">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 to-lime-400 drop-shadow-sm">
                   Terroir
                 </span>
               </h1>
             </div>
             
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-light italic opacity-90 max-w-4xl mx-auto leading-relaxed">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-light italic opacity-90 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
               Un Voyage Millénaire au Cœur du Sud-Ouest
             </h2>
           </div>
 
           {/* Description enrichie */}
           <div className="space-y-6 max-w-5xl mx-auto">
-            <p className="text-xl md:text-2xl font-light leading-relaxed opacity-95">
+            <p className="text-xl md:text-2xl font-light leading-relaxed opacity-95 drop-shadow-md">
               <span className="text-green-200 font-semibold">Aux confins du Sud-Ouest : Terroir d'Exception</span>
             </p>
             
-            <p className="text-lg md:text-xl leading-relaxed opacity-90">
+            <p className="text-lg md:text-xl leading-relaxed opacity-90 drop-shadow-md">
               Entre Toulouse et Albi s'étend un vignoble ancestral, vibrant d'histoire et de mémoire : 
               le terroir de Gaillac. Ici, la vigne pousse depuis plus de deux millénaires.
             </p>

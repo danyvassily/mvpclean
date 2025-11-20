@@ -13,6 +13,34 @@ interface ScrollSmootherWrapperProps {
   effects?: boolean
 }
 
+// Pages avec hero visuel qui doivent être collées au header (sans padding)
+const PAGES_WITH_HERO = [
+  "/",
+  "/les-vins",
+  "/evenements",
+  "/evenements/organiser",
+  "/evenements/simuler-votre-devis",
+  "/evenements/reservation",
+  "/reservation",
+  "/domaine/histoire",
+  "/domaine/engagement",
+  "/domaine/terroir",
+  "/notre-vignoble",
+  "/notre-chai",
+  "/gastronomie",
+  "/degustation",
+  "/club",
+  "/mecenat",
+  "/de-la-vigne-a-la-bouteille",
+  "/le-cycle-de-la-vigne",
+  "/methode-blanche",
+  "/la-vigne",
+  "/savoir-faire/vigne",
+  "/savoir-faire/chai",
+  "/actualites",
+  "/presse",
+]
+
 export function ScrollSmootherWrapper({ 
   children, 
   speed = 1,
@@ -28,17 +56,18 @@ export function ScrollSmootherWrapper({
     // Register GSAP plugins
     gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 
+    // Vérifie si la page actuelle a un hero visuel
+    const hasHeroVisual = PAGES_WITH_HERO.some(
+      path => pathname === path || pathname.startsWith(path + "/")
+    )
+
     // Fonction pour mettre à jour le padding-top selon la page
     const updateContentPadding = () => {
       if (contentRef.current) {
-        // Toujours appliquer un padding-top pour que le ScrollSmoother fonctionne correctement
-        // La section hero utilisera une marge négative pour commencer en haut
+        // Toujours appliquer le padding pour compenser le header fixe blanc
         const headerHeight = getComputedStyle(document.documentElement)
           .getPropertyValue('--header-height')
         const height = headerHeight ? parseInt(headerHeight) : 80
-        
-        // Toujours appliquer le padding pour que les sections soient visibles
-        // La section hero de la page d'accueil utilisera une marge négative pour remonter
         contentRef.current.style.paddingTop = `${height}px`
       }
     }

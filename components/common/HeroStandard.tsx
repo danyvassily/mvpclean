@@ -103,10 +103,7 @@ export function HeroStandard({
             {/* Titre - Taille raisonnable, court */}
             <h1
               ref={titleRef}
-              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif font-light text-white tracking-[0.02em] leading-[1.15] mb-6"
-              style={{
-                textShadow: '0 4px 12px rgba(0, 0, 0, 0.7), 0 8px 24px rgba(0, 0, 0, 0.5)'
-              }}
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif font-light !text-white tracking-[0.02em] leading-[1.15] mb-6 drop-shadow-md"
             >
               {title}
             </h1>
@@ -115,10 +112,7 @@ export function HeroStandard({
             {subtitle && (
               <p
                 ref={subtitleRef}
-                className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-white/95 font-light tracking-wide max-w-2xl mx-auto"
-                style={{
-                  textShadow: '0 2px 8px rgba(0, 0, 0, 0.6)'
-                }}
+                className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed !text-white/95 font-light tracking-wide max-w-2xl mx-auto drop-shadow-md"
               >
                 {subtitle}
               </p>

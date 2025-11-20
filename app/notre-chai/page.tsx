@@ -143,42 +143,34 @@ export default function NotreChai() {
       <div className="fixed inset-0 opacity-8 pointer-events-none texture-grain">
       </div>
 
-      {/* Hero Section - Style élégant */}
-      <section className="relative py-24 lg:py-40 xl:py-48 overflow-hidden z-10">
-        <div className={cn(SPACING.container, "relative z-10")}>
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-            {/* Contenu texte hero */}
-            <div className="lg:col-span-5 order-2 lg:order-1">
-              <div className="py-12 lg:py-16">
-                <SectionTitle
-                  kicker="Vinification d'Excellence"
-                  title="Notre Chai"
-                  subtitle="De la Grappe à la Bouteille : Le Souffle du Terroir. Découvrez l'art de la vinification haut de gamme au Château Lastours, au cœur de Gaillac, où chaque millésime devient une aventure sensorielle et un hommage à la tradition viticole française."
-                  align="left"
-                />
-              </div>
-            </div>
-
-            {/* Image hero */}
-            <div className="lg:col-span-7 order-1 lg:order-2">
-              <div className="relative h-[450px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl transform hover:scale-[1.01] transition-all duration-700 group">
-                <Image
-                  src="/page/notre-chai-manque-1-photo/elevage-vin-chai-a-barrique-chateau-lastours.jpg"
-                  alt="Notre Chai - Château Lastours"
-                  fill
-                  priority
-                  className="w-full h-full object-cover object-center"
-                  sizes="(max-width: 1024px) 100vw, 58vw"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 via-transparent to-stone-800/20" />
-                <div className="absolute inset-0 grain-subtle" />
-              </div>
-            </div>
-          </div>
+      {/* Hero Section - Style élégant avec texte blanc sur image */}
+      <section className="relative h-[60vh] lg:h-[70vh] overflow-hidden flex items-center justify-center z-10">
+        {/* Image de fond */}
+        <div className="absolute inset-0 w-full h-full">
+          <Image
+            src="/page/notre-chai-manque-1-photo/elevage-vin-chai-a-barrique-chateau-lastours.jpg"
+            alt="Notre Chai - Château Lastours"
+            fill
+            priority
+            className="w-full h-full object-cover object-center"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-black/40" />
+          <div className="absolute inset-0 grain-subtle opacity-20" />
         </div>
 
-        {/* Espace aéré après le hero */}
-        <div className="h-16 lg:h-24"></div>
+        {/* Contenu texte centré et blanc */}
+        <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-12 text-center max-w-4xl">
+          <span className="inline-block px-4 py-2 mb-6 border border-white/30 rounded-full text-xs font-bold tracking-[0.2em] uppercase text-white backdrop-blur-sm">
+            Vinification d'Excellence
+          </span>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-light mb-6 tracking-tight !text-white drop-shadow-md">
+            Notre Chai
+          </h1>
+          <p className="text-base sm:text-xl md:text-2xl font-light !text-white/95 leading-relaxed max-w-3xl mx-auto drop-shadow-md">
+            De la Grappe à la Bouteille : Le Souffle du Terroir. Découvrez l'art de la vinification haut de gamme au Château Lastours, au cœur de Gaillac.
+          </p>
+        </div>
       </section>
 
       {/* Sections panoramiques - Style élégant sans icônes */}

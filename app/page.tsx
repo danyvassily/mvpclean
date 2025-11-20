@@ -38,9 +38,9 @@ export default function HomePage() {
         )
         .fromTo(
           heroImage.current,
-          { scale: 1.2, y: "-10%" },
+          { scale: 1.3, y: "-10%" },
           {
-            scale: 1,
+            scale: 1.1,
             y: "0%",
             duration: 2,
             ease: "power2.inOut",
@@ -50,7 +50,7 @@ export default function HomePage() {
 
       // Parallax effect for Hero Image
       gsap.to(heroImage.current, {
-        y: "20%",
+        y: "15%",
         scrollTrigger: {
           trigger: container.current,
           start: "top top",
@@ -152,10 +152,11 @@ export default function HomePage() {
 
   return (
     <div ref={container} className="min-h-screen">
-      {/* Hero Section - Style Ruinart minimaliste */}
-      <section className="relative hero-offset">
-        {/* Image Hero - Full width sans texte */}
-        <div className="relative h-[70vh] sm:h-[75vh] lg:h-[85vh] max-h-[800px] overflow-hidden">
+      {/* Hero Section - Style Ruinart avec texte sur image */}
+      <section className="relative">
+        {/* Image Hero avec texte en overlay */}
+        <div className="relative h-[90vh] sm:h-[85vh] lg:h-[90vh] max-h-[900px] overflow-hidden flex items-center justify-center">
+          {/* Image de fond */}
           <div
             ref={heroImage}
             className="absolute inset-0 will-change-transform"
@@ -169,26 +170,30 @@ export default function HomePage() {
               sizes="100vw"
             />
           </div>
-          {/* Légère ombre en bas pour transition */}
-          <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-white/10 to-transparent" />
-        </div>
-
-        {/* Titre et sous-titre sur fond blanc en dessous de l'image */}
-        <div className="bg-white py-16 lg:py-24">
-          <div className="container mx-auto px-6 lg:px-12 text-center max-w-4xl">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-light mb-4 hero-title tracking-tight text-slate-900">
-              Château Lastours
-            </h1>
-            <p className="text-xl sm:text-2xl md:text-3xl font-serif font-light text-slate-600 mb-8 hero-title italic">
-              Vins d'excellence depuis 1579
-            </p>
-            <div className="hero-button">
+          
+          {/* Overlay gradient pour la lisibilité */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
+          
+          {/* Contenu texte sur l'image */}
+          <div className="relative z-10 container mx-auto px-6 lg:px-12 max-w-4xl">
+            {/* Titre et sous-titre alignés à gauche */}
+            <div className="text-left">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif font-light mb-6 hero-title tracking-tight !text-white drop-shadow-md">
+                Château Lastours
+              </h1>
+              <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-light !text-white/95 mb-10 lg:mb-12 hero-title italic drop-shadow-md">
+                Vins d'excellence depuis 1579
+              </p>
+            </div>
+            
+            {/* Bouton centré, fond blanc permanent */}
+            <div className="hero-button flex justify-center">
               <Button
                 variant="outline"
                 asChild
-                className="group border-slate-900 hover:bg-slate-900 hover:text-white transition-all duration-300 px-8 py-4 text-sm tracking-[0.2em] uppercase font-light"
+                className="group bg-white border-white text-slate-900 hover:bg-white/90 hover:text-slate-900 transition-all duration-300 px-8 py-4 text-sm tracking-[0.2em] uppercase font-light backdrop-blur-sm"
               >
-                <Link href="/savoir-faire">
+                <Link href="/savoir-faire" className="text-slate-900">
                   Découvrir notre savoir-faire
                   <MoveRight className="ml-3 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
@@ -198,9 +203,8 @@ export default function HomePage() {
         </div>
       </section>
 
-
       {/* 1. NOS VINS - Style Ruinart avec alternance */}
-      <section className="bg-white py-16 lg:py-24 section-wines">
+      <section className="bg-white py-16 lg:py-24 section-wines !mt-0">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             
