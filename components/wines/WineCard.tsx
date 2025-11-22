@@ -6,96 +6,89 @@ import { cn } from "@/lib/utils"
 
 interface WineCardProps {
   name: string
-  slug: string
-  appellation?: string
-  color?: string
-  gamme?: string
+  subtitle?: string
   description?: string
   imageSrc: string
-  imageAlt: string
+  href: string
   className?: string
 }
 
 /**
- * WineCard - Composant carte vin inspiré du style Ruinart
+ * WineCard - Composant carte vin style Ruinart ultra-minimaliste
+ * 
+ * CONTRAINTE IMPORTANTE : Toutes les bouteilles ont EXACTEMENT la même taille visuelle
+ * grâce à un conteneur de dimensions fixes (aspect-ratio 1:3) et object-contain.
  * 
  * Structure :
- * - Image de bouteille (object-contain pour respecter le ratio)
- * - Nom de la cuvée
- * - Appellation/couleur/gamme (optionnel)
- * - Description courte (optionnel)
- * - CTA "Découvrir"
+ * - Bouteille centrée (taille fixe uniforme)
+ * - Nom de la cuvée (élégant, sobre)
+ * - Badge/subtitle optionnel (ex: "Blanc", "Rouge", etc.)
+ * - CTA discret "Découvrir"
  * 
- * Responsive :
- * - Mobile : Pleine largeur, centrée
- * - Tablette : 2 colonnes dans grille
- * - Desktop : 3-4 colonnes dans grille
+ * Style Ruinart :
+ * - Fond blanc pur
+ * - Typographie légère et aérée
+ * - Transitions douces
+ * - Hover subtil
+ * - Pas de prix affiché
  */
 export function WineCard({
   name,
-  slug,
-  appellation,
-  color,
-  gamme,
+  subtitle,
   description,
   imageSrc,
-  imageAlt,
+  href,
   className
 }: WineCardProps) {
   return (
     <Link
-      href={`/les-vins/${slug}`}
+      href={href}
       className={cn(
-        "group flex flex-col items-center text-center",
-        "transition-all duration-300 hover:scale-[1.02]",
-        "focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2",
+        "group flex flex-col items-center text-center w-full",
+        "transition-all duration-500 hover:opacity-80",
+        "focus:outline-none focus:ring-2 focus:ring-slate-300 focus:ring-offset-4",
+        "rounded-lg",
         className
       )}
     >
-      {/* Image bouteille - Taille réduite pour voir la bouteille entière */}
-      <div className="relative w-full mb-6 flex items-center justify-center bg-white">
-        <div className="relative h-[320px] sm:h-[340px] lg:h-[360px] w-full max-w-[200px] sm:max-w-[220px] lg:max-w-[240px] mx-auto flex items-center justify-center">
+      {/* Conteneur bouteille - Dimensions augmentées de 30% supplémentaires */}
+      <div className="w-full flex items-center justify-center mb-6 sm:mb-8">
+        <div className="relative" style={{ width: '172px', height: '515px' }}>
           <Image
             src={imageSrc}
-            alt={imageAlt}
+            alt={`${name} - Château Lastours`}
             fill
-            className="object-contain"
-            sizes="(max-width: 640px) 200px, (max-width: 1024px) 220px, 240px"
+            className="object-contain object-center transition-transform duration-500 group-hover:scale-105"
+            sizes="(max-width: 640px) 172px, (max-width: 768px) 200px, 240px"
+            quality={100}
+            priority
           />
         </div>
       </div>
 
-      {/* Contenu */}
-      <div className="flex flex-col items-center space-y-3">
-        {/* Nom de la cuvée */}
-        <h3 className="text-xl sm:text-2xl font-serif font-light text-slate-900 tracking-wide group-hover:text-wine-gold transition-colors">
+      {/* Contenu textuel - Style Ruinart authentique */}
+      <div className="flex flex-col items-center space-y-2 sm:space-y-3 w-full">
+        {/* Nom de la cuvée - Style Ruinart */}
+        <h3 className="text-xs sm:text-sm md:text-base lg:text-lg font-serif font-light text-slate-900 tracking-wide leading-tight">
           {name}
         </h3>
 
-        {/* Appellation / Couleur / Gamme */}
-        {(appellation || color || gamme) && (
-          <div className="flex flex-wrap items-center justify-center gap-2 text-xs sm:text-sm text-slate-600 uppercase tracking-wider">
-            {appellation && <span>{appellation}</span>}
-            {appellation && color && <span className="text-slate-400">•</span>}
-            {color && <span>{color}</span>}
-            {(appellation || color) && gamme && <span className="text-slate-400">•</span>}
-            {gamme && <span>{gamme}</span>}
-          </div>
+        {/* Badge/Subtitle - Style Ruinart discret */}
+        {subtitle && (
+          <span className="inline-block text-[9px] sm:text-[10px] font-light px-2 py-0.5 uppercase tracking-[0.15em] text-slate-500">
+            {subtitle}
+          </span>
         )}
 
-        {/* Description courte */}
+        {/* Description courte (optionnelle) */}
         {description && (
-          <p className="text-sm leading-relaxed text-slate-700 max-w-xs line-clamp-3">
+          <p className="text-[10px] sm:text-xs font-light text-slate-600 leading-relaxed max-w-xs line-clamp-2 mt-1">
             {description}
           </p>
         )}
-
-        {/* CTA discret */}
-        <span className="text-xs font-light text-slate-600 uppercase tracking-wide group-hover:text-slate-900 transition-colors">
-          Découvrir
-        </span>
       </div>
     </Link>
   )
 }
 
+export default WineCard

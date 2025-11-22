@@ -1,106 +1,48 @@
 "use client"
 
+import { ReactNode } from "react"
 import { cn } from "@/lib/utils"
-import { WineCard } from "./WineCard"
-
-interface Wine {
-  name: string
-  slug: string
-  appellation?: string
-  color?: string
-  gamme?: string
-  description?: string
-  image: string
-  imageAlt?: string
-}
 
 interface WineGridProps {
-  wines: Wine[]
-  title?: string
-  subtitle?: string
+  children: ReactNode
   className?: string
-  columns?: {
-    mobile?: 1
-    tablet?: 2 | 3
-    desktop?: 3 | 4
-  }
 }
 
 /**
- * WineGrid - Grille responsive pour affichage des vins
+ * WineGrid - Grille responsive style Ruinart AUTHENTIQUE
  * 
- * Inspiré du style Ruinart :
- * - Grille propre et aérée
- * - Responsive : 1 colonne mobile, 2 tablette, 3-4 desktop
- * - Fond blanc
- * - Marges respirantes
+ * Inspiré de https://www.ruinart.com/fr-fr/champagnes/
  * 
- * Utilisation :
- * ```tsx
- * <WineGrid
- *   wines={winesData}
- *   title="Nos Cuvées d'Exception"
- *   subtitle="Découvrez notre gamme complète"
- * />
- * ```
+ * Caractéristiques style Ruinart :
+ * - Bouteilles petites mais visibles (40-63px après +40%)
+ * - Grille 3 colonnes sur desktop
+ * - Espacement généreux mais équilibré
+ * - Beaucoup d'espace blanc autour
+ * - Typographie légère et discrète
+ * 
+ * Responsive :
+ * - Mobile : 2 colonnes
+ * - Tablette (md) : 3 colonnes
+ * - Desktop (lg) : 3 colonnes
  */
-export function WineGrid({
-  wines,
-  title,
-  subtitle,
-  className,
-  columns = {
-    mobile: 1,
-    tablet: 2,
-    desktop: 3
-  }
-}: WineGridProps) {
-  const gridClasses = cn(
-    "grid gap-8 md:gap-10 lg:gap-16",
-    "grid-cols-1 place-items-center",
-    columns.tablet === 2 && "md:grid-cols-2 md:place-items-center",
-    columns.tablet === 3 && "md:grid-cols-3",
-    columns.desktop === 3 && "lg:grid-cols-3 lg:justify-center lg:place-items-center",
-    columns.desktop === 4 && "lg:grid-cols-4"
-  )
-
+export function WineGrid({ children, className }: WineGridProps) {
   return (
-    <section className={cn("py-16 lg:py-24 bg-white", className)}>
-      <div className="container mx-auto px-4 lg:px-8">
-        {/* Titre et sous-titre (optionnels) */}
-        {(title || subtitle) && (
-          <div className="text-center mb-12 lg:mb-16 max-w-4xl mx-auto">
-            {title && (
-              <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif font-light text-slate-900 tracking-tight mb-6">
-                {title}
-              </h2>
-            )}
-            {subtitle && (
-              <p className="text-sm md:text-base leading-relaxed text-slate-600 font-light max-w-3xl mx-auto">
-                {subtitle}
-              </p>
-            )}
-          </div>
-        )}
-
-        {/* Grille de vins */}
-        <div className={gridClasses}>
-          {wines.map((wine) => (
-            <WineCard
-              key={wine.slug}
-              name={wine.name}
-              slug={wine.slug}
-              appellation={wine.appellation}
-              color={wine.color}
-              gamme={wine.gamme}
-              description={wine.description}
-              imageSrc={wine.image}
-              imageAlt={wine.imageAlt || `${wine.name} - Château Lastours`}
-            />
-          ))}
-        </div>
-      </div>
-    </section>
+    <div
+      className={cn(
+        // Grille responsive style Ruinart - 3 colonnes sur desktop
+        "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3",
+        // Espacement généreux mais équilibré (style Ruinart)
+        "gap-10 sm:gap-12 md:gap-16 lg:gap-20",
+        // Centrage parfait
+        "place-items-center",
+        // Largeur max pour concentrer la grille
+        "max-w-7xl mx-auto",
+        className
+      )}
+    >
+      {children}
+    </div>
   )
 }
 
+export default WineGrid

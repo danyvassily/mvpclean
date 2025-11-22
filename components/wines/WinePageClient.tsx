@@ -276,7 +276,7 @@ export function WinePageClient({ wine, availableYears }: WinePageClientProps) {
 
       <div ref={container} className="min-h-screen bg-white">
         {/* Hero Section - Bouteille + Carte dynamique à droite - Style Ruinart */}
-      <section className="bg-white py-12 lg:py-16">
+      <section className="bg-white pt-12 pb-4 lg:py-16">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="grid lg:grid-cols-[50%_50%] gap-8 lg:gap-12 items-start">
             {/* Image bouteille à gauche - TOUJOURS EN PREMIER sur mobile */}
@@ -357,7 +357,7 @@ export function WinePageClient({ wine, availableYears }: WinePageClientProps) {
 
       {/* Sélecteur de millésime - Style minimaliste */}
       {availableYears.length > 1 && (
-        <section className="bg-white py-8 border-t border-b border-slate-200">
+        <section className="bg-white py-4 lg:py-8 border-t border-b border-slate-200">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="flex flex-wrap items-center justify-center gap-3">
               <span className="text-sm font-light text-slate-600 uppercase tracking-[0.2em]">

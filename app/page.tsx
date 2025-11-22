@@ -24,16 +24,19 @@ export default function HomePage() {
   useGSAP(
     () => {
       // Hero Section Animations
+      // Vérifier si on est en mobile pour ajuster l'animation
+      const isMobile = window.innerWidth < 768
+      
       const tl = gsap.timeline({ defaults: { ease: "power3.out" } })
       tl.from(".hero-title", {
-        y: 100,
+        y: isMobile ? 30 : 100,
         opacity: 0,
         duration: 1.2,
         stagger: 0.2,
       })
         .from(
           ".hero-button",
-          { y: 50, opacity: 0, duration: 1 },
+          { y: isMobile ? 20 : 50, opacity: 0, duration: 1 },
           "-=0.8"
         )
         .fromTo(
@@ -155,7 +158,7 @@ export default function HomePage() {
       {/* Hero Section - Style Ruinart avec texte sur image */}
       <section className="relative">
         {/* Image Hero avec texte en overlay */}
-        <div className="relative h-[90vh] sm:h-[85vh] lg:h-[90vh] max-h-[900px] overflow-hidden flex items-center justify-center">
+        <div className="relative h-[90vh] sm:h-[85vh] lg:h-[90vh] max-h-[900px] overflow-hidden">
           {/* Image de fond */}
           <div
             ref={heroImage}
@@ -172,32 +175,34 @@ export default function HomePage() {
           </div>
           
           {/* Overlay gradient pour la lisibilité */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50 z-[1]" />
           
-          {/* Contenu texte sur l'image */}
-          <div className="relative z-10 container mx-auto px-6 lg:px-12 max-w-4xl">
-            {/* Titre et sous-titre alignés à gauche */}
-            <div className="text-left">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif font-light mb-6 hero-title tracking-tight !text-white drop-shadow-md">
-                Château Lastours
-              </h1>
-              <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-light !text-white/95 mb-10 lg:mb-12 hero-title italic drop-shadow-md">
-                Vins d'excellence depuis 1579
-              </p>
-            </div>
-            
-            {/* Bouton centré, fond blanc permanent */}
-            <div className="hero-button flex justify-center">
-              <Button
-                variant="outline"
-                asChild
-                className="group bg-white border-white text-slate-900 hover:bg-white/90 hover:text-slate-900 transition-all duration-300 px-8 py-4 text-sm tracking-[0.2em] uppercase font-light backdrop-blur-sm"
-              >
-                <Link href="/savoir-faire" className="text-slate-900">
-                  Découvrir notre savoir-faire
-                  <MoveRight className="ml-3 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Link>
-              </Button>
+          {/* Contenu texte sur l'image - Positionnement absolu pour mobile */}
+          <div className="absolute inset-0 z-10 flex flex-col justify-start lg:justify-center items-start w-full px-6 lg:px-12 pt-[25vh] sm:pt-[30vh] lg:pt-0">
+            <div className="w-full max-w-4xl mx-auto">
+              {/* Titre et sous-titre alignés à gauche */}
+              <div className="text-left w-full">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif font-light mb-1 sm:mb-2 hero-title tracking-tight !text-white drop-shadow-lg leading-tight">
+                  Château Lastours
+                </h1>
+                <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-light !text-white/95 mb-8 sm:mb-10 lg:mb-12 hero-title italic drop-shadow-lg leading-tight">
+                  Vins d'excellence depuis 1579
+                </p>
+              </div>
+              
+              {/* Bouton centré, fond blanc permanent */}
+              <div className="hero-button flex justify-center w-full mt-4 sm:mt-6">
+                <Button
+                  variant="outline"
+                  asChild
+                  className="group bg-white border-white text-slate-900 hover:bg-white/90 hover:text-slate-900 transition-all duration-300 px-6 sm:px-8 py-3 sm:py-4 text-xs sm:text-sm tracking-[0.2em] uppercase font-light backdrop-blur-sm"
+                >
+                  <Link href="/savoir-faire" className="text-slate-900">
+                    Découvrir notre savoir-faire
+                    <MoveRight className="ml-2 sm:ml-3 h-3 w-3 sm:h-4 sm:w-4 group-hover:translate-x-1 transition-transform" />
+                  </Link>
+                </Button>
+              </div>
             </div>
           </div>
         </div>
