@@ -476,11 +476,11 @@ export function Header() {
             <div 
               id="mobile-menu"
               ref={mobileMenuRef}
-              className="xl:hidden py-4 border-t border-gray-200 bg-white/98 backdrop-blur-md max-h-[85vh] overflow-y-auto transition-all duration-300 ease-in-out z-[1000]"
+              className="xl:hidden py-4 border-t border-gray-200 bg-white/98 backdrop-blur-md max-h-[calc(100vh-5rem)] overflow-y-auto transition-all duration-300 ease-in-out z-[1000] overscroll-contain"
               role="navigation"
               aria-label="Menu de navigation mobile"
             >
-              <nav className="flex flex-col space-y-2">
+              <nav className="flex flex-col space-y-2 pb-8">
                 {/* Notre Domaine */}
                 <div>
                   <button

@@ -26,7 +26,7 @@ export default function HomePage() {
       // Hero Section Animations
       // Vérifier si on est en mobile pour ajuster l'animation
       const isMobile = window.innerWidth < 768
-      
+
       const tl = gsap.timeline({ defaults: { ease: "power3.out" } })
       tl.from(".hero-title", {
         y: isMobile ? 30 : 100,
@@ -173,36 +173,38 @@ export default function HomePage() {
               sizes="100vw"
             />
           </div>
-          
+
           {/* Overlay gradient pour la lisibilité */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50 z-[1]" />
-          
+
           {/* Contenu texte sur l'image - Positionnement absolu pour mobile */}
-          <div className="absolute inset-0 z-10 flex flex-col justify-start lg:justify-center items-start w-full px-6 lg:px-12 pt-[25vh] sm:pt-[30vh] lg:pt-0">
-            <div className="w-full max-w-4xl mx-auto">
-              {/* Titre et sous-titre alignés à gauche */}
+          {/* Contenu texte sur l'image - Centré verticalement, aligné à gauche */}
+          <div className="absolute inset-0 z-10 flex flex-col justify-center items-start w-full px-6 lg:px-12">
+            <div className="w-full max-w-7xl mx-auto">
               <div className="text-left w-full">
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif font-light mb-1 sm:mb-2 hero-title tracking-tight !text-white drop-shadow-lg leading-tight">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif font-light mb-1 sm:mb-2 hero-title tracking-tight !text-white drop-shadow-lg leading-tight mt-20 sm:mt-0">
                   Château Lastours
                 </h1>
-                <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-light !text-white/95 mb-8 sm:mb-10 lg:mb-12 hero-title italic drop-shadow-lg leading-tight">
+                <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-light !text-white/95 hero-title italic drop-shadow-lg leading-tight">
                   Vins d'excellence depuis 1579
                 </p>
               </div>
-              
-              {/* Bouton centré, fond blanc permanent */}
-              <div className="hero-button flex justify-center w-full mt-4 sm:mt-6">
-                <Button
-                  variant="outline"
-                  asChild
-                  className="group bg-white border-white text-slate-900 hover:bg-white/90 hover:text-slate-900 transition-all duration-300 px-6 sm:px-8 py-3 sm:py-4 text-xs sm:text-sm tracking-[0.2em] uppercase font-light backdrop-blur-sm"
-                >
-                  <Link href="/savoir-faire" className="text-slate-900">
-                    Découvrir notre savoir-faire
-                    <MoveRight className="ml-2 sm:ml-3 h-3 w-3 sm:h-4 sm:w-4 group-hover:translate-x-1 transition-transform" />
-                  </Link>
-                </Button>
-              </div>
+            </div>
+          </div>
+
+          {/* Bouton centré en bas */}
+          <div className="absolute bottom-0 left-0 right-0 z-20 pb-12 sm:pb-16 lg:pb-20 flex justify-center w-full">
+            <div className="hero-button">
+              <Button
+                variant="outline"
+                asChild
+                className="group bg-white border-white text-slate-900 hover:bg-white/90 hover:text-slate-900 transition-all duration-300 px-6 sm:px-8 py-3 sm:py-4 text-xs sm:text-sm tracking-[0.2em] uppercase font-light backdrop-blur-sm"
+              >
+                <Link href="/savoir-faire" className="text-slate-900">
+                  Découvrir notre savoir-faire
+                  <MoveRight className="ml-2 sm:ml-3 h-3 w-3 sm:h-4 sm:w-4 group-hover:translate-x-1 transition-transform" />
+                </Link>
+              </Button>
             </div>
           </div>
         </div>
@@ -212,7 +214,7 @@ export default function HomePage() {
       <section className="bg-white py-16 lg:py-24 section-wines !mt-0">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            
+
             {/* Image à gauche */}
             <div className="relative wine-image">
               <div className="relative h-[400px] lg:h-[550px]">
@@ -233,23 +235,23 @@ export default function HomePage() {
                   Collection
                 </span>
               </div>
-              
+
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-light leading-tight tracking-tight text-slate-900 mb-8 wine-title">
                 Nos Vins
               </h2>
-              
+
               <div className="space-y-6 mb-8">
                 <p className="text-base lg:text-lg leading-relaxed font-light text-slate-700 wine-text wine-text-1">
-                  De notre gamme <span className="italic font-serif">Pétrichor</span>, 
-                  signature de notre savoir-faire, à nos cuvées confidentielles, chaque vin exprime 
+                  De notre gamme <span className="italic font-serif">Pétrichor</span>,
+                  signature de notre savoir-faire, à nos cuvées confidentielles, chaque vin exprime
                   avec élégance la quintessence de notre terroir.
                 </p>
                 <p className="text-base lg:text-lg leading-relaxed font-light text-slate-700 wine-text wine-text-2">
-                  Rouges puissants et structurés, blancs fins et minéraux, rosés délicats et aromatiques : 
+                  Rouges puissants et structurés, blancs fins et minéraux, rosés délicats et aromatiques :
                   notre palette de vins reflète la diversité et la richesse de nos parcelles d'exception.
                 </p>
               </div>
-              
+
               <div className="wine-button">
                 <Button
                   variant="outline"
@@ -294,12 +296,12 @@ export default function HomePage() {
             </h2>
             <div className="space-y-6 text-slate-700 mb-10 max-w-3xl mx-auto">
               <p className="text-base lg:text-lg leading-relaxed font-light">
-                Niché au cœur de l'appellation <span className="italic font-serif">Gaillac</span>, 
-                le Château Lastours se dévoile dans toute sa splendeur. Architecture historique et jardins 
+                Niché au cœur de l'appellation <span className="italic font-serif">Gaillac</span>,
+                le Château Lastours se dévoile dans toute sa splendeur. Architecture historique et jardins
                 à la française composent un écrin de sérénité où le temps semble suspendu.
               </p>
               <p className="text-base lg:text-lg leading-relaxed font-light">
-                Venez découvrir nos chais, notre domaine et nos jardins lors d'une visite guidée qui vous 
+                Venez découvrir nos chais, notre domaine et nos jardins lors d'une visite guidée qui vous
                 plongera au cœur de notre patrimoine viticole et architectural.
               </p>
             </div>
@@ -323,7 +325,7 @@ export default function HomePage() {
       <section className="bg-white py-16 lg:py-24">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            
+
             {/* Texte à gauche */}
             <div className="order-2 lg:order-1">
               <div className="inline-block mb-6">
@@ -336,11 +338,11 @@ export default function HomePage() {
               </h2>
               <div className="space-y-6 text-slate-700 mb-8">
                 <p className="text-base lg:text-lg leading-relaxed font-light">
-                  Depuis 1579, chaque pierre raconte une histoire, celle d'un terroir exceptionnel cultivé 
+                  Depuis 1579, chaque pierre raconte une histoire, celle d'un terroir exceptionnel cultivé
                   avec passion, celle d'un patrimoine vivant où tradition et excellence se rencontrent.
                 </p>
                 <p className="text-base lg:text-lg leading-relaxed font-light">
-                  De la chapelle ancestrale dominant le vignoble aux rangées de vignes méticuleusement 
+                  De la chapelle ancestrale dominant le vignoble aux rangées de vignes méticuleusement
                   entretenues, chaque parcelle témoigne de notre engagement pour un vin d'exception.
                 </p>
               </div>
@@ -403,13 +405,13 @@ export default function HomePage() {
             </div>
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 mb-10">
               <p className="text-base lg:text-lg leading-relaxed font-light text-slate-700">
-                Le Château Lastours ouvre ses portes pour célébrer vos instants précieux. 
-                Mariages, réceptions privées, séminaires d'entreprise : notre domaine se transforme 
+                Le Château Lastours ouvre ses portes pour célébrer vos instants précieux.
+                Mariages, réceptions privées, séminaires d'entreprise : notre domaine se transforme
                 en écrin pour vos événements les plus mémorables.
               </p>
               <p className="text-base lg:text-lg leading-relaxed font-light text-slate-700">
-                Dans un cadre enchanteur alliant patrimoine historique et nature préservée, 
-                notre équipe vous accompagne pour créer une expérience sur mesure, 
+                Dans un cadre enchanteur alliant patrimoine historique et nature préservée,
+                notre équipe vous accompagne pour créer une expérience sur mesure,
                 où chaque détail révèle l'art de vivre à la française.
               </p>
             </div>

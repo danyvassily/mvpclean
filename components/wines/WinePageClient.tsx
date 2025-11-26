@@ -332,7 +332,7 @@ export function WinePageClient({ wine, availableYears }: WinePageClientProps) {
               </p>
 
               {/* Description longue - Plus compacte */}
-              <p className="text-sm leading-relaxed font-light text-slate-600 mb-8">
+              <p className="text-sm leading-relaxed font-light text-slate-600 mb-4">
                 {wine.longDescription}
               </p>
 
