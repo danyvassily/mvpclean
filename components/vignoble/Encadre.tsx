@@ -30,7 +30,7 @@ export function Encadre({
   const contentElement = typeof content === "string" ? <p className="text-lg md:text-xl leading-relaxed text-slate-700">{content}</p> : content;
 
   return (
-    <section className={cn("py-16 lg:py-24", className)}>
+    <section className={cn("py-10 lg:py-24", className)}>
       <div className="container mx-auto px-4 lg:px-8">
         <div className={cn(
           "flex flex-col gap-8 lg:gap-12 items-center",
@@ -61,7 +61,7 @@ export function Encadre({
                 {title}
               </h2>
             )}
-            
+
             <div className="space-y-4">
               {contentElement}
             </div>

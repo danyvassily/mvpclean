@@ -38,7 +38,7 @@ export function HeroMinimal({
       </div>
 
       {/* Titre sous l'image - épuré style Ruinart */}
-      <div className="container mx-auto px-4 lg:px-8 py-12 md:py-16 lg:py-20 text-center">
+      <div className="container mx-auto px-4 lg:px-8 py-8 md:py-16 lg:py-20 text-center">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-light text-slate-900 tracking-tight mb-6">
           {title}
         </h1>

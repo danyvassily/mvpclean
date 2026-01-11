@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import { useState, FormEvent } from "react"
+import { useState, useEffect, FormEvent } from "react"
 
 // SVG Icons pour réseaux sociaux (sobres, 20px)
 const FacebookIcon = () => (
@@ -159,7 +159,7 @@ export function Footer() {
 function FooterTop() {
   return (
     <div className="py-6">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 items-start">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-8 items-start">
         {/* Colonne Logo */}
         <FooterBrand />
 
@@ -175,7 +175,7 @@ function FooterTop() {
 // Composant Brand (Logo + tagline)
 function FooterBrand() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col col-span-2 lg:col-span-1">
       <Link
         href="/"
         className="inline-block mb-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C9AE71] focus-visible:ring-offset-2 focus-visible:ring-offset-[#1e1b19] rounded"
@@ -262,7 +262,7 @@ function NewsletterCompact() {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    
+
     if (!email || !email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
       setStatus("error")
       setMessage("Veuillez entrer une adresse email valide.")
@@ -273,11 +273,11 @@ function NewsletterCompact() {
     try {
       // Placeholder pour l'appel API
       // await fetch('/api/newsletter', { method: 'POST', body: JSON.stringify({ email }) })
-      
+
       setStatus("success")
       setMessage("Merci pour votre inscription !")
       setEmail("")
-      
+
       // Réinitialiser le message après 5 secondes
       setTimeout(() => {
         setStatus("idle")
@@ -317,9 +317,8 @@ function NewsletterCompact() {
           id="newsletter-message"
           role="status"
           aria-live="polite"
-          className={`mt-2 text-[12px] leading-[1.5] ${
-            status === "success" ? "text-[#C9AE71]" : "text-[#BFB7AE]"
-          }`}
+          className={`mt-2 text-[12px] leading-[1.5] ${status === "success" ? "text-[#C9AE71]" : "text-[#BFB7AE]"
+            }`}
         >
           {message}
         </p>
@@ -363,13 +362,19 @@ function SocialList({
 
 // Composant ligne légale
 function LegalRow({ items }: { items: Array<{ label: string; href: string }> }) {
+  const [year, setYear] = useState<number | null>(null)
+
+  useEffect(() => {
+    setYear(new Date().getFullYear())
+  }, [])
+
   return (
     <nav
       className="flex flex-wrap items-center justify-center lg:justify-end gap-x-3 gap-y-1 text-[12px] leading-[1.6] text-[#BFB7AE]"
       aria-label="Liens légaux"
     >
       <span className="text-[#BFB7AE] opacity-40">
-        © {new Date().getFullYear()} Châteaux Lastours
+        © {year || "...."} Châteaux Lastours
       </span>
       {items.map((link, index) => (
         <span key={link.href} className="flex items-center gap-3">

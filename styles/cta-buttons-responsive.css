@@ -11,6 +11,7 @@
 
 /* Forcer le retour à la ligne sur mobile et tablette */
 @media (max-width: 1024px) {
+
   /* Tous les boutons et éléments avec data-slot="button" */
   button[data-slot="button"],
   [data-slot="button"],
@@ -24,9 +25,9 @@
   }
 
   /* Forcer le centrage du contenu des boutons */
-  button[data-slot="button"] > *,
-  [data-slot="button"] > *,
-  a[data-slot="button"] > * {
+  button[data-slot="button"]>*,
+  [data-slot="button"]>*,
+  a[data-slot="button"]>* {
     text-align: center !important;
     white-space: normal !important;
   }
@@ -58,6 +59,7 @@
    ============================================================================ */
 
 @media (max-width: 640px) {
+
   /* Tous les boutons CTA */
   button[data-slot="button"],
   [data-slot="button"],
@@ -112,6 +114,7 @@
    ============================================================================ */
 
 @media (min-width: 641px) and (max-width: 1024px) {
+
   /* Boutons CTA sur tablette */
   button[data-slot="button"],
   [data-slot="button"],
@@ -157,72 +160,23 @@
    4. AMÉLIORATION DE LA LISIBILITÉ - CONTRASTE ET FOND
    ============================================================================ */
 
-/* Boutons avec texte blanc sur fond clair/image - améliorer le contraste */
+/* Boutons avec texte blanc sur fond clair/image - améliorer le contraste UNIQUEMENT pour les boutons explicitement blancs */
 @media (max-width: 1024px) {
-  button[data-slot="button"].text-white,
-  [data-slot="button"].text-white,
-  button[data-slot="button"].border-white.text-white,
-  [data-slot="button"].border-white.text-white,
-  button[data-slot="button"].bg-white\/10.text-white,
-  [data-slot="button"].bg-white\/10.text-white {
-    /* Fond semi-transparent plus opaque pour meilleure lisibilité */
-    background-color: rgba(0, 0, 0, 0.7) !important;
-    backdrop-filter: blur(12px) !important;
-    /* Bordure plus visible */
-    border-width: 2px !important;
-    border-color: rgba(255, 255, 255, 0.95) !important;
-    /* Texte bien contrasté - FORCER BLANC ET GRAS */
+
+  /* Cibler uniquement les boutons qui ont déjà la classe text-white ET qui sont sur un fond sombre (comme le Hero) */
+  section.relative button[data-slot="button"].text-white,
+  section.relative [data-slot="button"].text-white {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(8px) !important;
     color: #ffffff !important;
-    font-weight: 700 !important;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.4) !important;
   }
 
-  /* Forcer le texte blanc et gras dans les liens des boutons */
-  button[data-slot="button"].text-white a,
-  [data-slot="button"].text-white a,
-  button[data-slot="button"].border-white.text-white a,
-  [data-slot="button"].border-white.text-white a,
-  button[data-slot="button"].bg-white\/10.text-white a,
-  [data-slot="button"].bg-white\/10.text-white a {
-    color: #ffffff !important;
-    font-weight: 700 !important;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.4) !important;
-  }
-
-  /* Forcer le texte blanc et gras dans les spans des boutons */
-  button[data-slot="button"].text-white span,
-  [data-slot="button"].text-white span,
-  button[data-slot="button"].border-white.text-white span,
-  [data-slot="button"].border-white.text-white span,
-  button[data-slot="button"].bg-white\/10.text-white span,
-  [data-slot="button"].bg-white\/10.text-white span {
-    color: #ffffff !important;
-    font-weight: 700 !important;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.4) !important;
-  }
-
-  /* Au survol sur mobile/tablette */
-  button[data-slot="button"].text-white:hover,
-  [data-slot="button"].text-white:hover,
-  button[data-slot="button"].border-white.text-white:hover,
-  [data-slot="button"].border-white.text-white:hover,
-  button[data-slot="button"].bg-white\/10.text-white:hover,
-  [data-slot="button"].bg-white\/10.text-white:hover {
-    background-color: rgba(255, 255, 255, 0.95) !important;
+  /* Boutons Outline par défaut sur mobile - s'assurer qu'ils sont lisibles sur fond clair */
+  button[data-slot="button"][class*="border-slate-900"],
+  button[data-slot="button"].variant-outline,
+  a[data-slot="button"][class*="border-slate-900"] {
+    background-color: transparent !important;
     color: #111827 !important;
-    font-weight: 700 !important;
-    text-shadow: none !important;
-  }
-
-  /* Au survol - texte dans les liens */
-  button[data-slot="button"].text-white:hover a,
-  [data-slot="button"].text-white:hover a,
-  button[data-slot="button"].border-white.text-white:hover a,
-  [data-slot="button"].border-white.text-white:hover a,
-  button[data-slot="button"].bg-white\/10.text-white:hover a,
-  [data-slot="button"].bg-white\/10.text-white:hover a {
-    color: #111827 !important;
-    font-weight: 700 !important;
     text-shadow: none !important;
   }
 }
@@ -233,6 +187,7 @@
 
 /* Bouton hero principal */
 @media (max-width: 640px) {
+
   .hero-button button[data-slot="button"],
   .hero-button [data-slot="button"] {
     width: 100% !important;
@@ -243,6 +198,7 @@
 }
 
 @media (min-width: 641px) and (max-width: 1024px) {
+
   .hero-button button[data-slot="button"],
   .hero-button [data-slot="button"] {
     min-width: 220px !important;
@@ -252,85 +208,21 @@
   }
 }
 
-/* Boutons dans les sections avec texte superposé */
+/* Boutons dans les sections - S'assurer que les boutons sur fond blanc ne sont pas forcés en blanc */
 @media (max-width: 1024px) {
-  /* Sections avec overlay sombre - FORCER BLANC ET GRAS */
-  section button[data-slot="button"].text-white,
-  section [data-slot="button"].text-white {
-    /* S'assurer que le texte est bien visible - BLANC ET GRAS */
-    color: #ffffff !important;
-    font-weight: 700 !important;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7), 0 1px 2px rgba(0, 0, 0, 0.5) !important;
+
+  section:not(.relative) button[data-slot="button"],
+  section:not(.relative) [data-slot="button"],
+  section:not(.relative) a[data-slot="button"] {
+    color: #111827 !important;
+    text-shadow: none !important;
   }
 
-  /* Texte dans les liens des boutons des sections */
-  section button[data-slot="button"].text-white a,
-  section [data-slot="button"].text-white a {
-    color: #ffffff !important;
-    font-weight: 700 !important;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7), 0 1px 2px rgba(0, 0, 0, 0.5) !important;
-  }
-
-  /* Texte dans les spans des boutons des sections */
-  section button[data-slot="button"].text-white span,
-  section [data-slot="button"].text-white span {
-    color: #ffffff !important;
-    font-weight: 700 !important;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7), 0 1px 2px rgba(0, 0, 0, 0.5) !important;
-  }
-
-  /* CORRECTIONS SPÉCIFIQUES pour "Découvrir notre histoire" et "Organiser votre événement" */
-  /* Cibler les boutons contenant ces textes spécifiques */
-  section button[data-slot="button"].text-white:has(a[href*="histoire"]),
-  section [data-slot="button"].text-white:has(a[href*="histoire"]),
-  section button[data-slot="button"].text-white:has(a[href*="evenements"]),
-  section [data-slot="button"].text-white:has(a[href*="evenements"]),
-  section button[data-slot="button"].bg-white\/10.text-white:has(a[href*="histoire"]),
-  section [data-slot="button"].bg-white\/10.text-white:has(a[href*="histoire"]),
-  section button[data-slot="button"].bg-white\/10.text-white:has(a[href*="evenements"]),
-  section [data-slot="button"].bg-white\/10.text-white:has(a[href*="evenements"]) {
-    /* Fond encore plus opaque pour ces boutons spécifiques */
-    background-color: rgba(0, 0, 0, 0.8) !important;
-    backdrop-filter: blur(15px) !important;
-    /* Texte BLANC ET GRAS */
-    color: #ffffff !important;
-    font-weight: 700 !important;
-    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.6) !important;
-  }
-
-  /* Texte dans les liens de ces boutons spécifiques */
-  section button[data-slot="button"].text-white:has(a[href*="histoire"]) a,
-  section [data-slot="button"].text-white:has(a[href*="histoire"]) a,
-  section button[data-slot="button"].text-white:has(a[href*="evenements"]) a,
-  section [data-slot="button"].text-white:has(a[href*="evenements"]) a,
-  section button[data-slot="button"].bg-white\/10.text-white:has(a[href*="histoire"]) a,
-  section [data-slot="button"].bg-white\/10.text-white:has(a[href*="histoire"]) a,
-  section button[data-slot="button"].bg-white\/10.text-white:has(a[href*="evenements"]) a,
-  section [data-slot="button"].bg-white\/10.text-white:has(a[href*="evenements"]) a {
-    color: #ffffff !important;
-    font-weight: 700 !important;
-    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.6) !important;
-  }
-
-  /* Alternative si :has() n'est pas supporté - cibler directement les liens */
-  section a[href*="histoire"],
-  section a[href*="evenements"] {
-    color: #ffffff !important;
-    font-weight: 700 !important;
-    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.6) !important;
-  }
-
-  /* Forcer le texte blanc et gras pour tous les éléments texte dans ces boutons */
-  section button[data-slot="button"].text-white:has(a[href*="histoire"]) *,
-  section [data-slot="button"].text-white:has(a[href*="histoire"]) *,
-  section button[data-slot="button"].text-white:has(a[href*="evenements"]) *,
-  section [data-slot="button"].text-white:has(a[href*="evenements"]) *,
-  section button[data-slot="button"].bg-white\/10.text-white:has(a[href*="histoire"]) *,
-  section [data-slot="button"].bg-white\/10.text-white:has(a[href*="histoire"]) *,
-  section button[data-slot="button"].bg-white\/10.text-white:has(a[href*="evenements"]) *,
-  section [data-slot="button"].bg-white\/10.text-white:has(a[href*="evenements"]) * {
-    color: #ffffff !important;
-    font-weight: 700 !important;
+  /* Forcer le texte sombre pour les liens et spans à l'intérieur */
+  section:not(.relative) [data-slot="button"] a,
+  section:not(.relative) [data-slot="button"] span {
+    color: #111827 !important;
+    text-shadow: none !important;
   }
 }
 
@@ -339,6 +231,7 @@
    ============================================================================ */
 
 @media (max-width: 1024px) {
+
   /* Centrer les icônes avec le texte */
   button[data-slot="button"] svg,
   [data-slot="button"] svg,
@@ -376,6 +269,7 @@ a[data-slot="button"] {
 }
 
 @media (min-width: 641px) {
+
   button[data-slot="button"],
   [data-slot="button"],
   a[data-slot="button"] {
@@ -391,4 +285,3 @@ a[data-slot="button"]:focus-visible {
   outline-offset: 2px !important;
   border-radius: 4px !important;
 }
-

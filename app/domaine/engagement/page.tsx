@@ -82,11 +82,11 @@ export default function EngagementPage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-base md:text-lg leading-relaxed text-slate-700 font-light">
-              La Certification HVE3 (Haute Valeur Environnementale niveau 3) est une démarche engagée 
-              par les viticulteurs soucieux de leur impact écologique. Au Château Lastours, nous mettons 
-              en avant notre volonté d'adopter une viticulture durable, tout en garantissant la qualité 
-              de nos vins à travers des pratiques agricoles respectueuses de la biodiversité, de la gestion 
-              de l'eau, de la réduction de l'usage de produits phytosanitaires, et de la maintenance d'un 
+              La Certification HVE3 (Haute Valeur Environnementale niveau 3) est une démarche engagée
+              par les viticulteurs soucieux de leur impact écologique. Au Château Lastours, nous mettons
+              en avant notre volonté d'adopter une viticulture durable, tout en garantissant la qualité
+              de nos vins à travers des pratiques agricoles respectueuses de la biodiversité, de la gestion
+              de l'eau, de la réduction de l'usage de produits phytosanitaires, et de la maintenance d'un
               espace naturel équilibré.
             </p>
           </div>
@@ -119,7 +119,7 @@ export default function EngagementPage() {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <a
               href="/evenements/organiser"
-              className="inline-flex items-center justify-center min-h-[44px] px-8 py-4 bg-slate-700 hover:bg-slate-800 text-white font-medium text-lg tracking-wide transition-all duration-300 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-400"
+              className="inline-flex items-center justify-center min-h-[44px] px-8 py-4 bg-white hover:bg-slate-950 text-slate-900 hover:text-white border-2 border-slate-900 font-medium text-lg tracking-wide transition-all duration-300 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-400"
             >
               Réservez votre visite
             </a>
