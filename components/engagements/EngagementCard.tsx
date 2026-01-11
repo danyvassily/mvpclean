@@ -40,7 +40,7 @@ export function EngagementCard({
   className
 }: EngagementCardProps) {
   return (
-    <section className={cn("py-16 lg:py-24 bg-white", className)}>
+    <section className={cn("py-10 lg:py-24 bg-white", className)}>
       <div className="container mx-auto px-4 lg:px-8">
         <div
           className={cn(

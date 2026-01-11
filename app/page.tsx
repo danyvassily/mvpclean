@@ -155,23 +155,40 @@ export default function HomePage() {
 
   return (
     <div ref={container} className="min-h-screen">
-      {/* Hero Section - Style Ruinart avec texte sur image */}
-      <section className="relative">
-        {/* Image Hero avec texte en overlay */}
-        <div className="relative h-[90vh] sm:h-[85vh] lg:h-[90vh] max-h-[900px] overflow-hidden">
-          {/* Image de fond */}
-          <div
-            ref={heroImage}
-            className="absolute inset-0 will-change-transform"
-          >
-            <Image
-              src="/images/heroes/chateau-lastours-hero.jpg"
-              alt="Façade du Château Lastours et jardins à la française"
-              fill
-              priority
-              className="object-cover object-center"
-              sizes="100vw"
-            />
+      {/* Hero Section */}
+      <section className="relative h-[85vh] min-h-[600px] max-h-[900px]">
+        {/* Image de fond */}
+        <div ref={heroImage} className="absolute inset-0">
+          <Image
+            src="/images/heroes/chateau-lastours-hero.jpg"
+            alt="Façade du Château Lastours et jardins à la française"
+            fill
+            priority
+            className="object-cover object-center"
+            sizes="100vw"
+          />
+        </div>
+
+        {/* Overlay sombre */}
+        <div className="absolute inset-0 bg-black/40" />
+
+        {/* Contenu centré verticalement */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-6 sm:px-8 lg:px-16">
+          {/* Textes alignés à gauche */}
+          <div className="w-full max-w-3xl">
+            <h1
+              className="font-serif font-light text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-3 sm:mb-4"
+              style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.5)' }}
+            >
+              Château Lastours
+            </h1>
+
+            <p
+              className="font-serif font-light italic text-white/90 text-lg sm:text-xl md:text-2xl lg:text-3xl mb-8 sm:mb-10"
+              style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.5)' }}
+            >
+              Vins d'excellence depuis 1579
+            </p>
           </div>
 
           {/* Overlay gradient pour la lisibilité */}

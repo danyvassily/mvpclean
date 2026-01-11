@@ -17,17 +17,11 @@ export function ClientLayout({ children }: ClientLayoutProps) {
     setMounted(true)
   }, [])
 
-  // Prevent hydration mismatch
-  if (!mounted) {
-    return <>{children}</>
-  }
-
   return (
     <>
-      <LoadingOverlay />
+      {mounted && <LoadingOverlay />}
       <ScrollSmootherWrapper speed={1.2} effects={true}>
-        {/* Grain cinématographique animé global */}
-        <AnimatedGrain intensity={0.12} speed={0.8} />
+        {mounted && <AnimatedGrain intensity={0.12} speed={0.8} />}
         <PageTransition>
           {children}
         </PageTransition>

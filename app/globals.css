@@ -185,9 +185,9 @@
      CLASSES DE RYTHME VERTICAL UNIFIÉES
      ============================================================================ */
   
-  /* Sections principales - Espacement entre sections (basé sur Home: mt-6 lg:mt-8) */
+  /* Sections principales - Espacement géré par padding */
   section {
-    margin-block-start: var(--rhythm-1);
+    margin-block-start: 0;
   }
   
   /* Première section - pas de marge supérieure */
